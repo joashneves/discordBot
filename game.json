@@ -1,0 +1,234 @@
+[
+  {
+    "nome": "friagem",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\00.png"
+  },
+  {
+    "nome": "Benjamin",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\01.png"
+  },
+    {
+    "nome": "gigante",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\02.png"
+  },
+  {
+    "nome": "Ferb",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\03.png"
+  },
+  {
+    "nome": "phineas",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\04.png"
+  },
+  {
+    "nome": "Bill",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\05.png"
+  },
+  {
+    "nome": "Cooper",
+    "imagem": "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\06.png"
+  },
+  {
+    "nome" : "skarner",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\07.png"
+  },
+  {
+    "nome" : "steve",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\08.png"
+  },
+  {
+    "nome" : "chama",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\09.png"
+  },
+  {
+    "nome" : "sova",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\10.png"
+  },
+  {
+    "nome" : "flameheart",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\11.png"
+  },
+  {
+    "nome" : "jerry",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\12.png"
+  },
+  {
+    "nome" : "finn",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\13.png"
+  },
+  {
+    "nome" : "fern",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\14.png"
+  },
+  {
+    "nome" : "jake",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\15.png"
+  },
+  {
+    "nome" : "greg",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\16.png"
+  },
+  {
+    "nome" : "coragem",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\17.png"
+  },
+  {
+    "nome" : "muriel",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\18.png"
+  },
+  {
+    "nome" : "jake",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\19.png"
+  },
+  {
+    "nome" : "adam",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\20.png"
+  },
+  {
+    "nome" : "chaos",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\21.png"
+  },
+  {
+    "nome" : "kyoko",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\22.png"
+  },
+  {
+    "nome" : "chihiro",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\23.png"
+  },
+  {
+    "nome" : "fantasmatico",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\24.png"
+  },
+  {
+    "nome" : "rell",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\25.png"
+  },
+  {
+    "nome" : "sasaki",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\26.png"
+  },
+  {
+    "nome" : "kaneki",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\27.png"
+  },
+  {
+    "nome" : "vecna",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\28.png"
+  },
+  {
+    "nome" : "sonic",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\29.png"
+  },
+  {
+    "nome" : "flynn",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\30.png"
+  },
+  {
+    "nome" : "ariel",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\31.png"
+  },
+  {
+    "nome" : "tiana",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\32.jpg"
+  },
+  {
+    "nome" : "godzilla",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\33.png"
+  },
+  {
+    "nome" : "mecha godzilla",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\34.png"
+  },
+  {
+    "nome" : "adam",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\35.png"
+  },
+  {
+    "nome" : "lion",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\36.png"
+  },
+  {
+    "nome" : "guybrush",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\37.png"
+  },
+  {
+    "nome" : "jim",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\38.png"
+  },
+  {
+    "nome" : "albedo",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\39.png"
+  },
+  {
+    "nome" : "alucard",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\40.png"
+  },
+  {
+    "nome" : "gideon",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\41.png"
+  },
+  {
+    "nome" : "pike",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\42.png"
+  },
+  {
+    "nome" : "nimona",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\43.png"
+  },
+  {
+    "nome" : "dib",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\44.png"
+  },
+  {
+    "nome" : "katie",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\45.png"
+  },
+  {
+    "nome" : "cucurucho",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\46.png"
+  },
+  {
+    "nome" : "clarence",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\47.png"
+  },
+  {
+    "nome" : "gunther",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\48.png"
+  },
+  {
+    "nome" : "zim",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\49.png"
+  },
+  {
+    "nome" : "nero",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\50.png"
+  },
+  {
+    "nome" : "supergirl",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\51.png"
+  },
+  {
+    "nome" : "massa cinzenta",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\52.png"
+  },
+  {
+    "nome" : "raze",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\53.png"
+  },
+  {
+    "nome" : "steven",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\54.png"
+  },
+  {
+    "nome" : "luz",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\55.png"
+  },
+  {
+    "nome" : "amity",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\56.png"
+  },
+  {
+    "nome" : "ramona",
+    "imagem" : "C:\\Users\\joasg\\PycharmProjects\\botDiscord\\img\\57.png"
+  }
+]
