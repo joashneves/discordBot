@@ -24,4 +24,3 @@ class messagensBotRespostas():
                     emoji_list = ['👍', '👎', '❤']
                     for emoji in emoji_list:
                         await last_message.add_reaction(emoji)
-
