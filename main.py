@@ -4,8 +4,10 @@ import random
 import asyncio
 import datetime
 import re
-from io import BytesIO
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+
+from commands.mensagens import messagensBotRespostas
+from commands.user import User
+from commands.bomdia import BomDia
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -21,11 +23,10 @@ intents.emojis = True
 intents.members = True
 
 client = MyClient(intents=intents)
+
 users = {}
 dados_users = {}
 
-
-response_channel = 1058880199414005852 #canal de imagens
 canal_dos_membros = 1058885030572732506
 
 async def excluir_canal_apos_tempo(canal, tempo):
@@ -41,18 +42,6 @@ def carregar_dados():
         return {}
 
 # Salvar dados dos usuários no arquivo
-def salvar_dados_users():
-    with open("user_game.json", "w") as arquivo:
-        json.dump(dados_users, arquivo)
-
-def carregar_dados_users():
-    try:
-        with open("user_game.json", "r") as arquivo:
-            return json.load(arquivo)
-    except FileNotFoundError:
-        return {}
-
-# Salvar dados dos usuários no arquivo
 def salvar_dados():
     with open("dados_usuarios.json", "w") as arquivo:
         json.dump(users, arquivo)
@@ -63,26 +52,19 @@ async def on_ready():
     activity = discord.Activity(type=discord.ActivityType.playing, name='apenas em dias uteis')
     await client.change_presence(activity=activity)
 
-    # Carregar os dados dos usuários do arquivo
-    global users, dados_users
-    users = carregar_dados()
-    dados_users = carregar_dados_users()
+bot_respostas = messagensBotRespostas(client)
+bot_bomDia = BomDia(client)
 
 @client.event
 async def on_message(message):
     if message.author == client.user:  # Para evitar que o bot responda a suas próprias mensagens
         return
+    else:
+        await bot_bomDia.processar_mensagem(message)
+        await bot_respostas.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações
-    if message.content.lower().endswith("que"):
-        await message.channel.send("JO!")
-
-    if "s3nha" in message.content.lower():
-        await message.add_reaction('❤')
-
-    if "skalart" in message.content.lower():
-        await message.channel.send("aopa!")
 
     palavrao = {"porra", "puta", "cu", "caralho", "fodase", "fuder", "foda", "fude","fuder","fds","puto","pqp","merda","vsf"}
     regex = re.compile(r'\b(?:' + '|'.join(palavrao) + r')\b', re.IGNORECASE)
@@ -91,7 +73,7 @@ async def on_message(message):
             dados_users[jogadorID] = [0,0,0,1,0]
         else:
             dados_users[jogadorID][3] += 1
-        salvar_dados_users()
+
         numero_aleatorio = random.randint(0, 99)
         if numero_aleatorio > 50:
             await message.channel.send(" '-' ")
@@ -118,22 +100,7 @@ async def on_message(message):
 
 
 #region // bom dia e sla
-    if message.content.lower().startswith('bom dia'):
-        user_id = str(message.author.id)
 
-        # Obter a data atual
-        data_atual = str(datetime.date.today())
-
-        if user_id not in users or users[user_id][1] != str(data_atual):
-            if user_id not in users:
-                users[user_id] = [1, data_atual]
-            else:
-                users[user_id][0] += 1
-                users[user_id][1] = str(data_atual)
-            salvar_dados()
-            await message.channel.send(f"Olá <@{message.author.id}>, você já deu {users[user_id][0]} bom dia(s).")
-        else:
-            await message.channel.send(f"<@{message.author.id}>, você já deu bom dia hoje e já deu {users[user_id][0]} bom dia(s) no totalz.")
 
     if message.content.startswith(prefix + 'avatar'):
         if message.mentions:
@@ -149,14 +116,6 @@ async def on_message(message):
         await message.channel.send(f'A sua latência é de {latency:.2f} segundos.')
         registrar_comando(jogadorID)
 
-
-    if message.channel.id == response_channel:
-        if message.attachments:
-            if message.attachments[0].url:
-                last_message = await message.channel.fetch_message(message.channel.last_message_id)
-                emoji_list = ['👍', '👎', '❤']
-                for emoji in emoji_list:
-                    await last_message.add_reaction(emoji)
 #endregion
 
     global jogo_de_adivinhar, chute
@@ -174,7 +133,6 @@ async def on_message(message):
             with open("game.json", "r") as game:
                 personagens = json.load(game)
 
-            salvar_dados_users()
             # Obtém a quantidade de personagens presentes no arquivo JSON
             quantidade_personagens = len(personagens)
 
@@ -232,17 +190,16 @@ async def esperar_resposta_do_jogador(autor_jogador, canal_jogo,dados):
             dados_users[dados][2] += 1  # erros
             await canal_jogo.send("Você ERROU!")
             await canal_jogo.send(f"Você ERROU: {dados_users[dados][2]} vezes")
-        salvar_dados_users()
+
 
 def registrar_comando(usuario_id):
     if usuario_id not in dados_users:
         dados_users[usuario_id] = [0,0,0,0,1]
     else:
         dados_users[usuario_id][4] += 1
-    salvar_dados_users()
 
 @client.event
 async def on_member_join(member):
     print("alguem entrou")
 
-client.run("TOKEN_BOT")
+client.run("MTAyNTE3NjY0MjIzNjIwMzExOA.GNemU3.0yY11lQEbKsh81fA3TVv5PcGGrkLx5dxvyyrU8")
