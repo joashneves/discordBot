@@ -202,4 +202,4 @@ def registrar_comando(usuario_id):
 async def on_member_join(member):
     print("alguem entrou")
 
-client.run("MTAyNTE3NjY0MjIzNjIwMzExOA.GNemU3.0yY11lQEbKsh81fA3TVv5PcGGrkLx5dxvyyrU8")
+client.run("Token")
