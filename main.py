@@ -4,10 +4,12 @@ import random
 import asyncio
 import datetime
 import re
+import os
 
 from commands.mensagens import messagensBotRespostas
 from commands.user import User
 from commands.bomdia import BomDia
+from commands.dados import Dados
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -54,6 +56,7 @@ async def on_ready():
 
 bot_respostas = messagensBotRespostas(client)
 bot_bomDia = BomDia(client)
+dados_rpg = Dados(client)
 
 @client.event
 async def on_message(message):
@@ -62,6 +65,7 @@ async def on_message(message):
     else:
         await bot_bomDia.processar_mensagem(message)
         await bot_respostas.processar_mensagem(message)
+        await dados_rpg.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações
@@ -203,4 +207,5 @@ def registrar_comando(usuario_id):
 async def on_member_join(member):
     print("alguem entrou")
 
-client.run("|TOKEn")
+
+client.run('TOKEN')
