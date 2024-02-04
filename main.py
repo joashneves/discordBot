@@ -206,4 +206,4 @@ async def on_member_join(member):
     print("alguem entrou")
 
 
-client.run('MTAyNTE3NjY0MjIzNjIwMzExOA.G1nliO.ZvdxP-XTBJerBUeixTMZ-CLi7mbSeMSnaInXgw')
+client.run('TOKEN')
