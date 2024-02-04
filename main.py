@@ -175,8 +175,6 @@ async def on_message(message):
                                                f"Voce usou comandos: {dados_users[jogadorID][4]} vezes")
         registrar_comando(jogadorID)
 
-
-
 def check_resposta_jogador(message, autor_jogador):
     return message.author == autor_jogador
 
@@ -208,4 +206,4 @@ async def on_member_join(member):
     print("alguem entrou")
 
 
-client.run('TOKEN')
+client.run('MTAyNTE3NjY0MjIzNjIwMzExOA.G1nliO.ZvdxP-XTBJerBUeixTMZ-CLi7mbSeMSnaInXgw')
