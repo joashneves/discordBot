@@ -1,4 +1,6 @@
 import discord
+from discord.ext import commands
+from discord import app_commands
 import json
 import random
 import asyncio
@@ -10,6 +12,13 @@ from commands.mensagens import messagensBotRespostas
 from commands.user import User
 from commands.bomdia import BomDia
 from commands.dados import Dados
+
+TOKEN = 'MTAyNTE3NjY0MjIzNjIwMzExOA.GlX3vi.da2Bsx3YQ9krvPKrAbEd8X9TtcQrQ9o902SIr0'
+
+permissoes = discord.Intents.default()
+permissoes.message_content = True
+permissoes.messages = True
+bot = commands.Bot(command_prefix='$', intents=permissoes)
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -53,6 +62,7 @@ async def on_ready():
     print(f'Logged in as {client.user.name}')
     activity = discord.Activity(type=discord.ActivityType.playing, name='apenas em dias uteis')
     await client.change_presence(activity=activity)
+
 
 bot_respostas = messagensBotRespostas(client)
 bot_bomDia = BomDia(client)
@@ -207,5 +217,20 @@ def registrar_comando(usuario_id):
 async def on_member_join(member):
     print("alguem entrou")
 
+# cria um comando slash
+@bot.tree.command(description='responde Ola')
+async def ola(interact:discord.Interaction):
+    await interact.response.send_message(f'Ola {interact.user.name}')
 
-client.run('TOKEN')
+# sincroniza os comandos slash
+@bot.command()
+async def sicronizar(ctx:commands.Context):
+    print("SIm")
+    if(ctx.author.id == 257566850081226752):
+        sincs = await bot.tree.sync()
+        await ctx.reply(f'{len(sincs)} comandos sicronizados')
+    else:
+        await  ctx.reply(f'Voce é FRACO!')
+
+client.run(TOKEN)
+bot.run(TOKEN)
