@@ -1,234 +1,234 @@
 [
   {
     "nome": "friagem",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\00.png"
+    "imagem": ".\\img\\00.png"
   },
   {
     "nome": "Benjamin",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\01.png"
+    "imagem": ".\\img\\01.png"
   },
     {
     "nome": "gigante",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\02.png"
+    "imagem": ".\\img\\02.png"
   },
   {
     "nome": "Ferb",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\03.png"
+    "imagem": ".\\img\\03.png"
   },
   {
     "nome": "phineas",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\04.png"
+    "imagem": ".\\img\\04.png"
   },
   {
     "nome": "Bill",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\05.png"
+    "imagem": ".\\img\\05.png"
   },
   {
     "nome": "Cooper",
-    "imagem": "C:\\Users\\user\\PycharmProjects\\botTest\\img\\06.png"
+    "imagem": ".\\img\\06.png"
   },
   {
     "nome" : "skarner",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\07.png"
+    "imagem" : ".\\img\\07.png"
   },
   {
     "nome" : "steve",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\08.png"
+    "imagem" : ".\\img\\08.png"
   },
   {
     "nome" : "chama",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\09.png"
+    "imagem" : ".\\img\\09.png"
   },
   {
     "nome" : "sova",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\10.png"
+    "imagem" : ".\\img\\10.png"
   },
   {
     "nome" : "flameheart",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\11.png"
+    "imagem" : ".\\img\\11.png"
   },
   {
     "nome" : "jerry",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\12.png"
+    "imagem" : ".\\img\\12.png"
   },
   {
     "nome" : "finn",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\13.png"
+    "imagem" : ".\\img\\13.png"
   },
   {
     "nome" : "fern",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\14.png"
+    "imagem" : ".\\img\\14.png"
   },
   {
     "nome" : "jake",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\15.png"
+    "imagem" : ".\\img\\15.png"
   },
   {
     "nome" : "greg",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\16.png"
+    "imagem" : ".\\img\\16.png"
   },
   {
     "nome" : "coragem",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\17.png"
+    "imagem" : ".\\img\\17.png"
   },
   {
     "nome" : "muriel",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\18.png"
+    "imagem" : ".\\img\\18.png"
   },
   {
     "nome" : "jake",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\19.png"
+    "imagem" : ".\\img\\19.png"
   },
   {
     "nome" : "adam",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\20.png"
+    "imagem" : ".\\img\\20.png"
   },
   {
     "nome" : "chaos",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\21.png"
+    "imagem" : ".\\img\\21.png"
   },
   {
     "nome" : "kyoko",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\22.png"
+    "imagem" : ".\\img\\22.png"
   },
   {
     "nome" : "chihiro",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\23.png"
+    "imagem" : ".\\img\\23.png"
   },
   {
     "nome" : "fantasmatico",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\24.png"
+    "imagem" : ".\\img\\24.png"
   },
   {
     "nome" : "rell",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\25.png"
+    "imagem" : ".\\img\\25.png"
   },
   {
     "nome" : "sasaki",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\26.png"
+    "imagem" : ".\\img\\26.png"
   },
   {
     "nome" : "kaneki",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\27.png"
+    "imagem" : ".\\img\\27.png"
   },
   {
     "nome" : "vecna",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\28.png"
+    "imagem" : ".\\img\\28.png"
   },
   {
     "nome" : "sonic",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\29.png"
+    "imagem" : ".\\img\\29.png"
   },
   {
     "nome" : "flynn",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\30.png"
+    "imagem" : ".\\img\\30.png"
   },
   {
     "nome" : "ariel",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\31.png"
+    "imagem" : ".\\img\\31.png"
   },
   {
     "nome" : "tiana",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\32.jpg"
+    "imagem" : ".\\img\\32.jpg"
   },
   {
     "nome" : "godzilla",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\33.png"
+    "imagem" : ".\\img\\33.png"
   },
   {
     "nome" : "mecha godzilla",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\34.png"
+    "imagem" : ".\\img\\34.png"
   },
   {
     "nome" : "adam",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\35.png"
+    "imagem" : ".\\img\\35.png"
   },
   {
     "nome" : "lion",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\36.png"
+    "imagem" : ".\\img\\36.png"
   },
   {
     "nome" : "guybrush",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\37.png"
+    "imagem" : ".\\img\\37.png"
   },
   {
     "nome" : "jim",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\38.png"
+    "imagem" : ".\\img\\38.png"
   },
   {
     "nome" : "albedo",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\39.png"
+    "imagem" : ".\\img\\39.png"
   },
   {
     "nome" : "alucard",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\40.png"
+    "imagem" : ".\\img\\40.png"
   },
   {
     "nome" : "gideon",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\41.png"
+    "imagem" : ".\\img\\41.png"
   },
   {
     "nome" : "pike",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\42.png"
+    "imagem" : ".\\img\\42.png"
   },
   {
     "nome" : "nimona",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\43.png"
+    "imagem" : ".\\img\\43.png"
   },
   {
     "nome" : "dib",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\44.png"
+    "imagem" : ".\\img\\44.png"
   },
   {
     "nome" : "katie",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\45.png"
+    "imagem" : ".\\img\\45.png"
   },
   {
     "nome" : "cucurucho",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\46.png"
+    "imagem" : ".\\img\\46.png"
   },
   {
     "nome" : "clarence",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\47.png"
+    "imagem" : ".\\img\\47.png"
   },
   {
     "nome" : "gunther",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\48.png"
+    "imagem" : ".\\img\\48.png"
   },
   {
     "nome" : "zim",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\49.png"
+    "imagem" : ".\\img\\49.png"
   },
   {
     "nome" : "nero",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\50.png"
+    "imagem" : ".\\img\\50.png"
   },
   {
     "nome" : "supergirl",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\51.png"
+    "imagem" : ".\\img\\51.png"
   },
   {
     "nome" : "massa cinzenta",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\52.png"
+    "imagem" : ".\\img\\52.png"
   },
   {
     "nome" : "raze",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\53.png"
+    "imagem" : ".\\img\\53.png"
   },
   {
     "nome" : "steven",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\54.png"
+    "imagem" : ".\\img\\54.png"
   },
   {
     "nome" : "luz",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\55.png"
+    "imagem" : ".\\img\\55.png"
   },
   {
     "nome" : "amity",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\56.png"
+    "imagem" : ".\\img\\56.png"
   },
   {
     "nome" : "ramona",
-    "imagem" : "C:\\Users\\user\\PycharmProjects\\botTest\\img\\57.png"
+    "imagem" : ".\\img\\57.png"
   }
 ]
