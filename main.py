@@ -7,13 +7,17 @@ import asyncio
 import datetime
 import re
 import os
+from dotenv import load_dotenv
+
+# Carregar as variáveis de ambiente do arquivo .env
+load_dotenv()
 
 from commands.mensagens import messagensBotRespostas
 from commands.user import User
 from commands.bomdia import BomDia
 from commands.dados import Dados
 
-TOKEN = 'MTAyNTE3NjY0MjIzNjIwMzExOA.GlX3vi.da2Bsx3YQ9krvPKrAbEd8X9TtcQrQ9o902SIr0'
+TOKEN =  os.getenv('DISCORD_TOKEN')
 
 permissoes = discord.Intents.default()
 permissoes.message_content = True
@@ -38,7 +42,6 @@ client = MyClient(intents=intents)
 users = {}
 dados_users = {}
 
-canal_dos_membros = 1058885030572732506
 
 async def excluir_canal_apos_tempo(canal, tempo):
     await asyncio.sleep(tempo)  # Aguarda o intervalo de tempo especificado
@@ -220,10 +223,14 @@ async def on_member_join(member):
 async def ola(interact:discord.Interaction):
     await interact.response.send_message(f'Ola {interact.user.name}')
 
+@bot.tree.command(description='Adiciona (͡• ͜ʖ ͡•) a sua mensagem')
+async def safadenha(interact:discord.Interaction):
+    await interact.response.send_message(f'(͡• ͜ʖ ͡•)')
+
 # sincroniza os comandos slash
 @bot.command()
 async def sicronizar(ctx:commands.Context):
-    print("SIm")
+    print("Sicronizado...")
     if(ctx.author.id == 257566850081226752):
         sincs = await bot.tree.sync()
         await ctx.reply(f'{len(sincs)} comandos sicronizados')
