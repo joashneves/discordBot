@@ -216,7 +216,15 @@ def registrar_comando(usuario_id):
 
 @client.event
 async def on_member_join(member):
-    print("alguem entrou")
+    print(f"{member.name} entrou no servidor.")
+    role_ids = [1252262448120205372, 1252077450280702035]  # IDs dos cargos
+    selected_role_id = random.choice(role_ids)  # Escolhe aleatoriamente um dos IDs dos cargos
+    role = discord.utils.get(member.guild.roles, id=selected_role_id)
+    if role:
+        await member.add_roles(role)
+        print(f"Atribuiu o cargo '{role.name}' a {member.name}.")
+    else:
+        print(f"O cargo com ID {selected_role_id} não foi encontrado.")
 
 # cria um comando slash
 @bot.tree.command(description='responde Ola')
