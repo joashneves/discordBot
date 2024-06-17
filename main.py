@@ -16,6 +16,7 @@ from commands.mensagens import messagensBotRespostas
 from commands.user import User
 from commands.bomdia import BomDia
 from commands.dados import Dados
+from commands.atribuicargo import AtribuiCargo
 
 TOKEN =  os.getenv('DISCORD_TOKEN')
 
@@ -42,7 +43,6 @@ client = MyClient(intents=intents)
 users = {}
 dados_users = {}
 
-
 async def excluir_canal_apos_tempo(canal, tempo):
     await asyncio.sleep(tempo)  # Aguarda o intervalo de tempo especificado
     await canal.delete()        # Deleta o canal
@@ -63,7 +63,14 @@ def salvar_dados():
 @client.event
 async def on_ready():
     print(f'Logged in as {client.user.name}')
+    print('Connected to the following servers:')
+    for guild in client.guilds:
+        print(f'- {guild.name} (ID: {guild.id})')
     activity = discord.Activity(type=discord.ActivityType.playing, name='apenas em dias uteis')
+
+    bot_atribuicargo = AtribuiCargo(client)
+    await bot_atribuicargo.atribuiCargo()
+
     await client.change_presence(activity=activity)
 
 
@@ -213,10 +220,9 @@ def registrar_comando(usuario_id):
     else:
         dados_users[usuario_id][4] += 1
 
-
-@client.event
+@bot.event
 async def on_member_join(member):
-    print(f"{member.name} entrou no servidor.")
+    print(f"{member.guild.roles} entrou no servidor.")
     role_ids = [1252262448120205372, 1252077450280702035]  # IDs dos cargos
     selected_role_id = random.choice(role_ids)  # Escolhe aleatoriamente um dos IDs dos cargos
     role = discord.utils.get(member.guild.roles, id=selected_role_id)
@@ -225,6 +231,13 @@ async def on_member_join(member):
         print(f"Atribuiu o cargo '{role.name}' a {member.name}.")
     else:
         print(f"O cargo com ID {selected_role_id} não foi encontrado.")
+
+@client.event
+async def on_member_join(member):
+    print(f"{member.name} entrou no servidor.")
+
+    bot_atribuicargo = AtribuiCargo(client)
+    await bot_atribuicargo.atribuiCargo()
 
 # cria um comando slash
 @bot.tree.command(description='responde Ola')
@@ -243,6 +256,13 @@ async def fight(interact:discord.Interaction):
 async def impossivel(interact:discord.Interaction):
     await interact.response.send_message(f'(ㆆ_ㆆ) ', ephemeral=False)
 
+@bot.tree.command(description='responde ʕ•́ᴥ•̀ʔっ ')
+async def oifofo(interact:discord.Interaction):
+    await interact.response.send_message(f'ʕ•́ᴥ•̀ʔっ ', ephemeral=False)
+
+@bot.tree.command(description='responde (╥︣﹏᷅╥) ')
+async def tisteza(interact:discord.Interaction):
+    await interact.response.send_message(f'(╥︣﹏᷅╥) ', ephemeral=False)
 # sincroniza os comandos slash
 @bot.command()
 async def sicronizar(ctx:commands.Context):
