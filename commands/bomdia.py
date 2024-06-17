@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import discord
 import datetime
 
@@ -7,13 +8,15 @@ from commands.user import User
 
 class BomDia():
     global lista_de_ids
-
-    if os.path.exists('dados_usuarios.json'):
-        with open('dados_usuarios.json', 'r') as file:
+    try:
+        caminho_bom_dia = os.path.join('memoria', 'dados_usuarios.json')
+        with open(caminho_bom_dia, 'r') as file:
             try:
                 lista_de_ids = json.load(file)
             except json.JSONDecodeError:
                 lista_de_ids = {}  # Cria um dicionário vazio se o JSON não for válido
+    except Exception as ex:
+        sys.stderr.write(f'não foi possivel carregar dados: {ex}')
 
     def __init__(self, client):
         self.client = client

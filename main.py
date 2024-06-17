@@ -50,14 +50,14 @@ async def excluir_canal_apos_tempo(canal, tempo):
 # Carregar dados dos usuários a partir do arquivo
 def carregar_dados():
     try:
-        with open("dados_usuarios.json", "r") as arquivo:
+        with open("memoria/dados_usuarios.json", "r") as arquivo:
             return json.load(arquivo)
     except FileNotFoundError:
         return {}
 
 # Salvar dados dos usuários no arquivo
 def salvar_dados():
-    with open("dados_usuarios.json", "w") as arquivo:
+    with open("memoria/dados_usuarios.json", "w") as arquivo:
         json.dump(users, arquivo)
 
 @client.event
@@ -223,9 +223,17 @@ async def on_member_join(member):
 async def ola(interact:discord.Interaction):
     await interact.response.send_message(f'Ola {interact.user.name}')
 
-@bot.tree.command(description='Adiciona (͡• ͜ʖ ͡•) a sua mensagem')
+@bot.tree.command(description='responde (͡• ͜ʖ ͡•)')
 async def safadenha(interact:discord.Interaction):
-    await interact.response.send_message(f'(͡• ͜ʖ ͡•)')
+    await interact.response.send_message(f'(͡• ͜ʖ ͡•)', ephemeral=False)
+
+@bot.tree.command(description="responde (ง︡'-'︠)ง ")
+async def fight(interact:discord.Interaction):
+    await interact.response.send_message("(ง︡'-'︠)ง ", ephemeral=False)
+
+@bot.tree.command(description='responde (ㆆ_ㆆ) ')
+async def impossivel(interact:discord.Interaction):
+    await interact.response.send_message(f'(ㆆ_ㆆ) ', ephemeral=False)
 
 # sincroniza os comandos slash
 @bot.command()
