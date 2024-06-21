@@ -17,6 +17,7 @@ from commands.user import User
 from commands.bomdia import BomDia
 from commands.dados import Dados
 from commands.atribuicargo import AtribuiCargo
+from commands.adicionarPersonagem import AdicionarPersonagem
 from commands.slashCommands import slashCommands
 
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -74,10 +75,11 @@ async def on_ready():
 
     await client.change_presence(activity=activity)
 
-
+# Classes
 bot_respostas = messagensBotRespostas(client)
 bot_bomDia = BomDia(client)
 dados_rpg = Dados(client)
+adicionar_personagem = AdicionarPersonagem(client)
 
 @client.event
 async def on_message(message):
@@ -87,6 +89,7 @@ async def on_message(message):
         await bot_bomDia.processar_mensagem(message)
         await bot_respostas.processar_mensagem(message)
         await dados_rpg.processar_mensagem(message)
+        await adicionar_personagem.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações
@@ -228,10 +231,6 @@ async def on_member_join(member):
     bot_atribuicargo = AtribuiCargo(client)
     await bot_atribuicargo.atribuiCargo()
 
-# Instancia e registra comandos
-    bot_commands = slashCommands(client)
-    bot_commands.register_commands()
-
 # sincroniza os comandos slash
 @bot.command()
 async def sicronizar(ctx:commands.Context):
@@ -240,7 +239,30 @@ async def sicronizar(ctx:commands.Context):
         sincs = await bot.tree.sync()
         await ctx.reply(f'{len(sincs)} comandos sicronizados')
     else:
-        await  ctx.reply(f'Voce é FRACO!')
+        await ctx.reply(f'Voce é FRACO!')
+@bot.tree.command(description='responde Ola')
+async def ola(interact:discord.Interaction):
+    await interact.response.send_message(f'Ola {interact.user.name}')
+
+@bot.tree.command(description='responde (͡• ͜ʖ ͡•)')
+async def safadenha(interact:discord.Interaction):
+    await interact.response.send_message(f'(͡• ͜ʖ ͡•)', ephemeral=False)
+
+@bot.tree.command(description="responde (ง︡'-'︠)ง ")
+async def fight(interact:discord.Interaction):
+    await interact.response.send_message("(ง︡'-'︠)ง ", ephemeral=False)
+
+@bot.tree.command(description='responde (ㆆ_ㆆ) ')
+async def impossivel(interact:discord.Interaction):
+    await interact.response.send_message(f'(ㆆ_ㆆ) ', ephemeral=False)
+
+@bot.tree.command(description='responde ʕ•́ᴥ•̀ʔっ ')
+async def oifofo(interact:discord.Interaction):
+    await interact.response.send_message(f'ʕ•́ᴥ•̀ʔっ ', ephemeral=False)
+
+@bot.tree.command(description='responde (╥︣﹏᷅╥) ')
+async def tisteza(interact:discord.Interaction):
+    await interact.response.send_message(f'(╥︣﹏᷅╥) ', ephemeral=False)
 
 client.run(TOKEN)
 bot.run(TOKEN)
