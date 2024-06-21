@@ -158,7 +158,8 @@ async def on_message(message):
             else:
                 dados_users[jogadorID][0] += 1
             await message.channel.send(f"O jogo começou, <@{message.author.id}> jogou {str(dados_users[jogadorID][0])} vezes, digite qual é esse personagem?")
-            with open("game.json", "r") as game:
+            DATA_FILE = os.path.join('memoria', 'game.json')
+            with open(DATA_FILE, "r") as game:
                 personagens = json.load(game)
 
             # Obtém a quantidade de personagens presentes no arquivo JSON
@@ -171,9 +172,15 @@ async def on_message(message):
             nome_personagem = personagens[numero_aleatorio]["nome"]
             imagem_personagem = personagens[numero_aleatorio]["imagem"]
 
-            # Envia a imagem do personagem
-            with open(imagem_personagem, "rb") as arquivo_imagem:
-                await message.channel.send(file=discord.File(arquivo_imagem, "imagem.png"))
+            # Define o caminho do arquivo de imagem local
+            imagem_local = os.path.join(imagem_personagem)
+
+            if not os.path.exists(imagem_local):
+                await message.channel.send(imagem_personagem)
+            else:
+                # Envia a imagem do personagem
+                with open(imagem_personagem, "rb") as arquivo_imagem:
+                    await message.channel.send(file=discord.File(arquivo_imagem, "imagem.png"))
 
             chute = nome_personagem
             await esperar_resposta_do_jogador(message.author, message.channel, jogadorID)

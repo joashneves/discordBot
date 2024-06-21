@@ -10,8 +10,8 @@ intents.members = True
 client = commands.Bot(command_prefix='$', intents=intents)
 
 # Path to store data
-DATA_FILE = os.path.join('memoria', 'dados_personagens.json')
-
+DATA_FILE = os.path.join('memoria', 'game.json')
+IMAGEM = os.path.join('memoria', 'game.json')
 
 class AdicionarPersonagem():
 
@@ -39,7 +39,7 @@ class AdicionarPersonagem():
                     attachment = mensagem.attachments[0]
                     nome = mensagem.content.split("$add ", 1)[1]
                     if attachment.url:
-                        self.data[nome] = attachment.url
+                        self.data.append({"nome": nome, "imagem": attachment.url})
                         self.save_data()
                         await mensagem.channel.send(f'Nome "{nome}" e imagem adicionados com sucesso!')
                     else:

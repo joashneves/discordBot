@@ -1,0 +1,242 @@
+[
+    {
+        "nome": "friagem",
+        "imagem": ".\\img\\00.png"
+    },
+    {
+        "nome": "Benjamin",
+        "imagem": ".\\img\\01.png"
+    },
+    {
+        "nome": "gigante",
+        "imagem": ".\\img\\02.png"
+    },
+    {
+        "nome": "Ferb",
+        "imagem": ".\\img\\03.png"
+    },
+    {
+        "nome": "phineas",
+        "imagem": ".\\img\\04.png"
+    },
+    {
+        "nome": "Bill",
+        "imagem": ".\\img\\05.png"
+    },
+    {
+        "nome": "Cooper",
+        "imagem": ".\\img\\06.png"
+    },
+    {
+        "nome": "skarner",
+        "imagem": ".\\img\\07.png"
+    },
+    {
+        "nome": "steve",
+        "imagem": ".\\img\\08.png"
+    },
+    {
+        "nome": "chama",
+        "imagem": ".\\img\\09.png"
+    },
+    {
+        "nome": "sova",
+        "imagem": ".\\img\\10.png"
+    },
+    {
+        "nome": "flameheart",
+        "imagem": ".\\img\\11.png"
+    },
+    {
+        "nome": "jerry",
+        "imagem": ".\\img\\12.png"
+    },
+    {
+        "nome": "finn",
+        "imagem": ".\\img\\13.png"
+    },
+    {
+        "nome": "fern",
+        "imagem": ".\\img\\14.png"
+    },
+    {
+        "nome": "jake",
+        "imagem": ".\\img\\15.png"
+    },
+    {
+        "nome": "greg",
+        "imagem": ".\\img\\16.png"
+    },
+    {
+        "nome": "coragem",
+        "imagem": ".\\img\\17.png"
+    },
+    {
+        "nome": "muriel",
+        "imagem": ".\\img\\18.png"
+    },
+    {
+        "nome": "jake",
+        "imagem": ".\\img\\19.png"
+    },
+    {
+        "nome": "adam",
+        "imagem": ".\\img\\20.png"
+    },
+    {
+        "nome": "chaos",
+        "imagem": ".\\img\\21.png"
+    },
+    {
+        "nome": "kyoko",
+        "imagem": ".\\img\\22.png"
+    },
+    {
+        "nome": "chihiro",
+        "imagem": ".\\img\\23.png"
+    },
+    {
+        "nome": "fantasmatico",
+        "imagem": ".\\img\\24.png"
+    },
+    {
+        "nome": "rell",
+        "imagem": ".\\img\\25.png"
+    },
+    {
+        "nome": "sasaki",
+        "imagem": ".\\img\\26.png"
+    },
+    {
+        "nome": "kaneki",
+        "imagem": ".\\img\\27.png"
+    },
+    {
+        "nome": "vecna",
+        "imagem": ".\\img\\28.png"
+    },
+    {
+        "nome": "sonic",
+        "imagem": ".\\img\\29.png"
+    },
+    {
+        "nome": "flynn",
+        "imagem": ".\\img\\30.png"
+    },
+    {
+        "nome": "ariel",
+        "imagem": ".\\img\\31.png"
+    },
+    {
+        "nome": "tiana",
+        "imagem": ".\\img\\32.jpg"
+    },
+    {
+        "nome": "godzilla",
+        "imagem": ".\\img\\33.png"
+    },
+    {
+        "nome": "mecha godzilla",
+        "imagem": ".\\img\\34.png"
+    },
+    {
+        "nome": "adam",
+        "imagem": ".\\img\\35.png"
+    },
+    {
+        "nome": "lion",
+        "imagem": ".\\img\\36.png"
+    },
+    {
+        "nome": "guybrush",
+        "imagem": ".\\img\\37.png"
+    },
+    {
+        "nome": "jim",
+        "imagem": ".\\img\\38.png"
+    },
+    {
+        "nome": "albedo",
+        "imagem": ".\\img\\39.png"
+    },
+    {
+        "nome": "alucard",
+        "imagem": ".\\img\\40.png"
+    },
+    {
+        "nome": "gideon",
+        "imagem": ".\\img\\41.png"
+    },
+    {
+        "nome": "pike",
+        "imagem": ".\\img\\42.png"
+    },
+    {
+        "nome": "nimona",
+        "imagem": ".\\img\\43.png"
+    },
+    {
+        "nome": "dib",
+        "imagem": ".\\img\\44.png"
+    },
+    {
+        "nome": "katie",
+        "imagem": ".\\img\\45.png"
+    },
+    {
+        "nome": "cucurucho",
+        "imagem": ".\\img\\46.png"
+    },
+    {
+        "nome": "clarence",
+        "imagem": ".\\img\\47.png"
+    },
+    {
+        "nome": "gunther",
+        "imagem": ".\\img\\48.png"
+    },
+    {
+        "nome": "zim",
+        "imagem": ".\\img\\49.png"
+    },
+    {
+        "nome": "nero",
+        "imagem": ".\\img\\50.png"
+    },
+    {
+        "nome": "supergirl",
+        "imagem": ".\\img\\51.png"
+    },
+    {
+        "nome": "massa cinzenta",
+        "imagem": ".\\img\\52.png"
+    },
+    {
+        "nome": "raze",
+        "imagem": ".\\img\\53.png"
+    },
+    {
+        "nome": "steven",
+        "imagem": ".\\img\\54.png"
+    },
+    {
+        "nome": "luz",
+        "imagem": ".\\img\\55.png"
+    },
+    {
+        "nome": "amity",
+        "imagem": ".\\img\\56.png"
+    },
+    {
+        "nome": "ramona",
+        "imagem": ".\\img\\57.png"
+    },
+    {
+        "nome": "skarlet",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253677702251155517/imageIconBot.png?ex=6676b9d8&is=66756858&hm=8ac576f7347237307891816caff734e2c84e7b90068548f12ad632382cdb1253&"
+    },
+    {
+        "nome": "doutor",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253679098660782161/R.png?ex=6676bb25&is=667569a5&hm=fbe7f20687fac85325a7da1637005eb20cf1b8ff8ca32258efbf9cad294f112e&"
+    }
+]
