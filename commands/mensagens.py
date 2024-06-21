@@ -9,7 +9,7 @@ class messagensBotRespostas():
     async def processar_mensagem(self, mensagem):
         if mensagem.author == self.client.user:
             return
-        if mensagem.content.startswith("que"):
+        if mensagem.content.endswith("que"):
             await mensagem.channel.send("JO!")
         if "s3nha" in mensagem.content:
             await mensagem.add_reaction('❤')
