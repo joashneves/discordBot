@@ -231,13 +231,6 @@ def registrar_comando(usuario_id):
     else:
         dados_users[usuario_id][4] += 1
 
-@client.event
-async def on_member_join(member):
-    print(f"{member.name} entrou no servidor.")
-
-    bot_atribuicargo = AtribuiCargo(client)
-    await bot_atribuicargo.atribuiCargo()
-
 # sincroniza os comandos slash
 @bot.command()
 async def sicronizar(ctx:commands.Context):
@@ -247,6 +240,14 @@ async def sicronizar(ctx:commands.Context):
         await ctx.reply(f'{len(sincs)} comandos sicronizados')
     else:
         await ctx.reply(f'Voce é FRACO!')
+
+@client.event
+async def on_member_join(member):
+    print(f"{member.name} entrou no servidor.")
+
+    bot_atribuicargo = AtribuiCargo(client)
+    await bot_atribuicargo.atribuiCargo()
+
 @bot.tree.command(description='responde Ola')
 async def ola(interact:discord.Interaction):
     await interact.response.send_message(f'Ola {interact.user.name}')
