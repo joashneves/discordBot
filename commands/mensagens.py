@@ -1,7 +1,7 @@
 import discord
 import ollama
 
-response_channel = 1058880199414005852  # canal de imagens
+response_channel = 1255938137499107490  # canal de imagens
 
 class messagensBotRespostas():
     def __init__(self, client):
