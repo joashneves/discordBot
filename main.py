@@ -18,6 +18,7 @@ from commands.bomdia import BomDia
 from commands.dados import Dados
 from commands.atribuicargo import AtribuiCargo
 from commands.adicionarPersonagem import AdicionarPersonagem
+from commands.avatar import avatarComandos
 from commands.slashCommands import slashCommands
 
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -80,6 +81,7 @@ bot_respostas = messagensBotRespostas(client)
 bot_bomDia = BomDia(client)
 dados_rpg = Dados(client)
 adicionar_personagem = AdicionarPersonagem(client)
+comandos_de_avatar = avatarComandos(client)
 
 @client.event
 async def on_message(message):
@@ -90,6 +92,7 @@ async def on_message(message):
         await bot_respostas.processar_mensagem(message)
         await dados_rpg.processar_mensagem(message)
         await adicionar_personagem.processar_mensagem(message)
+        await comandos_de_avatar.avatar(message)
 
     jogadorID = str(message.author.id)
 #region // reações
@@ -129,19 +132,10 @@ async def on_message(message):
 
 #region // bom dia e sla
 
-
-    if message.content.startswith(prefix + 'avatar'):
-        if message.mentions:
-            user = message.mentions[0]
-            await message.channel.\
-                send(user.avatar)
-        else:
-            await message.channel.send(message.author.avatar)
-        registrar_comando(jogadorID)
-
     if message.content.startswith(prefix + 'ping'):
         latency = client.latency
-        await message.channel.send(f'A sua latência é de {latency:.2f} segundos.')
+        emberd = discord.Embed(title='ping', description=f'seu ping é {latency:.2f}')
+        await message.channel.send(embed=emberd)
         registrar_comando(jogadorID)
 
 #endregion
