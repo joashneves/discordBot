@@ -115,7 +115,7 @@ async def on_message(message):
 
     prefix = "$"
     if message.content.startswith(prefix + "ajuda"):
-        await message.channel.send(f'Comandos conhecidos são:\n$avatar\n$ping\n$jogar\n$score')
+        await message.channel.send(f'Comandos conhecidos são:\n$avatar\n$ping\n$jogar\n$score\n caso queria que eu responda seus comando escreva: skalart o que é um bot?')
         registrar_comando(jogadorID)
 
     if message.content.lower().startswith(prefix + "teste"):
