@@ -10,8 +10,8 @@
         {
             "nome": "Rose tyler",
             "data": "28/06/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "Rose Tyler \u00e9 uma personagem fict\u00edcia da s\u00e9rie de televis\u00e3o brit\u00e2nica de fic\u00e7\u00e3o cient\u00edfica Doctor Who. Ela foi criada pelo produtor da s\u00e9rie Russell T Davies e interpretada por Billie Piper. Com o renascimento de Doctor Who em 2005, Rose foi apresentada como uma nova companheira de viagem do protagonista da s\u00e9rie, o Doutor, em sua nona e d\u00e9cima encarna\u00e7\u00f5es.",
+            "serie": "Doctor who",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253690614076412015/R.png?ex=6676c5de&is=6675745e&hm=921e4b9326bc5e7dadf89a743cdeee48a3371bdcfc967ca1d81803db999bf2ca&"
         },
         {
@@ -20,13 +20,6 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253677897487618148/1256226749994373160/R.png?ex=667fffd4&is=667eae54&hm=5d7f699e55b95a07e1ee6df7e2e1b6813384756552dda7372a2d9a973dc986f7&"
-        },
-        {
-            "nome": "Akko",
-            "data": "28/06/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253677897487618148/1256252329498382458/Akko2.jpg?ex=668017a7&is=667ec627&hm=61a2a722a715b0b22f58aba242e25b1c8efaa07ea8c811ac78b9e179796c824d&"
         },
         {
             "nome": "doutor",
@@ -48,8 +41,23 @@
             "descricao": "O cara que tilta com tetris e odeia pobre, e faz rpg e live",
             "serie": "youtube",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253714812932984955/c_4.png?ex=6676dc68&is=66758ae8&hm=178e33d4eb3238a9e0a00908553562edff96099695733e9d5ae2937cb94db620&"
+        },
+        {
+            "nome": "angel dust",
+            "data": "28/06/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663546617892876/1255202454149005332/angel-dust-hazbin-hotel-angel.gif?ex=667c45e1&is=667af461&hm=be776923b51b6f265a265769afa13fbce89ac6248ded8ae76c4645c897da5ba2&"
         }
     ],
     "670678422359375896": [],
-    "315229513904553985": []
+    "315229513904553985": [
+        {
+            "nome": "kim",
+            "data": "28/06/2024",
+            "descricao": "Namorada da Anita",
+            "serie": "Scott Pinguim",
+            "imagem": "https://cdn.discordapp.com/attachments/1253677897487618148/1256252183482077296/GGH9Qp3XcAAGQ00.png?ex=66801784&is=667ec604&hm=b47b7005dc57ad1defd35043b46970201ffec00e0eff0fb1db68bc04243f8780&"
+        }
+    ]
 }

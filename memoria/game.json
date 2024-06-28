@@ -46,5 +46,37 @@
     {
         "nome": "jinx",
         "imagem": "https://cdn.discordapp.com/attachments/1253677897487618148/1256253114370228265/Jinx-From-Arcane-League-Of-Legends-Live-Wallpaper_thumbnail.jpg?ex=66801862&is=667ec6e2&hm=5ce0514160eb05e7565ac675772fb219b3cf119db3e8c4956ea3449acf86891b&"
+    },
+    {
+        "nome": "ivor",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663546617892876/1256304599657353418/GRLZEQpW8AAzR09.png?ex=66804855&is=667ef6d5&hm=4ae2d0f45316eba71a3293725bad39f3a1271d66915ccaa108bd042dfcf11491&"
+    },
+    {
+        "nome": "sonic",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663546617892876/1256307625474129951/b8178276e4475188cc5d33b3c76ea469.png?ex=66804b26&is=667ef9a6&hm=b00f39f469124b020ee856c1e7b1863f9ce6d6ca910bae514fe471842fcc1f95&"
+    },
+    {
+        "nome": "omem",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256307814721392801/image.png?ex=66804b54&is=667ef9d4&hm=f7a8c729ff9a5792527ed2f3d6bf281eab978f923409f23adf37a493ad1ea48f&"
+    },
+    {
+        "nome": "knuckles",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256308123476430980/R.png?ex=66804b9d&is=667efa1d&hm=2d48b68b0117a8aa61d5c41247e90c15d019856333b6ca8757f247147ceef91d&"
+    },
+    {
+        "nome": "raze",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256308240988377229/raze-valorant-3t-1440x2960.png?ex=66804bb9&is=667efa39&hm=49d96d8c34b2dbdb2ae82ed50cfc5e54300aedca42c3886f26ee133bb9e317ad&"
+    },
+    {
+        "nome": "goku",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256309066817474703/OIP.png?ex=66804c7e&is=667efafe&hm=383a68a74e110496975a59c2188751c69f3066732926bdde6547ae50b6d4a268&"
+    },
+    {
+        "nome": "TARDIS",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256309325111103518/tardis_doctor_who_reprod_bbc_widelg.png?ex=66804cbc&is=667efb3c&hm=df88ea4b8c73fe1226eef516f495c283c6438a53dce71a9b857e967830d6acd1&"
+    },
+    {
+        "nome": "meliodas",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256309516023369799/legiao_BVwo_J4tIxZs.png?ex=66804ce9&is=667efb69&hm=d843679f54f9d12734512347ef889a0e69249d616c6580b2c3d1d3b528ead9f6&"
     }
 ]
