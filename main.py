@@ -20,6 +20,7 @@ from commands.atribuicargo import AtribuiCargo
 from commands.adicionarPersonagem import AdicionarPersonagem
 from commands.avatar import AvatarComandos
 from commands.ajudaCommands import AjudaComando
+from commands.gameWiki import GameWiki
 from commands.slashCommands import slashCommands
 
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -84,6 +85,7 @@ dados_rpg = Dados(client)
 adicionar_personagem = AdicionarPersonagem(client)
 comandos_de_avatar = AvatarComandos(client)
 ajuda_comando = AjudaComando(client)
+game_wiki = GameWiki(client)
 
 @client.event
 async def on_message(message):
@@ -96,6 +98,7 @@ async def on_message(message):
         await adicionar_personagem.processar_mensagem(message)
         await comandos_de_avatar.avatar(message)
         await ajuda_comando.processar_mensagem(message)
+        await game_wiki.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações
@@ -127,7 +130,7 @@ async def on_message(message):
             await message.channel.send(f'Voce mencionou o <@{user}>')
         else:
             await message.channel.send(message.author.avatar)
-        registrar_comando(jogadorID)
+
 
 
 #region // bom dia e sla
@@ -136,94 +139,10 @@ async def on_message(message):
         latency = client.latency
         emberd = discord.Embed(title='ping', description=f'seu ping é {latency:.2f}')
         await message.channel.send(embed=emberd)
-        registrar_comando(jogadorID)
+
 
 #endregion
 
-    global jogo_de_adivinhar, chute
-    jogo_de_adivinhar= False
-
-    if message.content.startswith(prefix + 'jogar') or jogo_de_adivinhar:
-            jogo_de_adivinhar = True
-
-            jogadorID = str(message.author.id)
-            if jogadorID not in dados_users:
-                dados_users[jogadorID] = [1,0,0,0,0]
-            else:
-                dados_users[jogadorID][0] += 1
-            await message.channel.send(f"O jogo começou, <@{message.author.id}> jogou {str(dados_users[jogadorID][0])} vezes, digite qual é esse personagem?")
-            DATA_FILE = os.path.join('memoria', 'game.json')
-            with open(DATA_FILE, "r") as game:
-                personagens = json.load(game)
-
-            # Obtém a quantidade de personagens presentes no arquivo JSON
-            quantidade_personagens = len(personagens)
-
-            # Gera um número aleatório entre 0 e a quantidade de personagens - 1
-            numero_aleatorio = random.randint(0, quantidade_personagens - 1)
-
-            # Encontra o nome e a imagem do primeiro personagem
-            nome_personagem = personagens[numero_aleatorio]["nome"]
-            imagem_personagem = personagens[numero_aleatorio]["imagem"]
-
-            # Define o caminho do arquivo de imagem local
-            imagem_local = os.path.join(imagem_personagem)
-
-            if not os.path.exists(imagem_local):
-                await message.channel.send(imagem_personagem)
-            else:
-                # Envia a imagem do personagem
-                with open(imagem_personagem, "rb") as arquivo_imagem:
-                    await message.channel.send(file=discord.File(arquivo_imagem, "imagem.png"))
-
-            chute = nome_personagem
-            await esperar_resposta_do_jogador(message.author, message.channel, jogadorID)
-            registrar_comando(jogadorID)
-
-    if message.content.startswith(prefix + 'score'):
-        if message.mentions:
-            user = message.mentions[0]
-            jogadorM = str(user.id)
-            if jogadorM not in dados_users:
-                    await message.channel.send(f"<@{user.id}> ainda não possui perfil!")
-            else:
-                    await message.channel.send(
-                        f"<@{user.id}> jogou: {str(dados_users[jogadorM][0])} vezes\n acertou: {str(dados_users[jogadorM][1])} vezes\n"
-                        f" errou: {str(dados_users[jogadorM][2])} vezes\n xingou: {str(dados_users[jogadorM][3])} vezes\n"
-                        f" usou comandos: {dados_users[jogadorM][4]} vezes")
-        else:
-            if jogadorID not in dados_users:
-                await message.channel.send("Você ainda não possui perfil!")
-            else:
-                await message.channel.send(f"voce jogou: {str(dados_users[jogadorID][0])} vezes\nvoce acertou: {str(dados_users[jogadorID][1])} vezes\n"
-                                               f"voce errou: {str(dados_users[jogadorID][2])} vezes\nvoce xingou: {str(dados_users[jogadorID][3])} vezes\n"
-                                               f"Voce usou comandos: {dados_users[jogadorID][4]} vezes")
-        registrar_comando(jogadorID)
-
-def check_resposta_jogador(message, autor_jogador):
-    return message.author == autor_jogador
-
-async def esperar_resposta_do_jogador(autor_jogador, canal_jogo,dados):
-    try:
-        resposta = await client.wait_for('message', check=lambda m: check_resposta_jogador(m, autor_jogador), timeout=12)
-    except asyncio.TimeoutError:
-        await canal_jogo.send('Tempo esgotado! O jogo acabou.')
-    else:
-        if resposta.content.lower().startswith(chute.lower()):
-            dados_users[dados][1] += 1 #acertos
-            await canal_jogo.send("Você acertou! e ganhou pontos")
-            await canal_jogo.send(f"Você acertou: {dados_users[dados][1]} vezes")
-        else:
-            dados_users[dados][2] += 1  # erros
-            await canal_jogo.send("Você ERROU!")
-            await canal_jogo.send(f"Você ERROU: {dados_users[dados][2]} vezes")
-
-
-def registrar_comando(usuario_id):
-    if usuario_id not in dados_users:
-        dados_users[usuario_id] = [0,0,0,0,1]
-    else:
-        dados_users[usuario_id][4] += 1
 
 # sincroniza os comandos slash
 @bot.command()

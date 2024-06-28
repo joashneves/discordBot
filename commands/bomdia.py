@@ -5,11 +5,22 @@ import discord
 import datetime
 
 from commands.user import User
+USUARIOS_BOM_DIA_FILE = os.path.join('memoria', 'dados_usuarios_bom_dia.json')
+
+def load_data(file):
+    if os.path.exists(file):
+        with open(file, 'r') as f:
+            return json.load(f)
+    return {}
+
+def save_data(file, data):
+    with open(file, 'w') as f:
+        json.dump(data, f, indent=4)
 
 class BomDia():
     global lista_de_ids
     try:
-        caminho_bom_dia = os.path.join('memoria', 'dados_usuarios.json')
+        caminho_bom_dia = os.path.join('memoria', 'dados_usuarios_bom_dia.json')
         with open(caminho_bom_dia, 'r') as file:
             try:
                 lista_de_ids = json.load(file)
