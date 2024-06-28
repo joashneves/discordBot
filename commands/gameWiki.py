@@ -10,6 +10,8 @@ prefix = '$'
 data = datetime.date
 DATA_FILE = os.path.join('memoria', 'game.json')
 GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
+TENTATIVAS_MAXIMAS = 5
+INTERVALO_RESET_TENTATIVAS = 10 * 60  # 10 minutos em segundos
 
 def load_data(file):
     if os.path.exists(file):
@@ -43,6 +45,8 @@ class GameWiki:
         self.jogo_de_adivinhar = False
         self.chute = ""
         self.dados_personagem = load_data(GAME_FILE)
+        self.tentativas_restantes = {}  # Armazena o número de tentativas restantes para cada jogador
+        self.ultima_tentativa = {}  # Armazena o timestamp da última tentativa para cada jogador
 
     async def processar_mensagem(self, message):
         if message.author == self.client.user:
@@ -55,11 +59,26 @@ class GameWiki:
             await self.mostrar_score(message)
 
     async def iniciar_jogo(self, message):
-        self.jogo_de_adivinhar = True
         jogadorID = str(message.author.id)
+        agora = datetime.datetime.now().timestamp()
+
+        if jogadorID not in self.tentativas_restantes:
+            self.tentativas_restantes[jogadorID] = TENTATIVAS_MAXIMAS
+            self.ultima_tentativa[jogadorID] = agora
+
+        # Resetar tentativas se passaram 10 minutos desde a última tentativa
+        if agora - self.ultima_tentativa[jogadorID] >= INTERVALO_RESET_TENTATIVAS:
+            self.tentativas_restantes[jogadorID] = TENTATIVAS_MAXIMAS
+            self.ultima_tentativa[jogadorID] = agora
+
+        if self.tentativas_restantes[jogadorID] <= 0:
+            await message.channel.send(f"<@{message.author.id}>, você não tem mais tentativas restantes. Aguarde até as tentativas serem resetadas.")
+            return
+
+        self.jogo_de_adivinhar = True
 
         await message.channel.send(
-            f"O jogo começou, <@{message.author.id}> jogou, digite qual é esse personagem?"
+            f"O jogo começou, <@{message.author.id}> jogou, digite qual é esse personagem? Você tem {self.tentativas_restantes[jogadorID]} tentativas restantes."
         )
 
         personagens = load_data(DATA_FILE)
@@ -102,11 +121,11 @@ class GameWiki:
                 description=f'Descrição: {item["descricao"]}'
             )
             embed.set_image(url=item['imagem'])
-            embed.add_field(name='Data de acerto', value=item['data'], inline=False)
-            embed.set_footer(text=f'Adivinhado por: {user.name}')
+            embed.add_field(name='De(Franquia):', value=item['serie'], inline=False)
+            embed.add_field(name='Data de descoberta', value=item['data'], inline=False)
+            embed.set_footer(text=f'Descoberto por: {user.name}')
             embeds.append(embed)
         return embeds
-
 
     async def esperar_resposta_do_jogador(self, autor_jogador, canal_jogo, jogadorID, nome_personagem, imagem_personagem):
         try:
@@ -122,13 +141,19 @@ class GameWiki:
                     'nome': nome_personagem,
                     'data': datetime.datetime.now().strftime("%d/%m/%Y"),
                     'descricao': "Descrição padrão",
+                    "serie": "Serie",
                     'imagem': imagem_personagem
                 })
                 save_data(GAME_FILE, self.dados_personagem)
 
                 await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é sua")
             else:
-                await canal_jogo.send("Você ERROU!")
+                self.tentativas_restantes[jogadorID] -= 1
+                await canal_jogo.send(f"Você ERROU! Você tem {self.tentativas_restantes[jogadorID]} tentativas restantes.")
+                if self.tentativas_restantes[jogadorID] > 0:
+                    await self.esperar_resposta_do_jogador(autor_jogador, canal_jogo, jogadorID, nome_personagem, imagem_personagem)
+                else:
+                    await canal_jogo.send('Você não tem mais tentativas restantes! O jogo acabou.')
 
     def check_resposta_jogador(self, message, autor_jogador):
         return message.author == autor_jogador

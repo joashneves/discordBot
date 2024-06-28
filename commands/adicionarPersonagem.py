@@ -13,6 +13,9 @@ client = commands.Bot(command_prefix='$', intents=intents)
 DATA_FILE = os.path.join('memoria', 'game.json')
 IMAGEM = os.path.join('memoria', 'game.json')
 
+# ID do servidor onde o comando é permitido
+ALLOWED_GUILD_ID = 1252065347016593488
+
 class AdicionarPersonagem():
 
     def __init__(self, client):
@@ -32,22 +35,25 @@ class AdicionarPersonagem():
     async def processar_mensagem(self, mensagem):
         if mensagem.author == self.client.user:
             return
-
-        try:
-            if mensagem.content.startswith("$add"):
-                if mensagem.attachments:
-                    attachment = mensagem.attachments[0]
-                    nome = mensagem.content.split("$add ", 1)[1]
-                    if attachment.url:
-                        self.data.append({"nome": nome, "imagem": attachment.url})
-                        self.save_data()
-                        await mensagem.channel.send(f'Nome "{nome}" e imagem adicionados com sucesso!')
-                    else:
-                        await mensagem.channel.send('Por favor, envie uma imagem válida (jpg, jpeg, png, gif).')
+        if mensagem.content.startswith("$add"):
+            try:
+                # Verificar se a mensagem é do servidor permitido
+                if mensagem.guild and mensagem.guild.id == ALLOWED_GUILD_ID:
+                        if mensagem.attachments:
+                            attachment = mensagem.attachments[0]
+                            nome = mensagem.content.split("$add ", 1)[1]
+                            if attachment.url:
+                                self.data.append({"nome": nome, "imagem": attachment.url})
+                                self.save_data()
+                                await mensagem.channel.send(f'Nome "{nome}" e imagem adicionados com sucesso!')
+                            else:
+                                await mensagem.channel.send('Por favor, envie uma imagem válida (jpg, jpeg, png, gif).')
+                        else:
+                            await mensagem.channel.send('Por favor, anexe uma imagem ao comando.')
                 else:
-                    await mensagem.channel.send('Por favor, anexe uma imagem ao comando.')
-        except Exception as ex:
-            sys.stderr.write(f'Ocorreu um erro com comando $add: {ex}')
+                    await mensagem.channel.send('Este comando só pode ser usado no servidor permitido.')
+            except Exception as ex:
+                sys.stderr.write(f'Ocorreu um erro com comando $add: {ex}')
 
 
 

@@ -27,8 +27,6 @@ class messagensBotRespostas():
                 mensagem_bot += chunk['message']['content']
             await mensagem.channel.send(mensagem_bot)
 
-
-
 ## Verifica se é uma imagem e reage
         if mensagem.channel.id == response_channel:
             if mensagem.attachments:

@@ -4,12 +4,14 @@
             "nome": "batman",
             "data": "28/06/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253772443647217694/thumb-1920-238031.png?ex=66771214&is=6675c094&hm=33f85131ec9df512dcdcb95cc76e19872f0a81bbebca8bb7b066b9eb9c56b6f3&"
         },
         {
             "nome": "Rose tyler",
             "data": "28/06/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253690614076412015/R.png?ex=6676c5de&is=6675745e&hm=921e4b9326bc5e7dadf89a743cdeee48a3371bdcfc967ca1d81803db999bf2ca&"
         }
     ]

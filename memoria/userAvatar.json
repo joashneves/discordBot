@@ -94,5 +94,27 @@
                 "data_regeneracao": "28/06/2024"
             }
         ]
+    },
+    "315229513904553985": {
+        "nome": "gwendyy_",
+        "id": 315229513904553985,
+        "apelido": "A nita",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/315229513904553985/f72ff8aa965e09869327a52a20180d25.png?size=1024",
+                "data_regeneracao": "28/06/2024"
+            }
+        ]
+    },
+    "236300710910623745": {
+        "nome": "morric4",
+        "id": 236300710910623745,
+        "apelido": "Luigi \ud83d\udc41",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/236300710910623745/e410db2cbb57812386056058e85e7f59.png?size=1024",
+                "data_regeneracao": "28/06/2024"
+            }
+        ]
     }
 }
