@@ -18,7 +18,8 @@ from commands.bomdia import BomDia
 from commands.dados import Dados
 from commands.atribuicargo import AtribuiCargo
 from commands.adicionarPersonagem import AdicionarPersonagem
-from commands.avatar import avatarComandos
+from commands.avatar import AvatarComandos
+from commands.ajudaCommands import AjudaComando
 from commands.slashCommands import slashCommands
 
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -81,7 +82,8 @@ bot_respostas = messagensBotRespostas(client)
 bot_bomDia = BomDia(client)
 dados_rpg = Dados(client)
 adicionar_personagem = AdicionarPersonagem(client)
-comandos_de_avatar = avatarComandos(client)
+comandos_de_avatar = AvatarComandos(client)
+ajuda_comando = AjudaComando(client)
 
 @client.event
 async def on_message(message):
@@ -93,6 +95,7 @@ async def on_message(message):
         await dados_rpg.processar_mensagem(message)
         await adicionar_personagem.processar_mensagem(message)
         await comandos_de_avatar.avatar(message)
+        await ajuda_comando.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações
@@ -117,9 +120,6 @@ async def on_message(message):
 #endregion
 
     prefix = "$"
-    if message.content.startswith(prefix + "ajuda"):
-        await message.channel.send(f'Comandos conhecidos são:\n$avatar\n$ping\n$jogar\n$score\n caso queria que eu responda seus comando escreva: skalart o que é um bot?')
-        registrar_comando(jogadorID)
 
     if message.content.lower().startswith(prefix + "teste"):
         if message.mentions:
