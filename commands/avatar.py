@@ -84,7 +84,7 @@ class AvatarComandos:
 
             # Create embeds for each avatar
             embeds = []
-            for i, avatar in enumerate(all_data[user_id]['avatares']):
+            for i, avatar in enumerate(reversed(all_data[user_id]['avatares'])):
                 embed = discord.Embed(
                     title=f'Nome: {user.name}',
                     description=f'Informações da regeneração: {user.name}'
@@ -93,7 +93,7 @@ class AvatarComandos:
                 embed.add_field(name='ID', value=user.id, inline=False)
                 embed.add_field(name='Apelido', value=user.display_name, inline=False)
                 embed.add_field(name='Data de regeneração', value=avatar['data_regeneracao'], inline=False)
-                embed.set_footer(text=f'{i+1}ª regeneração')
+                embed.set_footer(text=f'{regeneracao_count - i}ª regeneração')
                 embeds.append(embed)
 
             # Send the first embed with navigation buttons

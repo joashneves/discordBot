@@ -61,5 +61,27 @@
                 "data_regeneracao": "27/06/2024"
             }
         ]
+    },
+    "258428212248444938": {
+        "nome": "atarisalvart",
+        "id": 258428212248444938,
+        "apelido": "Joaninha",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/258428212248444938/801fbb9589a205f884024c40687bdada.png?size=1024",
+                "data_regeneracao": "27/06/2024"
+            }
+        ]
+    },
+    "983476366840328232": {
+        "nome": "gobblyn_",
+        "id": 983476366840328232,
+        "apelido": "Gobblyn Bruxo...",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/983476366840328232/8488aef4dfc9cb26a850a240f4ffa9b5.png?size=1024",
+                "data_regeneracao": "28/06/2024"
+            }
+        ]
     }
 }
