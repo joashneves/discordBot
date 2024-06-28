@@ -15,10 +15,10 @@ info_avatar = discord.Embed(title='Avatar',
 info_avatar.add_field(name='Comando: $avatar', value='paramentros: nenhum ou menção por @\nEx: $avatar @user', inline=False)
 #Embed dos jogos
 info_jogo = discord.Embed(title='Jogo',
-                           description='Explicação de como funciona o jogo do bot')
+                           description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 10 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
 info_jogo.add_field(name='Comando: $jogar', value='apos usar o comando $jogar, escreva o nome correto do personagem que aparece', inline=False)
-info_jogo.add_field(name='Comando: $add', value='adicione um personagem ao bot $add _nome_personagem_ (imagem do personagem)', inline=False)
-info_jogo.set_image(url='https://cdn.discordapp.com/attachments/1255938137499107490/1256069719128014868/imagem_exemplo.jpg?ex=667f6d95&is=667e1c15&hm=673e5688f148cb77c64ab171db0871f3a55f2ac34fd880bebe84e91bdbeaff69&')
+info_jogo.add_field(name='Comando: $score', value='Mostra todos os personagens que voce encontrou e possibilita a muda as informações do mesmos.', inline=False)
+info_jogo.set_image(url='https://cdn.discordapp.com/attachments/1255938137499107490/1256294540579704832/image.png?ex=66803ef7&is=667eed77&hm=059a36febce9cd6055290de5b6da708d2fbf9b934f0dda5314e9896116afc192&')
 info_jogo.set_footer(text='Imagem de Exemplo')
 
 class ViewInfo(discord.ui.View):

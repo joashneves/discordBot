@@ -1,4 +1,6 @@
 import discord
+from discord import Interaction
+from discord._types import ClientT
 from discord.ext import commands
 import datetime
 import json
@@ -22,6 +24,29 @@ def load_data(file):
 def save_data(file, data):
     with open(file, 'w') as f:
         json.dump(data, f, indent=4)
+class ModelInfo(discord.ui.Modal):
+    def __init__(self, personagem, dados_personagem, jogador_id):
+        super().__init__(title='Editar informações do personagem')
+        self.personagem = personagem
+        self.dados_personagem = dados_personagem
+        self.jogador_id = jogador_id
+
+    descricao = discord.ui.TextInput(label='Descrição', default="", style=discord.TextStyle.paragraph)
+    serie = discord.ui.TextInput(label='Universo/Série', default="")
+
+    async def on_submit(self, interaction: discord.Interaction):
+        descricao = self.descricao.value
+        serie = self.serie.value
+
+        for personagem in self.dados_personagem[str(self.jogador_id)]:
+            if personagem['nome'] == self.personagem['nome']:
+                personagem['descricao'] = descricao
+                personagem['serie'] = serie
+                break
+
+        save_data(GAME_FILE, self.dados_personagem)
+        await interaction.response.send_message("Informações atualizadas com sucesso!", ephemeral=True)
+
 
 class ViewInfo(discord.ui.View):
     def __init__(self, embeds, jogador_id, dados_personagem):
@@ -61,6 +86,19 @@ class ViewInfo(discord.ui.View):
         else:
             await interaction.response.send_message("Você não tem permissão para liberar este personagem.", ephemeral=True)
 
+    @discord.ui.button(label='Editar', style=discord.ButtonStyle.green, emoji='✏️')
+    async def edit_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        if interaction.user.id == self.jogador_id:
+            personagem_nome = self.embeds[self.current].title.split(': ')[1]
+            jogador_personagens = self.dados_personagem.get(str(self.jogador_id), [])
+            personagem = next((p for p in jogador_personagens if p['nome'] == personagem_nome), None)
+            if personagem:
+                modal = ModelInfo(personagem, self.dados_personagem, self.jogador_id)
+                await interaction.response.send_modal(modal)
+        else:
+            await interaction.response.send_message("Você não tem permissão para editar este personagem.", ephemeral=True)
+
+
 
 class GameWiki:
     def __init__(self, client):
@@ -98,7 +136,9 @@ class GameWiki:
             self.ultima_tentativa[jogadorID] = agora
 
         if self.tentativas_restantes[jogadorID] <= 0:
-            await message.channel.send(f"<@{message.author.id}>, você não tem mais tentativas restantes. faltam {self.ultima_tentativa[jogadorID]} mintuos.")
+            tempo_restante = INTERVALO_RESET_TENTATIVAS - (agora - self.ultima_tentativa[jogadorID])
+            minutos_restantes = round(tempo_restante / 60)
+            await message.channel.send(f"<@{message.author.id}>, você não tem mais tentativas restantes. Faltam {minutos_restantes} minutos.")
             return
 
         self.jogo_de_adivinhar = True
