@@ -160,8 +160,10 @@ class GameWiki:
 
     async def mostrar_score(self, message):
         jogadorID = str(message.author.id)
+        user_mencionado = message.author
         if message.mentions:
             user = message.mentions[0]
+            user_mencionado = message.mentions[0]
             jogadorID = str(user.id)
 
         if jogadorID not in self.dados_personagem:
@@ -169,7 +171,7 @@ class GameWiki:
             return
 
         score = self.dados_personagem[jogadorID]
-        embeds = self.criar_embeds_score(message.author, score)
+        embeds = self.criar_embeds_score(user_mencionado, score)
         view = ViewInfo(embeds, message.author.id,  self.dados_personagem)
         await message.channel.send(embed=embeds[0], view=view)
 
