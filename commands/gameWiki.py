@@ -53,7 +53,10 @@ class GameWiki:
             return
 
         if message.content.startswith(prefix + 'jogar'):
-            await self.iniciar_jogo(message)
+            if self.jogo_de_adivinhar == False:
+                await self.iniciar_jogo(message)
+            else:
+                await message.channel.send("um jogo ja esta em andamento")
 
         if message.content.startswith(prefix + 'score'):
             await self.mostrar_score(message)
