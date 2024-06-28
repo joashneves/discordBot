@@ -14,7 +14,7 @@ class messagensBotRespostas():
             await mensagem.channel.send("JO!")
         if "s3nha" in mensagem.content:
             await mensagem.add_reaction('❤')
-        if mensagem.content.startswith("skalart"):
+        if mensagem.content.startswith("$skalart"):
             prompt = mensagem.content.split('skalart', 1)[1].strip()
             print(f"prompt: {prompt}")
             stream = ollama.chat(

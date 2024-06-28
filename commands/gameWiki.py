@@ -130,15 +130,27 @@ class GameWiki:
             embeds.append(embed)
         return embeds
 
-    async def esperar_resposta_do_jogador(self, autor_jogador, canal_jogo, jogadorID, nome_personagem, imagem_personagem):
+    async def esperar_resposta_do_jogador(self, autor_jogador, canal_jogo, jogadorID, nome_personagem,
+                                          imagem_personagem):
         try:
-            resposta = await self.client.wait_for('message', check=lambda m: self.check_resposta_jogador(m, autor_jogador), timeout=12)
+            resposta = await self.client.wait_for('message',
+                                                  check=lambda m: self.check_resposta_jogador(m, autor_jogador),
+                                                  timeout=12)
         except asyncio.TimeoutError:
             await canal_jogo.send('Tempo esgotado! O jogo acabou.')
+            self.jogo_de_adivinhar = False
         else:
             if resposta.content.lower().startswith(nome_personagem.lower()):
                 if jogadorID not in self.dados_personagem:
                     self.dados_personagem[jogadorID] = []
+
+                # Verifica se o personagem já pertence ao jogador ou a outro jogador
+                for jogador, personagens in self.dados_personagem.items():
+                    for personagem in personagens:
+                        if personagem['nome'].lower() == nome_personagem.lower():
+                            await canal_jogo.send(f"O personagem {nome_personagem} já pertence a <@{jogador}>.")
+                            self.jogo_de_adivinhar = False
+                            return
 
                 self.dados_personagem[jogadorID].append({
                     'nome': nome_personagem,
@@ -150,13 +162,17 @@ class GameWiki:
                 save_data(GAME_FILE, self.dados_personagem)
 
                 await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é sua")
+                self.jogo_de_adivinhar = False
             else:
                 self.tentativas_restantes[jogadorID] -= 1
-                await canal_jogo.send(f"Você ERROU! Você tem {self.tentativas_restantes[jogadorID]} tentativas restantes.")
+                await canal_jogo.send(
+                    f"Você ERROU! Você tem {self.tentativas_restantes[jogadorID]} tentativas restantes.")
                 if self.tentativas_restantes[jogadorID] > 0:
-                    await self.esperar_resposta_do_jogador(autor_jogador, canal_jogo, jogadorID, nome_personagem, imagem_personagem)
+                    await self.esperar_resposta_do_jogador(autor_jogador, canal_jogo, jogadorID, nome_personagem,
+                                                           imagem_personagem)
                 else:
                     await canal_jogo.send('Você não tem mais tentativas restantes! O jogo acabou.')
+                    self.jogo_de_adivinhar = False
 
     def check_resposta_jogador(self, message, autor_jogador):
         return message.author == autor_jogador

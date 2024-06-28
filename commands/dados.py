@@ -17,7 +17,7 @@ class Dados():
 
         conteudo = mensagem.content.lower()
 
-        if conteudo.startswith('r'):
+        if conteudo.startswith('$r'):
             # Dividir a mensagem nos espaços para obter os parâmetros
             parametros = conteudo.split()
 
