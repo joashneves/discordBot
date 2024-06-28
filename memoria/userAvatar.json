@@ -131,5 +131,38 @@
                 "data_regeneracao": "28/06/2024"
             }
         ]
+    },
+    "343346305705181187": {
+        "nome": "beako_bia",
+        "id": 343346305705181187,
+        "apelido": "Principe",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/343346305705181187/b3960e75fb17067abfde14f0d3b83146.png?size=1024",
+                "data_regeneracao": "28/06/2024"
+            }
+        ]
+    },
+    "226523280029253642": {
+        "nome": "maruisalone",
+        "id": 226523280029253642,
+        "apelido": "Tutorial de Spray",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/226523280029253642/c222fa9f844d3266a340de6da6ee6d58.png?size=1024",
+                "data_regeneracao": "28/06/2024"
+            }
+        ]
+    },
+    "587369262277197837": {
+        "nome": "carlosblack27",
+        "id": 587369262277197837,
+        "apelido": "Tangerina",
+        "avatares": [
+            {
+                "url": "https://cdn.discordapp.com/avatars/587369262277197837/1550314a4606044788921adf1e79c259.png?size=1024",
+                "data_regeneracao": "28/06/2024"
+            }
+        ]
     }
 }
