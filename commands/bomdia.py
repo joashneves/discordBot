@@ -17,36 +17,31 @@ def save_data(file, data):
     with open(file, 'w') as f:
         json.dump(data, f, indent=4)
 
-class BomDia():
-    global lista_de_ids
-    try:
-        caminho_bom_dia = os.path.join('memoria', 'dados_usuarios_bom_dia.json')
-        with open(caminho_bom_dia, 'r') as file:
-            try:
-                lista_de_ids = json.load(file)
-            except json.JSONDecodeError:
-                lista_de_ids = {}  # Cria um dicionário vazio se o JSON não for válido
-    except Exception as ex:
-        sys.stderr.write(f'não foi possivel carregar dados: {ex}')
-
+class BomDia:
     def __init__(self, client):
         self.client = client
+        self.lista_de_ids = load_data(USUARIOS_BOM_DIA_FILE)
 
     async def processar_mensagem(self, mensagem):
         if mensagem.author == self.client.user:
             return
-        if mensagem.content.lower().startswith('bom dia'):  # Se a pessoa escrever bom dia
-            # Pega o ID do usuario
-            usuarioId = str(mensagem.author.id)
-            if usuarioId not in lista_de_ids:
-                lista_de_ids[usuarioId] = User(user_id=usuarioId, bomDia=0, boaNoite=0, mensagens=0, comandos=0, capturados=0, xp=0, level=0)
-                # Adicione o ID à lista
-                lista_de_ids[usuarioId].bomDia
-            else:
-                lista_de_ids[usuarioId].bomDia += 1
-            print(lista_de_ids[usuarioId].bomDia)
-            # Obter a data atual
+        if mensagem.content.lower().startswith('bom dia'):
             data_atual = str(datetime.date.today())
+            usuarioId = str(mensagem.author.id)
 
-            # se a id do usuario não estiver em Usuario ou tiver e tiver com
-            await mensagem.channel.send(f"Olá <@{usuarioId}>, você já deu {lista_de_ids[usuarioId].bomDia} bom dia(s).")
+            if usuarioId not in self.lista_de_ids:
+                self.lista_de_ids[usuarioId] = {'bomDia': 0, 'boaNoite': 0, 'horario': data_atual}
+
+            # Verificar se a data registrada é diferente da data atual
+            if self.lista_de_ids[usuarioId]['horario'] == data_atual:
+                self.lista_de_ids[usuarioId]['horario'] = data_atual  # Atualizar a data registrada
+                save_data(USUARIOS_BOM_DIA_FILE, self.lista_de_ids)
+                await mensagem.channel.send(f"Olá <@{usuarioId}>, você já deu bom dia.")
+
+            else:
+                self.lista_de_ids[usuarioId]['bomDia'] += 1
+                self.lista_de_ids[usuarioId]['horario'] = data_atual  # Atualizar a data registrada
+                save_data(USUARIOS_BOM_DIA_FILE, self.lista_de_ids)
+
+                await mensagem.channel.send(f"Olá <@{usuarioId}>, você já deu {self.lista_de_ids[usuarioId]['bomDia']} bom dia(s) hoje.")
+
