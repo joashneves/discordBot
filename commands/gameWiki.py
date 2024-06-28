@@ -24,10 +24,12 @@ def save_data(file, data):
         json.dump(data, f, indent=4)
 
 class ViewInfo(discord.ui.View):
-    def __init__(self, embeds):
+    def __init__(self, embeds, jogador_id, dados_personagem):
         super().__init__()
         self.embeds = embeds
         self.current = 0
+        self.jogador_id = jogador_id
+        self.dados_personagem = dados_personagem
 
     @discord.ui.button(label='<<<', style=discord.ButtonStyle.primary)
     async def previous_button(self, interaction: discord.Interaction, button: discord.ui.Button):
@@ -38,6 +40,27 @@ class ViewInfo(discord.ui.View):
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         self.current = (self.current + 1) % len(self.embeds)
         await interaction.response.edit_message(embed=self.embeds[self.current], view=self)
+
+    @discord.ui.button(label='libertar', style=discord.ButtonStyle.red, emoji='🔓')
+    async def delete_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        if interaction.user.id == self.jogador_id:
+            personagem_nome = self.embeds[self.current].title.split(': ')[1]
+            jogador_personagens = self.dados_personagem.get(str(self.jogador_id), [])
+            self.dados_personagem[str(self.jogador_id)] = [
+                personagem for personagem in jogador_personagens if personagem['nome'] != personagem_nome
+            ]
+            save_data(GAME_FILE, self.dados_personagem)
+
+            del self.embeds[self.current]
+            if self.current >= len(self.embeds):
+                self.current = max(0, len(self.embeds) - 1)
+            if self.embeds:
+                await interaction.response.edit_message(embed=self.embeds[self.current], view=self)
+            else:
+                await interaction.response.edit_message(content="Nenhum personagem restante.", view=None)
+        else:
+            await interaction.response.send_message("Você não tem permissão para liberar este personagem.", ephemeral=True)
+
 
 class GameWiki:
     def __init__(self, client):
@@ -56,7 +79,7 @@ class GameWiki:
             if self.jogo_de_adivinhar == False:
                 await self.iniciar_jogo(message)
             else:
-                await message.channel.send("um jogo ja esta em andamento")
+                await message.channel.send("Um jogo já está em andamento.")
 
         if message.content.startswith(prefix + 'score'):
             await self.mostrar_score(message)
@@ -75,7 +98,7 @@ class GameWiki:
             self.ultima_tentativa[jogadorID] = agora
 
         if self.tentativas_restantes[jogadorID] <= 0:
-            await message.channel.send(f"<@{message.author.id}>, você não tem mais tentativas restantes. Aguarde até as tentativas serem resetadas.")
+            await message.channel.send(f"<@{message.author.id}>, você não tem mais tentativas restantes. faltam {self.ultima_tentativa[jogadorID]} mintuos.")
             return
 
         self.jogo_de_adivinhar = True
@@ -96,25 +119,19 @@ class GameWiki:
         await self.esperar_resposta_do_jogador(message.author, message.channel, jogadorID, nome_personagem, imagem_personagem)
 
     async def mostrar_score(self, message):
+        jogadorID = str(message.author.id)
         if message.mentions:
             user = message.mentions[0]
-            jogadorM = str(user.id)
-            if jogadorM not in self.dados_personagem:
-                await message.channel.send(f"<@{user.id}> ainda não possui perfil!")
-            else:
-                score = self.dados_personagem[jogadorM]
-                embeds = self.criar_embeds_score(user, score)
-                view = ViewInfo(embeds)
-                await message.channel.send(embed=embeds[0], view=view)
-        else:
-            jogadorID = str(message.author.id)
-            if jogadorID not in self.dados_personagem:
-                await message.channel.send("Você ainda não possui perfil!")
-            else:
-                score = self.dados_personagem[jogadorID]
-                embeds = self.criar_embeds_score(message.author, score)
-                view = ViewInfo(embeds)
-                await message.channel.send(embed=embeds[0], view=view)
+            jogadorID = str(user.id)
+
+        if jogadorID not in self.dados_personagem:
+            await message.channel.send(f"<@{message.author.id}> ainda não possui perfil!")
+            return
+
+        score = self.dados_personagem[jogadorID]
+        embeds = self.criar_embeds_score(message.author, score)
+        view = ViewInfo(embeds, message.author.id,  self.dados_personagem)
+        await message.channel.send(embed=embeds[0], view=view)
 
     def criar_embeds_score(self, user, score):
         embeds = []
