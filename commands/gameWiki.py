@@ -194,7 +194,7 @@ class GameWiki:
         try:
             resposta = await self.client.wait_for('message',
                                                   check=lambda m: self.check_resposta_jogador(m, autor_jogador),
-                                                  timeout=12)
+                                                  timeout=10)
         except asyncio.TimeoutError:
             await canal_jogo.send('Tempo esgotado! O jogo acabou.')
             self.jogo_de_adivinhar = False
@@ -207,7 +207,7 @@ class GameWiki:
                 for jogador, personagens in self.dados_personagem.items():
                     for personagem in personagens:
                         if personagem['nome'].lower() == nome_personagem.lower():
-                            await canal_jogo.send(f"O personagem {nome_personagem} já pertence a <@{jogador}>.")
+                            await canal_jogo.send(f"O(a) personagem {nome_personagem} já pertence a <@{jogador}>.")
                             self.jogo_de_adivinhar = False
                             return
 
@@ -220,7 +220,7 @@ class GameWiki:
                 })
                 save_data(GAME_FILE, self.dados_personagem)
 
-                await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é sua")
+                await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é seu")
                 self.jogo_de_adivinhar = False
             else:
                 self.tentativas_restantes[jogadorID] -= 1

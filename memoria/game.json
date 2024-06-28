@@ -1,6 +1,6 @@
 [
     {
-        "nome": "skarlet",
+        "nome": "Skalart",
         "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1253677702251155517/imageIconBot.png?ex=6676b9d8&is=66756858&hm=8ac576f7347237307891816caff734e2c84e7b90068548f12ad632382cdb1253&"
     },
     {
@@ -78,5 +78,45 @@
     {
         "nome": "meliodas",
         "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256309516023369799/legiao_BVwo_J4tIxZs.png?ex=66804ce9&is=667efb69&hm=d843679f54f9d12734512347ef889a0e69249d616c6580b2c3d1d3b528ead9f6&"
+    },
+    {
+        "nome": "creeper",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256315036847046656/OIP.png?ex=6680520d&is=667f008d&hm=34a303ef45dc118370f16da37731e7b4faaba1db65f9911e2781d00281edb320&"
+    },
+    {
+        "nome": "elon musk",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256315279915618456/Elon-Musk-2.png?ex=66805247&is=667f00c7&hm=17c549a21dec2873a0c53fd7ddf21270c07ac2f0f931695fed17a5dafabbf983&"
+    },
+    {
+        "nome": "mestre",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256315455438716938/p00vfgjq.png?ex=66805271&is=667f00f1&hm=65583f7250f74a6a88c68c3f1a072868b0067cb5b0c286b6566912eeb4f6e341&"
+    },
+    {
+        "nome": "aang",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256315752068153354/8CB8C222DC71B96311DAD6B17716DE9277EC80B1.png?ex=668052b8&is=667f0138&hm=b6568f2009862d46080b440b83df5c04ea0705c2f5b3f17ed51130bc92b5ff64&"
+    },
+    {
+        "nome": "korra",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256315827033210953/19toFVC716YZmo-J3HXotKw.png?ex=668052ca&is=667f014a&hm=d72569ca1e6436caa517f6e76ae3c0867ab83e262d8d0f1d6a4b4b204456abd1&"
+    },
+    {
+        "nome": "steve",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256316549526978701/Minecraft-Steve-is-finally-sporting-his-iconic-beard-once-again-main.png?ex=66805376&is=667f01f6&hm=fac46edb2379dbc7c58be67a153811cf7bbfc9bee34bd20c3d0c34c1eba99241&"
+    },
+    {
+        "nome": "alex",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256316726404972574/images.png?ex=668053a0&is=667f0220&hm=5004faecde263f41919fcb347bfb9180ee3e5ac1598ce32b9c153af4b14df0ec&"
+    },
+    {
+        "nome": "xbox-chan",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256316893346660382/360.png?ex=668053c8&is=667f0248&hm=a344e7bdb99a9188d67dfa79694fcd17e7d7e734eac2e7c977658ebe38e98316&"
+    },
+    {
+        "nome": "PlayStation-chan",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256317152869355711/360.png?ex=66805406&is=667f0286&hm=88fad4c26b2edacc6cb4b27472d61699ae4ddbcc75d180d2dc4338d6e70e4887&"
+    },
+    {
+        "nome": "nanachi",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256322733709721620/nanachi-made-in-abyss.gif?ex=66805939&is=667f07b9&hm=705da67ea3efca1519fc6b16761c38ea3d2c3910bec19b6875e56be693375a27&"
     }
 ]
