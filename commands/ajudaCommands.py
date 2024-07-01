@@ -18,6 +18,7 @@ info_jogo = discord.Embed(title='Jogo',
                            description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 10 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
 info_jogo.add_field(name='Comando: $jogar', value='apos usar o comando $jogar, escreva o nome correto do personagem que aparece', inline=False)
 info_jogo.add_field(name='Comando: $score', value='Mostra todos os personagens que voce encontrou e possibilita a muda as informações do mesmos.', inline=False)
+info_jogo.add_field(name='Comando: $doar @user', value='Selecione o @ da pessoa que voce queria doar o personagem, e escolha o personagem.', inline=False)
 info_jogo.set_image(url='https://cdn.discordapp.com/attachments/1255938137499107490/1256294540579704832/image.png?ex=66803ef7&is=667eed77&hm=059a36febce9cd6055290de5b6da708d2fbf9b934f0dda5314e9896116afc192&')
 info_jogo.set_footer(text='Imagem de Exemplo')
 
