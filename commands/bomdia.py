@@ -43,5 +43,5 @@ class BomDia:
                 self.lista_de_ids[usuarioId]['horario'] = data_atual  # Atualizar a data registrada
                 save_data(USUARIOS_BOM_DIA_FILE, self.lista_de_ids)
 
-                await mensagem.channel.send(f"Olá <@{usuarioId}>, você já deu {self.lista_de_ids[usuarioId]['bomDia']} bom dia(s) hoje.")
+                await mensagem.channel.send(f"Olá <@{usuarioId}>, você já deu {self.lista_de_ids[usuarioId]['bomDia']} bom dia(s) ate hoje.")
 

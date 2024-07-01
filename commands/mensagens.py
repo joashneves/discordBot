@@ -15,17 +15,20 @@ class messagensBotRespostas():
         if "s3nha" in mensagem.content:
             await mensagem.add_reaction('❤')
         if mensagem.content.startswith("$skalart"):
-            prompt = mensagem.content.split('skalart', 1)[1].strip()
-            print(f"prompt: {prompt}")
-            stream = ollama.chat(
-                model='phi3',
-                messages=[{'role': 'user', 'content': f'Responda em portugues a mensagem: {prompt}'}],
-                stream=True,
-            )
-            mensagem_bot = ""
-            for chunk in stream:
-                mensagem_bot += chunk['message']['content']
-            await mensagem.channel.send(mensagem_bot)
+            try:
+                prompt = mensagem.content.split('skalart', 1)[1].strip()
+                print(f"prompt: {prompt}")
+                stream = ollama.chat(
+                    model='phi3',
+                    messages=[{'role': 'user', 'content': f'Responda em portugues a mensagem: {prompt}'}],
+                    stream=True,
+                )
+                mensagem_bot = ""
+                for chunk in stream:
+                    mensagem_bot += chunk['message']['content']
+                await mensagem.channel.send(mensagem_bot)
+            except:
+                await mensagem.channel.send("não foi possivel acessar essa função")
 
 ## Verifica se é uma imagem e reage
         if mensagem.channel.id == response_channel:
