@@ -1,6 +1,4 @@
 import discord
-from discord import Interaction
-from discord._types import ClientT
 from discord.ext import commands
 import datetime
 import json
@@ -12,8 +10,10 @@ prefix = '$'
 data = datetime.date
 DATA_FILE = os.path.join('memoria', 'game.json')
 GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
+JOGOS_MAXIMOS = 10
+INTERVALO_RESET_JOGOS = 20 * 60  # 20 minutos em segundos
 TENTATIVAS_MAXIMAS = 5
-INTERVALO_RESET_TENTATIVAS = 10 * 60  # 10 minutos em segundos
+
 
 def load_data(file):
     if os.path.exists(file):
@@ -21,9 +21,12 @@ def load_data(file):
             return json.load(f)
     return {}
 
+
 def save_data(file, data):
     with open(file, 'w') as f:
         json.dump(data, f, indent=4)
+
+
 class ModelInfo(discord.ui.Modal):
     def __init__(self, personagem, dados_personagem, jogador_id):
         super().__init__(title='Editar informações do personagem')
@@ -84,7 +87,8 @@ class ViewInfo(discord.ui.View):
             else:
                 await interaction.response.edit_message(content="Nenhum personagem restante.", view=None)
         else:
-            await interaction.response.send_message("Você não tem permissão para liberar este personagem.", ephemeral=True)
+            await interaction.response.send_message("Você não tem permissão para liberar este personagem.",
+                                                    ephemeral=True)
 
     @discord.ui.button(label='Editar', style=discord.ButtonStyle.green, emoji='✏️')
     async def edit_button(self, interaction: discord.Interaction, button: discord.ui.Button):
@@ -96,9 +100,42 @@ class ViewInfo(discord.ui.View):
                 modal = ModelInfo(personagem, self.dados_personagem, self.jogador_id)
                 await interaction.response.send_modal(modal)
         else:
-            await interaction.response.send_message("Você não tem permissão para editar este personagem.", ephemeral=True)
+            await interaction.response.send_message("Você não tem permissão para editar este personagem.",
+                                                    ephemeral=True)
 
+class DoacaoView(discord.ui.View):
+    def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance):
+        super().__init__()
+        self.jogador_doador = jogador_doador
+        self.jogador_destinatario = jogador_destinatario
+        self.add_item(PersonagemSelect(personagens, jogador_doador, jogador_destinatario, game_instance))
 
+class PersonagemSelect(discord.ui.Select):
+    def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance):
+        self.jogador_doador = jogador_doador
+        self.jogador_destinatario = jogador_destinatario
+        self.game_instance = game_instance  # Passar a instância de GameWiki
+
+        options = [
+            discord.SelectOption(
+                label=personagem['nome'],
+                description=(personagem['descricao'][:97] + '...') if len(personagem['descricao']) > 100 else personagem['descricao']
+            ) for personagem in personagens
+        ]
+        super().__init__(placeholder="Escolha um personagem para doar", min_values=1, max_values=1, options=options)
+
+    async def callback(self, interaction: discord.Interaction):
+        personagem_selecionado = self.values[0]
+        # Remover o personagem do jogador doador
+        doador_personagens = self.game_instance.dados_personagem[str(self.jogador_doador)]
+        personagem = next(p for p in doador_personagens if p['nome'] == personagem_selecionado)
+        doador_personagens.remove(personagem)
+        # Adicionar o personagem ao jogador destinatário
+        if str(self.jogador_destinatario) not in self.game_instance.dados_personagem:
+            self.game_instance.dados_personagem[str(self.jogador_destinatario)] = []
+        self.game_instance.dados_personagem[str(self.jogador_destinatario)].append(personagem)
+        save_data(GAME_FILE, self.game_instance.dados_personagem)
+        await interaction.response.send_message(f"{personagem_selecionado} foi doado com sucesso!", ephemeral=True)
 
 class GameWiki:
     def __init__(self, client):
@@ -108,13 +145,15 @@ class GameWiki:
         self.dados_personagem = load_data(GAME_FILE)
         self.tentativas_restantes = {}  # Armazena o número de tentativas restantes para cada jogador
         self.ultima_tentativa = {}  # Armazena o timestamp da última tentativa para cada jogador
+        self.jogos_restantes = {}  # Armazena o número de jogos restantes para cada jogador
+        self.ultimo_jogo = {}  # Armazena o timestamp do último jogo para cada jogador
 
     async def processar_mensagem(self, message):
         if message.author == self.client.user:
             return
 
         if message.content.startswith(prefix + 'jogar'):
-            if self.jogo_de_adivinhar == False:
+            if not self.jogo_de_adivinhar:
                 await self.iniciar_jogo(message)
             else:
                 await message.channel.send("Um jogo já está em andamento.")
@@ -122,23 +161,43 @@ class GameWiki:
         if message.content.startswith(prefix + 'score'):
             await self.mostrar_score(message)
 
+        if message.content.startswith(prefix + 'doar'):
+            await self.doar_personagem(message)
+
     async def iniciar_jogo(self, message):
         jogadorID = str(message.author.id)
         agora = datetime.datetime.now().timestamp()
+
+        if jogadorID not in self.jogos_restantes:
+            self.jogos_restantes[jogadorID] = JOGOS_MAXIMOS
+            self.ultimo_jogo[jogadorID] = agora
+
+        # Resetar jogos se passaram 20 minutos desde o último jogo
+        if agora - self.ultimo_jogo[jogadorID] >= INTERVALO_RESET_JOGOS:
+            self.jogos_restantes[jogadorID] = JOGOS_MAXIMOS
+            self.ultimo_jogo[jogadorID] = agora
+
+        if self.jogos_restantes[jogadorID] <= 0:
+            tempo_restante = INTERVALO_RESET_JOGOS - (agora - self.ultimo_jogo[jogadorID])
+            minutos_restantes = round(tempo_restante / 60)
+            await message.channel.send(
+                f"<@{message.author.id}>, você atingiu o limite de 10 jogos. Faltam {minutos_restantes} minutos para você poder jogar novamente.")
+            return
 
         if jogadorID not in self.tentativas_restantes:
             self.tentativas_restantes[jogadorID] = TENTATIVAS_MAXIMAS
             self.ultima_tentativa[jogadorID] = agora
 
         # Resetar tentativas se passaram 10 minutos desde a última tentativa
-        if agora - self.ultima_tentativa[jogadorID] >= INTERVALO_RESET_TENTATIVAS:
+        if agora - self.ultima_tentativa[jogadorID] >= INTERVALO_RESET_JOGOS:
             self.tentativas_restantes[jogadorID] = TENTATIVAS_MAXIMAS
             self.ultima_tentativa[jogadorID] = agora
 
         if self.tentativas_restantes[jogadorID] <= 0:
-            tempo_restante = INTERVALO_RESET_TENTATIVAS - (agora - self.ultima_tentativa[jogadorID])
+            tempo_restante = INTERVALO_RESET_JOGOS - (agora - self.ultima_tentativa[jogadorID])
             minutos_restantes = round(tempo_restante / 60)
-            await message.channel.send(f"<@{message.author.id}>, você não tem mais tentativas restantes. Faltam {minutos_restantes} minutos.")
+            await message.channel.send(
+                f"<@{message.author.id}>, você não tem mais tentativas restantes. Faltam {minutos_restantes} minutos.")
             return
 
         self.jogo_de_adivinhar = True
@@ -156,7 +215,8 @@ class GameWiki:
         self.chute = nome_personagem
 
         await message.channel.send(imagem_personagem)
-        await self.esperar_resposta_do_jogador(message.author, message.channel, jogadorID, nome_personagem, imagem_personagem)
+        await self.esperar_resposta_do_jogador(message.author, message.channel, jogadorID, nome_personagem,
+                                               imagem_personagem)
 
     async def mostrar_score(self, message):
         jogadorID = str(message.author.id)
@@ -172,7 +232,7 @@ class GameWiki:
 
         score = self.dados_personagem[jogadorID]
         embeds = self.criar_embeds_score(user_mencionado, score)
-        view = ViewInfo(embeds, message.author.id,  self.dados_personagem)
+        view = ViewInfo(embeds, message.author.id, self.dados_personagem)
         await message.channel.send(embed=embeds[0], view=view)
 
     def criar_embeds_score(self, user, score):
@@ -235,3 +295,19 @@ class GameWiki:
 
     def check_resposta_jogador(self, message, autor_jogador):
         return message.author == autor_jogador
+
+    async def doar_personagem(self, message):
+        if len(message.mentions) != 1:
+            await message.channel.send("Você deve mencionar um usuário para doar um personagem.")
+            return
+
+        jogador_doador = message.author.id
+        jogador_destinatario = message.mentions[0].id
+
+        if str(jogador_doador) not in self.dados_personagem or not self.dados_personagem[str(jogador_doador)]:
+            await message.channel.send(f"<@{message.author.id}> você não possui personagens para doar.")
+            return
+
+        personagens = self.dados_personagem[str(jogador_doador)]
+        view = DoacaoView(personagens, jogador_doador, jogador_destinatario, self)  # Passar a instância de GameWiki
+        await message.channel.send(f"<@{message.author.id}>, escolha um personagem para doar:", view=view)
