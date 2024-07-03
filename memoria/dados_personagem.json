@@ -76,6 +76,13 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256308123476430980/R.png?ex=66804b9d&is=667efa1d&hm=2d48b68b0117a8aa61d5c41247e90c15d019856333b6ca8757f247147ceef91d&"
+        },
+        {
+            "nome": "steve",
+            "data": "02/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1257128550075727933/Minecraft-Steve-is-finally-sporting-his-iconic-beard-once-again-main.png?ex=668347b2&is=6681f632&hm=45079a9b04f0807b499c6a76f59b97e1191025bb4aab277ce3a8e7cf312049b0&"
         }
     ],
     "670678422359375896": [
@@ -103,6 +110,15 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256308240988377229/raze-valorant-3t-1440x2960.png?ex=66804bb9&is=667efa39&hm=49d96d8c34b2dbdb2ae82ed50cfc5e54300aedca42c3886f26ee133bb9e317ad&"
+        }
+    ],
+    "701853733880856709": [
+        {
+            "nome": "alex",
+            "data": "01/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1257128443322040400/images.png?ex=66834799&is=6681f619&hm=c60272dfe75924ad242a8a78cb4abc912da07175ead7f13f832712434d0694c4&"
         }
     ]
 }
