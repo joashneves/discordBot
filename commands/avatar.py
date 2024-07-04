@@ -15,7 +15,6 @@ AVATAR_DIR = os.path.join('memoria', 'avatars')
 if not os.path.exists(AVATAR_DIR):
     os.makedirs(AVATAR_DIR)
 
-
 def load_data():
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r') as f:
@@ -26,17 +25,14 @@ def load_data():
                 return {}  # Return an empty dictionary if JSON is empty or invalid
     return {}
 
-
 def save_data(data):
     with open(DATA_FILE, 'w') as f:
         json.dump(data, f, indent=4)
         print("Json de Avatar Salvo...")
 
-
 def generate_avatar_filename(user_id, avatar_url):
     avatar_hash = hashlib.md5(avatar_url.encode('utf-8')).hexdigest()
     return f"{user_id}_{avatar_hash}.png"
-
 
 async def save_avatar_locally(url, user_id):
     avatar_filename = generate_avatar_filename(user_id, url)
@@ -54,23 +50,24 @@ async def save_avatar_locally(url, user_id):
             else:
                 raise Exception(f"Failed to download image: status {response.status}")
 
-
 class ViewInfo(discord.ui.View):
-    def __init__(self, embeds):
+    def __init__(self, embeds, files):
         super().__init__()
         self.embeds = embeds
+        self.files = files
         self.current = 0
 
     @discord.ui.button(label='<<<', style=discord.ButtonStyle.primary)
     async def previous_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         self.current = (self.current - 1) % len(self.embeds)
-        await interaction.response.edit_message(embed=self.embeds[self.current], view=self)
+        file = discord.File(self.files[self.current], filename=os.path.basename(self.files[self.current]))
+        await interaction.response.edit_message(embed=self.embeds[self.current], view=self, attachments=[file])
 
     @discord.ui.button(label='>>>', style=discord.ButtonStyle.primary)
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         self.current = (self.current + 1) % len(self.embeds)
-        await interaction.response.edit_message(embed=self.embeds[self.current], view=self)
-
+        file = discord.File(self.files[self.current], filename=os.path.basename(self.files[self.current]))
+        await interaction.response.edit_message(embed=self.embeds[self.current], view=self, attachments=[file])
 
 class AvatarComandos:
 
@@ -125,8 +122,9 @@ class AvatarComandos:
             # Get the regeneration count for the user
             regeneracao_count = len(all_data[user_id]['avatares'])
 
-            # Create embeds for each avatar
+            # Create embeds and files for each avatar
             embeds = []
+            files = []
             for i, avatar in enumerate(reversed(all_data[user_id]['avatares'])):
                 embed = discord.Embed(
                     title=f'Nome: {user.name}',
@@ -138,8 +136,9 @@ class AvatarComandos:
                 embed.add_field(name='Data de regeneração', value=avatar['data_regeneracao'], inline=False)
                 embed.set_footer(text=f'{regeneracao_count - i}ª regeneração')
                 embeds.append(embed)
+                files.append(avatar['url'])
 
             # Send the first embed with navigation buttons
-            view = ViewInfo(embeds)
-            files = [discord.File(avatar['url']) for avatar in all_data[user_id]['avatares']]
-            await mensagem.channel.send(embed=embeds[0], view=view, files=files)
+            view = ViewInfo(embeds, files)
+            first_file = discord.File(files[0], filename=os.path.basename(files[0]))
+            await mensagem.channel.send(embed=embeds[0], view=view, file=first_file)
