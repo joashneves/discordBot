@@ -103,40 +103,75 @@ class ViewInfo(discord.ui.View):
             await interaction.response.send_message("Você não tem permissão para editar este personagem.",
                                                     ephemeral=True)
 
-class DoacaoView(discord.ui.View):
-    def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance):
-        super().__init__()
-        self.jogador_doador = jogador_doador
-        self.jogador_destinatario = jogador_destinatario
-        self.add_item(PersonagemSelect(personagens, jogador_doador, jogador_destinatario, game_instance))
 
 class PersonagemSelect(discord.ui.Select):
-    def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance):
+    def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance, page):
         self.jogador_doador = jogador_doador
         self.jogador_destinatario = jogador_destinatario
-        self.game_instance = game_instance  # Passar a instância de GameWiki
+        self.game_instance = game_instance
+        self.page = page
+        self.total_pages = (len(personagens) - 1) // 25 + 1
+
+        start_index = page * 25
+        end_index = start_index + 25
+        self.current_personagens = personagens[start_index:end_index]
 
         options = [
             discord.SelectOption(
                 label=personagem['nome'],
                 description=(personagem['descricao'][:97] + '...') if len(personagem['descricao']) > 100 else personagem['descricao']
-            ) for personagem in personagens
+            ) for personagem in self.current_personagens
         ]
-        super().__init__(placeholder="Escolha um personagem para doar", min_values=1, max_values=1, options=options)
+
+        super().__init__(placeholder=f"Escolha um personagem para doar (Página {page + 1}/{self.total_pages})", min_values=1, max_values=1, options=options)
 
     async def callback(self, interaction: discord.Interaction):
-        personagem_selecionado = self.values[0]
-        # Remover o personagem do jogador doador
-        doador_personagens = self.game_instance.dados_personagem[str(self.jogador_doador)]
-        personagem = next(p for p in doador_personagens if p['nome'] == personagem_selecionado)
-        doador_personagens.remove(personagem)
-        # Adicionar o personagem ao jogador destinatário
-        if str(self.jogador_destinatario) not in self.game_instance.dados_personagem:
-            self.game_instance.dados_personagem[str(self.jogador_destinatario)] = []
-        self.game_instance.dados_personagem[str(self.jogador_destinatario)].append(personagem)
-        save_data(GAME_FILE, self.game_instance.dados_personagem)
-        await interaction.response.send_message(f"{personagem_selecionado} foi doado com sucesso!", ephemeral=True)
+        if interaction.user.id == self.jogador_doador:
+            personagem_selecionado = self.values[0]
+            # Remover o personagem do jogador doador
+            doador_personagens = self.game_instance.dados_personagem[str(self.jogador_doador)]
+            personagem = next(p for p in doador_personagens if p['nome'] == personagem_selecionado)
+            doador_personagens.remove(personagem)
+            # Adicionar o personagem ao jogador destinatário
+            if str(self.jogador_destinatario) not in self.game_instance.dados_personagem:
+                self.game_instance.dados_personagem[str(self.jogador_destinatario)] = []
+            self.game_instance.dados_personagem[str(self.jogador_destinatario)].append(personagem)
+            save_data(GAME_FILE, self.game_instance.dados_personagem)
+            await interaction.response.send_message(f"{personagem_selecionado} foi doado com sucesso!", ephemeral=False)
+        else:
+            await interaction.response.send_message("Você não tem permissão para trocar este personagem.", ephemeral=False)
 
+
+class DoacaoView(discord.ui.View):
+    def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance):
+        super().__init__()
+        self.jogador_doador = jogador_doador
+        self.jogador_destinatario = jogador_destinatario
+        self.personagens = personagens
+        self.game_instance = game_instance
+        self.page = 0
+        self.update_select()
+
+    def update_select(self):
+        for item in self.children:
+            if isinstance(item, discord.ui.Select):
+                self.remove_item(item)
+        select = PersonagemSelect(self.personagens, self.jogador_doador, self.jogador_destinatario, self.game_instance, self.page)
+        self.add_item(select)
+
+    @discord.ui.button(label='<<<', style=discord.ButtonStyle.primary)
+    async def previous_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        if self.page > 0:
+            self.page -= 1
+            self.update_select()
+            await interaction.response.edit_message(view=self)
+
+    @discord.ui.button(label='>>>', style=discord.ButtonStyle.primary)
+    async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        if (self.page + 1) * 25 < len(self.personagens):
+            self.page += 1
+            self.update_select()
+            await interaction.response.edit_message(view=self)
 class GameWiki:
     def __init__(self, client):
         self.client = client
