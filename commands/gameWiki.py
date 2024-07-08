@@ -206,7 +206,10 @@ class GameWiki:
         if jogadorID not in self.jogos_restantes:
             self.jogos_restantes[jogadorID] = JOGOS_MAXIMOS
             self.ultimo_jogo[jogadorID] = agora
-
+            print(self.jogos_restantes[jogadorID])
+            print(self.ultimo_jogo[jogadorID] )
+        print(self.jogos_restantes)
+        self.jogos_restantes[jogadorID] -= 1;
         # Resetar jogos se passaram 20 minutos desde o último jogo
         if agora - self.ultimo_jogo[jogadorID] >= INTERVALO_RESET_JOGOS:
             self.jogos_restantes[jogadorID] = JOGOS_MAXIMOS
