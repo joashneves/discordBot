@@ -362,7 +362,6 @@ class GameWiki:
     def check_resposta_jogador(self, message, autor_jogador):
         return message.author == autor_jogador
 
-
     async def doar_personagem(self, message):
         if len(message.mentions) != 1:
             await message.channel.send("Você deve mencionar um usuário para doar um personagem.")
