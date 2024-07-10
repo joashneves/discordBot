@@ -804,7 +804,7 @@
         "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259567274868871270/3df239a575ea5221b7a382c5ac4c6adf.png?ex=668c26ef&is=668ad56f&hm=6665a6e828c50b801e1bb7c854bfab9212ef4c33c5f3b4757d8785e2169b16a0&"
     },
     {
-        "nome": "Holga Kilgore",
+        "nome": "Holga",
         "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259567771025412107/e0be6ebb0fd8dad936ddd3103b2c8004.png?ex=668c2766&is=668ad5e6&hm=013f8cd67296a5b726d3780707537967a28c1065a7e4a47a338acf2427428322&"
     },
     {
@@ -890,5 +890,957 @@
     {
         "nome": "Thor",
         "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259579078529515640/ea2b82137aa7a9a62fc5a77ebc18af2f.png?ex=668c31ee&is=668ae06e&hm=c18128c98352c03fc25c837167a5e666c0076926cadd2ec06f1858165c851f2b&"
+    },
+    {
+        "nome": "Zagreus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260255949206061066/350.png?ex=668ea850&is=668d56d0&hm=f50a03ca6569473ebe18f12071b2861d160af46fba6835463c66bf4e62838516&"
+    },
+    {
+        "nome": "melinoe",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256094773710888/latest.png?ex=668ea873&is=668d56f3&hm=e1d8d7afe15879f3cfe41f8177b624cf80f216d05e9d971a69d2124c0b488d4f&"
+    },
+    {
+        "nome": "Hecate",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256200205926552/1000.png?ex=668ea88c&is=668d570c&hm=a782d237476c07c3bd8d6fe2c24c4e3666db017f333a7794746d8cfee8b460ff&"
+    },
+    {
+        "nome": "Selene",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256499666518069/1000.png?ex=668ea8d3&is=668d5753&hm=ba696c8a5a39d37632af385a6e1726606b9b5e693d43a9b15ef0f135e1284ccb&"
+    },
+    {
+        "nome": "Hera",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256621934678107/latest.png?ex=668ea8f1&is=668d5771&hm=36f4182351d67e1ed3a41e95abbd616bcb878cb9740148ab22bf987a366cd314&"
+    },
+    {
+        "nome": "Charon",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256776671203328/latest.png?ex=668ea915&is=668d5795&hm=e7e327b1ebf368bacb788131bccdb4c03994c2313ba8910c3d67b290e0361117&"
+    },
+    {
+        "nome": "Nemesis",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256846409764905/1000.png?ex=668ea926&is=668d57a6&hm=0e15a0973d9148240522881d0b63047113a793dd657a805ed246af6955fa5e6f&"
+    },
+    {
+        "nome": "Zeus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256919268888797/1000.png?ex=668ea937&is=668d57b7&hm=7bdc3250c3a84cf09909f2b61fee49fda5a96e2269e50097fdc1e2e954c3d36b&"
+    },
+    {
+        "nome": "Poseidon",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256958448009247/1000.png?ex=668ea941&is=668d57c1&hm=e8337a460138493fda23cb8581bd9fa8b349a1af730390ae965f2dd644a99ce3&"
+    },
+    {
+        "nome": "Aphrodite",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257074068328558/latest.png?ex=668ea95c&is=668d57dc&hm=d8870df0c9e8e653c01e0e7ebdcbc2063c480ed58daf441a1cbf97e2a2917e4f&"
+    },
+    {
+        "nome": "Apollo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257128317325394/1000.png?ex=668ea969&is=668d57e9&hm=0c2607873b6279d4068f32a9f8bc2c8d0c7db548d6ad49bc8c7a8520a6d8d1e7&"
+    },
+    {
+        "nome": "Hephaestus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257212664643686/1000.png?ex=668ea97d&is=668d57fd&hm=606eed61185fbeb1a8259224a1aae6675ad9fb5f4e7cfbfc94a3540d839670d4&"
+    },
+    {
+        "nome": "Hestia",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257286476267571/latest.png?ex=668ea98f&is=668d580f&hm=aeee16ff32014770896e909595fae9f353499243a4fa180e1426ba0a15a4ff25&"
+    },
+    {
+        "nome": "Hermes",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257409314852874/1000.png?ex=668ea9ac&is=668d582c&hm=92418cd0e5add18f59e8e26fbf779d62965775035f4b5b0f4d4f2475817ed2d8&"
+    },
+    {
+        "nome": "Artemis",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257463668838520/1000.png?ex=668ea9b9&is=668d5839&hm=870c27dcd00c2a4f4ba73c7382e5097182ed413d540320b9ed194cfc812f8c2c&"
+    },
+    {
+        "nome": "Chronos",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257548075012230/latest.png?ex=668ea9cd&is=668d584d&hm=107748f9de1a80e37cb82c56718d3c869f495c4251f2d79deff4242c9fc8292d&"
+    },
+    {
+        "nome": "Hades",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257631013175366/latest.png?ex=668ea9e1&is=668d5861&hm=080e6b727c27b7ee6c405697d913e61beb2435091f12f6f6138d728715564440&"
+    },
+    {
+        "nome": "Heracles",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257681495560345/1000.png?ex=668ea9ed&is=668d586d&hm=0bbd0abeaf5fa1c6279973ad80da7176f9b4b3b4e515af69d346703509ce25e9&"
+    },
+    {
+        "nome": "Cerberus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257782066708531/latest.png?ex=668eaa05&is=668d5885&hm=45c94aad42c00ea35d44fc47e4fd7e9ee7a4237ce86ebfe3610d69e1ef2b6a08&"
+    },
+    {
+        "nome": "Chaos",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257825939263569/1000.png?ex=668eaa10&is=668d5890&hm=26505d52c2a0fb433fcb032ef750616eee3fc51f6d10dd7e8ce7ce02351b9a0b&"
+    },
+    {
+        "nome": "Demeter",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257873917906984/latest.png?ex=668eaa1b&is=668d589b&hm=cdb057cac9807193553be5a3e4a24865b2af8843520adbd8dbaa82eebdc811f6&"
+    },
+    {
+        "nome": "Athena",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258135038496798/latest.png?ex=668eaa59&is=668d58d9&hm=9b3d84c759d0a7316868a9d417845002f6e0bba8fe719470a79e1b39ecdebf1f&"
+    },
+    {
+        "nome": "Ares",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258191669727282/1000.png?ex=668eaa67&is=668d58e7&hm=ce2fdbe75ab9f403f4867daffb883df85bef204a6af1edfdaba734863c7fde95&"
+    },
+    {
+        "nome": "Dionysus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258310880235642/1000.png?ex=668eaa83&is=668d5903&hm=85b3a2f909b89d9344327cbf23ba6eb61e3c508ae88fcf2e861f071461fe54ef&"
+    },
+    {
+        "nome": "P\u00e8rsephone",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258412072271892/latest.png?ex=668eaa9b&is=668d591b&hm=57f0ba70385f663db9179822542fd51d8442fe8408459bd604a4bff8c7cdafe8&"
+    },
+    {
+        "nome": "Nyx",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258865560289320/latest.png?ex=668eab08&is=668d5988&hm=b0102830bf294dfa21668e4ac4c8973e2a383d08edd544346cf1a613383d7839&"
+    },
+    {
+        "nome": "Megaera",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258923831623680/latest.png?ex=668eab15&is=668d5995&hm=889668eb54c546e99c09f15beaa5369d4d117d3676658b7cf86d1483d5978356&"
+    },
+    {
+        "nome": "Tisiphone",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258986696118284/1000.png?ex=668eab24&is=668d59a4&hm=cd9b1669c437a1f4df99c544608a6250b43cc73713da55228d2504be2eea371d&"
+    },
+    {
+        "nome": "Alecto",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259102278287460/1000.png?ex=668eab40&is=668d59c0&hm=6b998455c0a615c3cab6e4019d14bc30e46f43db413b377d1363301f33146e68&"
+    },
+    {
+        "nome": "Thanatos",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259193252876388/1000.png?ex=668eab56&is=668d59d6&hm=db595dcb6f5a0ebe663c11894dcc22b3b85eb7b0ce07c376fdf7997de11a943a&"
+    },
+    {
+        "nome": "Hypnos",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259257031327825/latest.png?ex=668eab65&is=668d59e5&hm=5a36c2dec44b33ea5fe679e24735157b89dfb1bf75a1c18024e2687218e062c7&"
+    },
+    {
+        "nome": "Achilles",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259774466097272/latest.png?ex=668eabe0&is=668d5a60&hm=8d31682af8ab6e38f6bad096988ca09f837061294eb0df8c9958bfa772bdeb01&"
+    },
+    {
+        "nome": "Patroclus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259827829964902/latest.png?ex=668eabed&is=668d5a6d&hm=88e910677bb5f2cb14a61c1ccdbdb2d79eeffcc1278511d2b8b8c1451824478c&"
+    },
+    {
+        "nome": "Theseus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259889633296454/latest.png?ex=668eabfc&is=668d5a7c&hm=5f515a8f0c2b4f988ee4be941bd5946a35b0dbd35fc0dadbf6a147a511019db9&"
+    },
+    {
+        "nome": "Asterius",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260259958566551563/1000.png?ex=668eac0c&is=668d5a8c&hm=d277d9a07e5deec5078e83a5eac342bf8689d2c04b836fc90f3b7944b48b4b82&"
+    },
+    {
+        "nome": "Orpheus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260260039294451804/latest.png?ex=668eac1f&is=668d5a9f&hm=44fd865a35cdcfb841232743490dab455eb6e934d9479941a003b15035822c73&"
+    },
+    {
+        "nome": "Eurydice",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260260276826275850/latest.png?ex=668eac58&is=668d5ad8&hm=21750381844e68a7e98efd47e87ba31eb2167023a3dc58f67083e454e6948449&"
+    },
+    {
+        "nome": "Sisyphus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260260363619012679/latest.png?ex=668eac6d&is=668d5aed&hm=bc1bab3e077c03d25ef897aeb4f14994547cbf0590ba84c95dd5ea303d745b5e&"
+    },
+    {
+        "nome": "Akinator",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260336881627959366/00fb3a6c9ee2f072cd0e388e93804964.jpg?ex=668ef3b0&is=668da230&hm=21510c268f061770cbb70ccf063d1354e487e880ac1fa8d8ef17a51c049648f2&"
+    },
+    {
+        "nome": "Wingman",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260337285380046901/246820aecb1ed4a2187109af84a680a7.jpg?ex=668ef410&is=668da290&hm=e49545cc6798fc781f68d919a2c7ef1df7274aed9501e8db84e2ff61922374f7&"
+    },
+    {
+        "nome": "Dizzy",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260337353390821387/c65634667afc51fa3c70b2fb42642894.jpg?ex=668ef420&is=668da2a0&hm=323292a45fda4971fd70de75d6f300a0362b54691404edc00c6e5ebe3774aac5&"
+    },
+    {
+        "nome": "Mosh",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260337609289367605/f5fc1b1b2d9e8ffff0bd9eaf6e0c11a6.jpg?ex=668ef45d&is=668da2dd&hm=a64c06a66a80915b76ff1d06db1c0db262ac17f7eb8c2b9ff09068ab9ba5f53b&"
+    },
+    {
+        "nome": "Reiner",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260339272733425734/65825102af53aa454bd466b0fad9393b.jpg?ex=668ef5ea&is=668da46a&hm=3ee279f7b1daba793d6ce32b94eb42c0410d5d63953f0170008a028c09872d76&"
+    },
+    {
+        "nome": "Bertholdt",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260340157425389670/4a30c16b00382e7969a9d239703a960c.jpg?ex=668ef6bd&is=668da53d&hm=d00140cb6f85fbffa2b17148b27f45e8f3106cf78cc773c23c360a02fbc93257&"
+    },
+    {
+        "nome": "Ymir",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260342001539219487/fc43682eee065b2e3db03d50b924e92f.jpg?ex=668ef875&is=668da6f5&hm=1f7c9932838aa51882c0b72644dfac7fdff2eb605d49fc4b4eb69d8b6b1974f6&"
+    },
+    {
+        "nome": "Krista",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260342507850432583/43661b16870d0cc175d373f4612db2e0.jpg?ex=668ef8ed&is=668da76d&hm=de7604221b3233b953bd1c33969e1b7887a633950b1c1cbf3c86501a38e0d10b&"
+    },
+    {
+        "nome": "Jean",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260343643051528332/cd471429389316ccc5fa4200b05741de.jpg?ex=668ef9fc&is=668da87c&hm=bfebe4b01aec7caab6313ffc2eeb00a573f2059086ef2cb2c27bf4094a9c0623&"
+    },
+    {
+        "nome": "Zeke",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260343783837405356/eb4a1a6ee87f4eb65e76de0d0bee32c2.jpg?ex=668efa1e&is=668da89e&hm=f299122ca66bb4443934a72bc8ac5b0a55b1b88fa7c3b3176f1b500781839182&"
+    },
+    {
+        "nome": "Yelena",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260344536777887824/ec3ca621146088cd93548b22bd262623.jpg?ex=668efad1&is=668da951&hm=c829b9be681e1b308efdb02bb2e7b63fd69ce9dbbafabc31d082edc3be98c74a&"
+    },
+    {
+        "nome": "Petra",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345079055388824/1f7942468e76b3f0bef0c06416a30e9b.jpg?ex=668efb52&is=668da9d2&hm=ce74572c42dbe47dd92d80364862349f251554e536c878db9f9a4a1ff71384c8&"
+    },
+    {
+        "nome": "Falco",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345423432781894/f3d09e0d2c7d89bb23c4d5ae86e4a285.jpg?ex=668efba5&is=668daa25&hm=e38e48cf864e00df18e12b2777c217146609f60b5929eb386c18784463e584bf&"
+    },
+    {
+        "nome": "Marco",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345654803173496/eeacd32bf2402bfbf21172ad04e87dfd.jpg?ex=668efbdc&is=668daa5c&hm=0a8cdc06f12e8914e1246cef95d85d3e34dba585c558333231f28cb2dc853260&"
+    },
+    {
+        "nome": "Carla",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345755336577117/3e57f54f9431b7ecd63813a8e2162ee7.jpg?ex=668efbf4&is=668daa74&hm=54409519b638326993c33a54ba757b2913fc04d8ef78ca1d97a0985f18249f22&"
+    },
+    {
+        "nome": "Ymir Fritz",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345884177076386/502f24a7c3db09fbb3cdcee5619dec30.jpg?ex=668efc12&is=668daa92&hm=56dc9af77626d67b90abefc64ba425e7c32d709d699181030a0914ffad43043b&"
+    },
+    {
+        "nome": "Niccolo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260347322966216784/52702b27c94c6e026cff7c4e0665beda.jpg?ex=668efd69&is=668dabe9&hm=634b489613a1776ab70bd1a0189a2f4817558dbc3b92da0357730372acca5704&"
+    },
+    {
+        "nome": "Dot Pixis",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260347407766650910/75a03f1924c15a8d16b609d3144ca07a.jpg?ex=668efd7e&is=668dabfe&hm=c68cc2e4f0c3187073897ffbf14abb9b183ecb68565188045b833118dd759bef&"
+    },
+    {
+        "nome": "Grisha",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260347602025578506/ac438df7cb27e6c48268f4bf035a1d2e.jpg?ex=668efdac&is=668dac2c&hm=1eb37914c63f731e9396d2ef1477437b73c6ee4b438bc852aab90599c29308a7&"
+    },
+    {
+        "nome": "Hannes",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260348444099481740/55e2f6c6d1ed968981c0a83734de2fc5.jpg?ex=668efe75&is=668dacf5&hm=1f3084476a10373937220e9fa027fd6f047519e67f583a6a13c7a481fa899f7f&"
+    },
+    {
+        "nome": "Nanaba",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260348821251293285/5a535fb58062df317f918edb601b1336.jpg?ex=668efecf&is=668dad4f&hm=e5dff5df5bb5cfb55b29dbccc98d501981f2999e99d0a566b0bf73d1dc295c23&"
+    },
+    {
+        "nome": "Onyankopon",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351241737863289/aef7163aede8370653670aefd0905630.png?ex=668f0110&is=668daf90&hm=8fffc9e6c9cc245aa7c059f5781f01011c17e9f9e83e90b692832b70073f7309&"
+    },
+    {
+        "nome": "Mike",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351348579504310/7e9aa3e0fb096f0104ebf04c2fb6ef2d.png?ex=668f0129&is=668dafa9&hm=d6e2f864ba7c46ecac0177d9a646589d91266f85a8308e785e7fce220a1c5854&"
+    },
+    {
+        "nome": "Colt",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351633158836275/92ce856a5b2972cd109d103adc9332bb.png?ex=668f016d&is=668dafed&hm=31703e62937778b39885f2153186e76f14712e45733cdb07ab5d09c420427701&"
+    },
+    {
+        "nome": "Keith Shadis",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351735939989504/f9c4ccdefe118c41a1585115799fb292.png?ex=668f0186&is=668db006&hm=9e2441dfe91965be883890ccf6ce14576d698eddb575740cb985f0bc3f642c20&"
+    },
+    {
+        "nome": "Dina Fritz",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351874444300489/7821456f0bada74ae13edd6b842e7b3e.png?ex=668f01a7&is=668db027&hm=30f50105ed8afa9181481ec38d6996d71dde06add7415e56c18bb9a9bfa0fd07&"
+    },
+    {
+        "nome": "Gabi",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351975745130537/dcfad403e3011fccb11b4d8ce5a9499e.png?ex=668f01bf&is=668db03f&hm=aa87699b5e7e86c1c17c07fd12ff616ed6f66971b10f25df0f6216a974287dbd&"
+    },
+    {
+        "nome": "Lisa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352171644420146/9e63bd5d11ad2a565314e992aa4ba90e.png?ex=668f01ed&is=668db06d&hm=807b9c8daf75cce001d19f97fa4a04b6c3c6b45c7f19814f8cb67581eb1ebfe5&"
+    },
+    {
+        "nome": "Jennie",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352222508617778/580ec5ba2333d781733d9f8fffcffaae.png?ex=668f01fa&is=668db07a&hm=f00951016b86e3768410ce1f674de5fb9bb1b114219033af2642e37b6fa43b75&"
+    },
+    {
+        "nome": "Jisoo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352282747207720/7d7ada5f01a018a3821523c9c9e90aec.png?ex=668f0208&is=668db088&hm=6357ba4649bcefb87211217b47073b6a0ea42cf10923aa647c360e4a13cb6a68&"
+    },
+    {
+        "nome": "Casc\u00e3o",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352675141390478/d9ea0408fb5b7dc24c1090601b618e01.png?ex=668f0265&is=668db0e5&hm=4d2583fbab261e49be05afa1db2d5aa373d62a9b21f257e2e12511cffc889899&"
+    },
+    {
+        "nome": "Ros\u00e9",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352921372065852/8e833005fd3da8aeb319b72bf2f9a552.png?ex=668f02a0&is=668db120&hm=6377f6d3d3c1b0b735e71bb8837c7d512804752ae62f5e9473ff2947a997f10e&"
+    },
+    {
+        "nome": "M\u00f4nica",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352981715386441/d447e4267c07945ed95fe53b2a5470ee.png?ex=668f02af&is=668db12f&hm=e14062cbf605aaf688a2ac8b7caa7994aef76fe5a523c9fa17adfd33ed54c6b5&"
+    },
+    {
+        "nome": "Magali",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353016532570172/f40793e04d6f817486c7cb43f211c241.png?ex=668f02b7&is=668db137&hm=959860631ee96105f6b94542e773775086ead67a0e2fad70a3f4b8bdb86ebd33&"
+    },
+    {
+        "nome": "Franjinha",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353112099651716/9a10f69281f3c920f4fab3a549803832.png?ex=668f02ce&is=668db14e&hm=14f0f7af92d7df3ffd2f6f7aa1576c193d5697f9eaa155ed638e0777e4167745&"
+    },
+    {
+        "nome": "Bidu",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353183944015982/a2e550d8b9e3f3b56017f9437ee4cba1.png?ex=668f02df&is=668db15f&hm=ff12ec57010617eb03b2c4df8c4605f088296868d07b0c26dcd8ca2a5f17a3bd&"
+    },
+    {
+        "nome": "Nimbus",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353300323373167/b68a10d0f899c70769435128e58f5736.png?ex=668f02fb&is=668db17b&hm=6e0bcff7d945ab2ef058020405d1e5e57979c575757845ccb17cbb4e0cd73c1d&"
+    },
+    {
+        "nome": "Do contra",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353364764655737/35536133603d012214e6cdf230a770cd.png?ex=668f030a&is=668db18a&hm=55438d1ab0fa107168e41105541bc06d606ad8170d6cea6cbff993e1511d08aa&"
+    },
+    {
+        "nome": "Chico bento",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353416035696660/6aa4a34884046d572be6b86ef117d9ed.png?ex=668f0316&is=668db196&hm=48eec50ee9e7f1c1e55860c92f7e5627817c4a47413f8890955456081185ea75&"
+    },
+    {
+        "nome": "Capit\u00e3o Feio",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353477381722112/87d4a25c907773c87232082e9fd95981.png?ex=668f0325&is=668db1a5&hm=b56debe80c365d31eda01b807574b5c89f8e756598e9ae61241dce2d771b18d9&"
+    },
+    {
+        "nome": "Luca",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353540141088768/96be57f9124702e2b1060c1929b609fa.png?ex=668f0334&is=668db1b4&hm=d458a614617a4020929851ecdc94d3c7f48c8a3dc19d34226e0ede8c7b21d79e&"
+    },
+    {
+        "nome": "Titi",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353613088423996/921b7ce9a3c02a285ebce5c92529e444.png?ex=668f0345&is=668db1c5&hm=aed96f103ee3078f7f6f6f5ea8e735f444f656c08b81835933590957f4d46aef&"
+    },
+    {
+        "nome": "Sans\u00e3o",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353680000028693/b2d3735a45b43466cba5393de50c12ef.png?ex=668f0355&is=668db1d5&hm=072f2560b6791b1f8fcf71558c30ac275a1ba7a9fc3fba62d7fe41e2c393d44a&"
+    },
+    {
+        "nome": "Xaveco",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353797100933201/1d49ebf24472c0e00089c9809b908c49.png?ex=668f0371&is=668db1f1&hm=326266e98b3baeab9dfbf79d6cec204a825969406fb3f70e6c8ca6a848056fd9&"
+    },
+    {
+        "nome": "Jeremias",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353855175266415/928c834342045b530fdfa6134f0472ed.png?ex=668f037f&is=668db1ff&hm=e80264b515a2cba0767145d540cfe88df50748dfb523ba5afeef852300c38e7b&"
+    },
+    {
+        "nome": "Quinzinho",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353941938372618/ddf81a4402cee431404c87e88546f656.png?ex=668f0394&is=668db214&hm=988ac9d3150970e6474b697f83e09930c1489d7f25b440afda96488d172a9eae&"
+    },
+    {
+        "nome": "Dudu",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354039393288334/55a99eac275a02fe4e5487bdd242431e.png?ex=668f03ab&is=668db22b&hm=b682b422ddddffe53b6bf0e83dc8a0deabfadc53899b8534ed273469b9ede089&"
+    },
+    {
+        "nome": "Floquinho",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354109987623072/8d7ca757008261512f98c6602cb260ee.png?ex=668f03bc&is=668db23c&hm=f9ff3f2c0eabbd478ec8dd55c201b702cdaece19b6e4b06ceb104319c8556810&"
+    },
+    {
+        "nome": "Carminha Frufru",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354230267416626/5235e9812922dc21ca9aedf63b6c1b32.png?ex=668f03d8&is=668db258&hm=18483b0cbc6b1c33c0e13d35343451d58b7be6ac743333062cd41313e338a70b&"
+    },
+    {
+        "nome": "Maria Cascuda",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354302892048404/7a36098b3ad3cb6ae357c391af38c797.png?ex=668f03ea&is=668db26a&hm=5934fb0b61bf71ac107db2bd47dfee0eb5fbe77785aa76e40c123866462f1cda&"
+    },
+    {
+        "nome": "Louco",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354377537949828/740155dbd9417a6d8015f8cc0bd02c6b.png?ex=668f03fb&is=668db27b&hm=ea1d22143a0b7a96941961f7478528b764db95d7eee6de09a046e97a548c4243&"
+    },
+    {
+        "nome": "Marina",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354444563058729/873ef6362db75e5aa22cbf67673b9da7.png?ex=668f040b&is=668db28b&hm=6fbb0e134e0da01957488597450ba17f1607bee1fcac3cc272546ff5bdb22257&"
+    },
+    {
+        "nome": "Maria Cebolinha",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354523352797184/2c3afd6bec7c5a6bc52133810fb691c2.png?ex=668f041e&is=668db29e&hm=d4e43a0e6776fc787fdc25fb8d20f66c2eb6e1366be2a64bab89044391bacac2&"
+    },
+    {
+        "nome": "Onze",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354702349172788/0c44c36f69ebbf0a28707d0642e527e4.png?ex=668f0449&is=668db2c9&hm=82be024656e3a82a161e85815b156639f133c41fd3e42587d2e53fc950c16eb3&"
+    },
+    {
+        "nome": "Dustin Henderson",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354805977583668/4d1d155ac84f967f1cd460e2bd2aad63.png?ex=668f0462&is=668db2e2&hm=16b60b0861cbc44978427f426aad8a3c4ad6e3f31cf018518aaf38690ba5a96a&"
+    },
+    {
+        "nome": "Lucas Sinclair",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354925834141849/43eab69e4f4f895ef2900adb9babd82c.png?ex=668f047e&is=668db2fe&hm=f29484b5ccee4aae17534273459b67b1ebf5745d16592f1f1b8986b26288179b&"
+    },
+    {
+        "nome": "Mike Wheeler",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355064036593776/c3e4383208d351ca46ec90ce6eb58770.png?ex=668f049f&is=668db31f&hm=6c682b343448647c25422999d0766925a43f3a3be9dc89541ddd75d7b0757447&"
+    },
+    {
+        "nome": "Nancy Wheeler",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355213638897744/6256856fabf3425a416fbb23bb49206e.png?ex=668f04c3&is=668db343&hm=21a39eba98c65a6d73ae5a1165e8f57d8d6f50dc553873308ae2bb696c7df6c1&"
+    },
+    {
+        "nome": "Will Byers",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355393280933959/fb414a6c50f0175997f2169555fce46a.png?ex=668f04ee&is=668db36e&hm=48be66028742e73ec4268821ae47d3ea5f5b88085316e95bfcebff2adb2084b5&"
+    },
+    {
+        "nome": "Joyce Byers",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355464579911791/19f84ab50b906ff406640c1808eb498c.png?ex=668f04ff&is=668db37f&hm=4a1e89e938e0758a4c7801a6cbe8fea3227bc6ef2a76bc976e3635105c71a49e&"
+    },
+    {
+        "nome": "Jonathan Byers",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355541411299369/b6d8474c0ffbe8ee5c1c2766360cdd52.png?ex=668f0511&is=668db391&hm=17662f8e88dccc3ee053f76bd9eef118116629338b66749b19cf881336e055e4&"
+    },
+    {
+        "nome": "Eddie Munson",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355647657086996/3c3da4a59becf46542133866a6cf4e2e.png?ex=668f052a&is=668db3aa&hm=7164765174930a41ca92a241bb935c9837ca9419a0aa7dee060496a29f042a9a&"
+    },
+    {
+        "nome": "Vecna",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355734231846942/014c1c0da73d257daa5445ba71483f87.png?ex=668f053f&is=668db3bf&hm=9a1e142e599e6ea6c564efa68942c6ca3393c7f019f9258ceb774b82414d9b16&"
+    },
+    {
+        "nome": "Demogorgon",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355875701395537/d7c2c1e1631182d59e630a411097320d.png?ex=668f0561&is=668db3e1&hm=c14a4e2cce744cc86e32ce640001267e13c8a174ff88275c7cec60be2ef32deb&"
+    },
+    {
+        "nome": "Billy Hargrove",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355966365335604/218dd576daeb55e5c317eb84d4f84b56.png?ex=668f0576&is=668db3f6&hm=d12682e41f816ec6d5273b13daf7ff8aafa1d343b4ecbbe5cf96facfa306a18e&"
+    },
+    {
+        "nome": "Murray",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356065329942679/18fe087cc3f88a2fafa13d8c9187785f.png?ex=668f058e&is=668db40e&hm=10c6c54b1ec0f37f73fae2acfbd0013a5acffa364391ba0fba40776367007b83&"
+    },
+    {
+        "nome": "Martin Brenner",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356210994184294/111709cb3695dd9e9be5438d7b8ebec3.png?ex=668f05b0&is=668db430&hm=1107648c930f772cb2b979ad979bd9ebf037794fd8193fe6bee746116db5448a&"
+    },
+    {
+        "nome": "Argyle",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356282712330311/0fd91ce91d92868950f44fbc1c2a38c4.png?ex=668f05c2&is=668db442&hm=c62d5a7067434d0734fc8d098ec4de2a3cfcb56d4367b7ce8abb90fc1ec00cf3&"
+    },
+    {
+        "nome": "Suzie",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356361951117332/5483f36e9253f79a1b07a01bffae48e0.png?ex=668f05d4&is=668db454&hm=fe30df9a8f341ec648599f39c870cde925c4bfd75773a711c68a8b85e51c917c&"
+    },
+    {
+        "nome": "Erica Sinclair",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356467572342935/45301a3331fcce31c59caabe6f3c3a98.png?ex=668f05ee&is=668db46e&hm=5e3fe54e9786758881d6d985b253beb658cf283a11c6121986f119c23f051ba4&"
+    },
+    {
+        "nome": "Kali",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356662091583661/8f78063fb5d13a60763349fc219f96db.png?ex=668f061c&is=668db49c&hm=15f1dcdc1fee9abee2b620c90c47876dc822620c7fdae79e5d11422b316d939c&"
+    },
+    {
+        "nome": "Luffy",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260357485953290320/02bc1ddfb478c7069ac1db5017955648.png?ex=668f06e0&is=668db560&hm=f695e2114835edced64298767455a3a85948e07a64804e456f17e7d455bdce03&"
+    },
+    {
+        "nome": "Zoro",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260357573429821650/9976e678f02bd7fef3cdb9d4cb7f0551.png?ex=668f06f5&is=668db575&hm=92e7aa7912f67b9c81af37406449d31a89cb54f0ecd3a29fd37085b4f43b6385&"
+    },
+    {
+        "nome": "Sanji",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260357681928212500/f0aa9db141b89ca7e36008c7a20302fd.png?ex=668f070f&is=668db58f&hm=1a3c6b91cc05102410f5d37a52fc0c3426f6e98768d4ce41679fc7e21652946b&"
+    },
+    {
+        "nome": "Usopp",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260357882210156594/6297bc721006f1518349b927f4162d49.png?ex=668f073f&is=668db5bf&hm=8c1ca728d33c3a3ae0346e6f23a8f3f192343371018ef25d1e9d4ae51f66ba00&"
+    },
+    {
+        "nome": "Coby",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260358829246251038/9a5878c89f6a019fdf6f09949d2850db.png?ex=668f0821&is=668db6a1&hm=8db676d1aaab420d0d5ee48730feca4035229f76ac06e93c5dcda7204c2d20c3&"
+    },
+    {
+        "nome": "Sabo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260358927334506567/e55052356134580a010a37cadf756a67.png?ex=668f0838&is=668db6b8&hm=dc2d8da9eac8eccd2f7c64a04c9acacc48ed2a06f22eeecf37e09ab9c22d7f8f&"
+    },
+    {
+        "nome": "Ace",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260359062088978483/b47ada4f495f4be4709b271cd312ca98.png?ex=668f0858&is=668db6d8&hm=49224503433065fe013c1891d13f60b2540dd756a94b2787f3a4527661d00c13&"
+    },
+    {
+        "nome": "Shanks",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260359234172883106/5394050ad3b83080fa78af72facfcc90.png?ex=668f0881&is=668db701&hm=440f83f6e736fe6843d8a10d57c6f58432b33384541462f3f223e71130e73322&"
+    },
+    {
+        "nome": "Chopper",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260359427383361719/8343fe54e9c821afc269739df1a814f5.png?ex=668f08af&is=668db72f&hm=f2f46e2a3bcb995726399e70477a6316abfd410b859778f6afb5dce9ee923a3f&"
+    },
+    {
+        "nome": "Nami",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260359566495846543/652cc21f9e3b1b7de8b537f070d5ac9e.png?ex=668f08d1&is=668db751&hm=ba0279f7399d8a14cfcf0e99b8814f342af424ea1b165fe8d71fa69291be302b&"
+    },
+    {
+        "nome": "Brook",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260359682283798670/f83017732fa8109f5a9916c46b7b001b.png?ex=668f08ec&is=668db76c&hm=ed34488b672fd86e2a4d5a0747880f5e4763f79159843d2a674875ac9280a12d&"
+    },
+    {
+        "nome": "Nico Robin",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260360658483023983/03041e471be3fa1f3f972e39d09759d4.png?ex=668f09d5&is=668db855&hm=260589adb634cd9ccec0cb37663d442aab4762238004237c346f6a9e2fa9004a&"
+    },
+    {
+        "nome": "Smoker",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260360769946521600/0ab9e0e5c26a84a0ef7a26c8bbd669ff.png?ex=668f09ef&is=668db86f&hm=ae27295763246ed0abec44d89eb19b87da41e3a0ab44fc1e47bed7acca3614db&"
+    },
+    {
+        "nome": "Boa Hancock",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260360965141299211/fb479ac43c5c5cef89188d1cc42e326d.png?ex=668f0a1e&is=668db89e&hm=a7c7e3aee0106af61803a98f7d58c31055221bce39343dbc29d01d5ce68520f1&"
+    },
+    {
+        "nome": "Nefertari Vivi",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260361187548205077/d439b07e23a99a7dbf0d6889ab4f7601.png?ex=668f0a53&is=668db8d3&hm=6cf7365e801e22c7900624f2121bdbc7689ec6061778819426f238cf308361a4&"
+    },
+    {
+        "nome": "Yamato",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260361429295304767/22f2a02f34396a336de8269eaf95fdb6.png?ex=668f0a8d&is=668db90d&hm=075d2e69001a924be6f364cab15ae8389379102f34fdd3f22b20779ccde63b77&"
+    },
+    {
+        "nome": "Law",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362171921989702/8e4ce352ddc7ed03660346ecce085d38.png?ex=668f0b3e&is=668db9be&hm=c29089b2ac16521b688d23de4365185cd2effdf5b50f8079c72100b9db8cbb61&"
+    },
+    {
+        "nome": "Franky",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362309289906176/c35e0948d60017752c53d4b60baa4128.png?ex=668f0b5e&is=668db9de&hm=c006123a79359eb1f9c60df453ff378a9702320d680fa6dfa926d7fde2ef88d6&"
+    },
+    {
+        "nome": "Perona",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362441511010334/a9af0087df5c7eb00f2319c945ee0ba2.png?ex=668f0b7e&is=668db9fe&hm=8165ae8e95b119c2dd8a6ab809f164ee72105fd7160ee549f499764dd2ff59e2&"
+    },
+    {
+        "nome": "Jinbe",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362544225321030/bed32c9e9903b0bb7e7dbcc872c0f44d.png?ex=668f0b96&is=668dba16&hm=307d7b11551210ba931a926f8d1f2a906553b3ff0c152111db765d5d92e1bb64&"
+    },
+    {
+        "nome": "Suguru Geto",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362957410537583/234adebee3044fcae9b2a874a7e2231e.png?ex=668f0bf9&is=668dba79&hm=959a1b58db195fd11b5735e5e83b11e18882747e1f70bbbde6baae0910d4ab7a&"
+    },
+    {
+        "nome": "Mihawk",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363423930388571/97e622c43d051bff321c8d97b3009c32.png?ex=668f0c68&is=668dbae8&hm=aa094de6598daad746477a1f030352f8089ecf080c49e044b5cc5a2cdae0bc22&"
+    },
+    {
+        "nome": "Hawk",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363547607826563/a5f18255ec63d1614a360821ecb1b2d1.png?ex=668f0c86&is=668dbb06&hm=8be7666fd230dc0e718c49c45e024ebc3a4702cd406e29153574eb12f9811d10&"
+    },
+    {
+        "nome": "Escanor",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363738377359421/8777690bfff7abc964a3f83b61c6879b.png?ex=668f0cb3&is=668dbb33&hm=3995cb74421fff5cc90033d465dc2e17711b2bf701ba4da8b2161344e9523088&"
+    },
+    {
+        "nome": "King",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363803078557706/36ef3c93f8e0774608605fc2ec672311.png?ex=668f0cc3&is=668dbb43&hm=5042ca9c3e30a3e29d45b70d169a6443f69e05e8130488dc529611f947373f5d&"
+    },
+    {
+        "nome": "Diane",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363863019360266/8aee74ab5e14adcb65d737c047a51df4.png?ex=668f0cd1&is=668dbb51&hm=31b655bc1264bd1f1b325fcb54df4c81cd653058bc248e5eed435ac92ffec96c&"
+    },
+    {
+        "nome": "Gowther",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363913581559828/7c214e366da31cb7445bf02ad8c18f0d.png?ex=668f0cdd&is=668dbb5d&hm=02cc1ff3acc23e287d8072e8dcd42c2a5d18965fd839d505c11c1f74c34584de&"
+    },
+    {
+        "nome": "Elizabeth",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363951192150056/10f4679364fbbb7b068f3cc1ba149d94.png?ex=668f0ce6&is=668dbb66&hm=909d80d939c63d4c0e9ef069a51fd57dff23df7cb0a8eaeacbf29ee44019d861&"
+    },
+    {
+        "nome": "Sukuna",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364336895885343/30b967b7f06d4757516f7df3e521450f.png?ex=668f0d42&is=668dbbc2&hm=ce5894f94f738b58dcfa94c8f5f4eb71d32918d1f6668be76f9d9375c9d5d885&"
+    },
+    {
+        "nome": "Maki Zenin",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364413144141834/479ee668560cbd2389db1a3aab8516eb.png?ex=668f0d54&is=668dbbd4&hm=e8c7c45c94d4260dcfdfc73ca4d48726d7a12c321a82a427fae5ac37d9b37089&"
+    },
+    {
+        "nome": "Toji Fushiguro",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364531562184838/9de5d2ab40011b354914c778341e3bff.png?ex=668f0d70&is=668dbbf0&hm=212cba62a7e77ac6fb6567927577d43e0c06bca7be1c817b9e0f754de2985c7a&"
+    },
+    {
+        "nome": "Nanami",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364604299804804/0033060a0bd254549d17b864f451a455.png?ex=668f0d82&is=668dbc02&hm=685f18e4a155b6f6ec2ffe73eba395e8283e14eca13082ee7e7b88aa7f18b8c0&"
+    },
+    {
+        "nome": "Toge Inumaki",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364702177824912/67262778e8c61840d46dfa8271c8815a.png?ex=668f0d99&is=668dbc19&hm=2943e3e5d50c9302d2ff121cdf7c307894bc116649d35a6d616e97efac1ad848&"
+    },
+    {
+        "nome": "Yuuta Okkotsu",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364811569598545/bcc47ad38f115c8aca6b40be76551758.png?ex=668f0db3&is=668dbc33&hm=5935dab2257af3ae54b84a91b24a3bb5982e29f9e515913b5d27066fd961713b&"
+    },
+    {
+        "nome": "Chousou",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364932705292460/2d8ecd5eeca8cbae02954474ffbce60c.png?ex=668f0dd0&is=668dbc50&hm=f4aae88838fe7e3cc0c9c8a0241e22a293bb7ebbb3e8cb088cee8c29862b03db&"
+    },
+    {
+        "nome": "Aoi Todo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365083792379934/7f2f297b7667e83e30268bffe8fee3c6.png?ex=668f0df4&is=668dbc74&hm=cf9aea214d6e11ee62fe7f0ed0933c3f0f040ae3403933f9d631148056a58b45&"
+    },
+    {
+        "nome": "Mahito",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365293218431118/14a4eff91639edb088835442a012e564.png?ex=668f0e26&is=668dbca6&hm=164bb4b043ceaf405e19cb60934b18308acb5d33948eea30eb4cdf278a2f1f7b&"
+    },
+    {
+        "nome": "Miwa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365480313622648/90c394b97251a6818a403999a76b5fc3.png?ex=668f0e52&is=668dbcd2&hm=f69bd7dd80a26d2eeb87fb7790ad9ee7d13913b4f63d9671ff407b0d24a7e796&"
+    },
+    {
+        "nome": "Mei Mei",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365570189033554/87d82b502c21eee2a61da2674fd92661.png?ex=668f0e68&is=668dbce8&hm=94ac47804d3d20169df82f2aa92a23ff86fe799c766580d1feb72a9586b309fc&"
+    },
+    {
+        "nome": "Mai Zenin",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365631908216922/2574bead409e0f2b5e2bf9a0bb929aa6.png?ex=668f0e77&is=668dbcf7&hm=7dc28c876b81eb0776951d434bc717c41f9c057d695c3506d243a28d5a10ab72&"
+    },
+    {
+        "nome": "Utahime",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365701734994041/69061371aa2d0eb73a88c5ca02f72697.png?ex=668f0e87&is=668dbd07&hm=d6674b49e8b9b1fa6b86bf4215604804981f80244e9acf9035ee4d82d2cb3235&"
+    },
+    {
+        "nome": "Panda",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365834229121036/7913b1cf30bb0e576c7f60e2a93e512f.png?ex=668f0ea7&is=668dbd27&hm=78d5b0435519e9af12ebf83686b70f9d2663bba0331b727b60f18bc66f5253b0&"
+    },
+    {
+        "nome": "Shoko",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365995940515922/e8d8bf95fbc916a4d8f3f0fae35e0839.png?ex=668f0ecd&is=668dbd4d&hm=f67d4606247d737c1bc2a8d7597e620ef0301453c414f463b8f4f1437fe3b293&"
+    },
+    {
+        "nome": "Yuki Tsukumo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366084834459668/34a57ae44d0e5fe0aa3fc4e3779579f8.png?ex=668f0ee3&is=668dbd63&hm=6488ab66e3af1a0a8ec10ae40b09e2aba7cc94df22be7d84e7db0e8e179ef138&"
+    },
+    {
+        "nome": "Hakari",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366209195442196/9d426736132d2028a7136a4a3d9c9fbc.png?ex=668f0f00&is=668dbd80&hm=4215492dfc8de7364a73aae537bc8c7f8b5a99e31266da5987b5a46c4ca08d64&"
+    },
+    {
+        "nome": "Junpei",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366284076482614/0618cc0050b1f612bbd355972173e9e8.png?ex=668f0f12&is=668dbd92&hm=890cc24fba2f33e450eb0dacdd3da0bbef548ccf541847add1fead18d68cebaf&"
+    },
+    {
+        "nome": "Rika",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366377676570745/6cc417bc75e3722fe8f0a49b558a9c88.png?ex=668f0f28&is=668dbda8&hm=a6f1d869f586e0e3cf14853667b0e4f0720c50cb3ff889610f3be50f24a0efe7&"
+    },
+    {
+        "nome": "Mahoraga",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366446064701570/1f0152dcd24fcb3334fc6197bae15e32.png?ex=668f0f39&is=668dbdb9&hm=51e4fcdfddc0e74ba903f3a47df2ccaa7051a74c61da106181aa43bafcd10340&"
+    },
+    {
+        "nome": "Hajime Kashimo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366597013377164/9483f17bcc3f746c3974e1b57194f832.png?ex=668f0f5d&is=668dbddd&hm=d4633f26648bc43d5c2ba04274dd54337605c9c72033c13eb4beecc3c124f1a6&"
+    },
+    {
+        "nome": "Jogo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366786029682693/db5c0a340a42777db60163c3e7b19a2b.png?ex=668f0f8a&is=668dbe0a&hm=b8a171c0d8029149a29adcf646778f17241672924cdb602fe6be749a8c3fd4ca&"
+    },
+    {
+        "nome": "Mechamaru",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366942301192284/26b205f8f10adecf83e27e45003af7f3.png?ex=668f0faf&is=668dbe2f&hm=065ff0dd93da612fcb6e89b46e8dac951f21e08fac1605ae35260fe288b22b26&"
+    },
+    {
+        "nome": "Hanami",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367088611098675/05101523ec4487e4493744ea87c5f5fe.png?ex=668f0fd2&is=668dbe52&hm=786c2f5223c74833ca0baf5b4410e931799d7f16dfc9e45e1314327d85c8a1c2&"
+    },
+    {
+        "nome": "Riko",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367205565071380/c685f8ea999ff4a519055647e195ae65.png?ex=668f0fee&is=668dbe6e&hm=3f165041068b55a798e490d85622c1a57787859f3f211e5ca8c552b5877f1536&"
+    },
+    {
+        "nome": "Momo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367292290564167/3239383e8adeeedce2689359ba8dbfb2.png?ex=668f1002&is=668dbe82&hm=339fdc3f0a1f16afa7e221466e4ee674ac4622988c4a0c2dc5985df6faa4f3e9&"
+    },
+    {
+        "nome": "Uraume",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367417364975626/373e7993b46115a100a8a92eca0bf686.png?ex=668f1020&is=668dbea0&hm=719f2ef8b332694c11c168d280c0a05af6948805ea03b3ecc222509a11ef9bd3&"
+    },
+    {
+        "nome": "Kenjaku",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367634642239588/b4f0ba7b8769b453445f881199a051c9.png?ex=668f1054&is=668dbed4&hm=b6dac57f804aaff0ae1e2e081dbe7d4b7008eb2d6d3f236e4dbb159248979831&"
+    },
+    {
+        "nome": "Takuma Ino",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367902083645502/65e17ee9a01bb28a360f8d59c67583d0.png?ex=668f1094&is=668dbf14&hm=85c5a359fa861128955ba6e2fc6ef47a11bb229751bd9aa02c73d74727d5a9ba&"
+    },
+    {
+        "nome": "Akari Nitta",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260368129331298354/6d36c5a75d75eaf9a3c265fd9ffc2855.png?ex=668f10ca&is=668dbf4a&hm=952e167537a26a182e86b934d24bf03596004569858641c6a213392d9652c369&"
+    },
+    {
+        "nome": "Yu Haibara",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260368534177972234/f20b509dd5c732824ee2181a88e1c1a2.png?ex=668f112b&is=668dbfab&hm=3d2c5b2cfefde0cb8e1458978070e5de37dd45197367c0f5f8996ead4b99d467&"
+    },
+    {
+        "nome": "Ui Ui",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260369450591326228/2680fc905e22ec3d6b3b7ad7fab06830.png?ex=668f1205&is=668dc085&hm=a75f7a5a9e40aee95502a8c5247613ed91522e8c8f63e184dffd226ae9fa6928&"
+    },
+    {
+        "nome": "Kobeni",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260369850501435412/0e3412d0f3e666a9f0bf15eba7648f2d.png?ex=668f1264&is=668dc0e4&hm=7d477a364cdc558913cc37d69437d7eca8515b5e1cef5c97cf5117aa95b9368f&"
+    },
+    {
+        "nome": "Pochita",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370137094291496/b9bb1600f8e04c9c43d57f727041a2a7.png?ex=668f12a9&is=668dc129&hm=331e98acdbd6978f4e7b0e65d3b3ff35bfa13c62f86a0c4ddc6e77b23cc72ce3&"
+    },
+    {
+        "nome": "Angel Devil",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370246058119229/5face99901c019b1c37fd0c612c181e4.png?ex=668f12c3&is=668dc143&hm=9130098cdaebeb747a9f2471fc05f9e015fbf9cdf6f49e9f290f60e0807140a5&"
+    },
+    {
+        "nome": "Kishibe",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370676577992784/a6f4c5e65289a708a84e9465db1a74cd.png?ex=668f1329&is=668dc1a9&hm=02d9d2e5562d999f89e63f733b09b96d8b1ed250a043b25bd443264e36a319e2&"
+    },
+    {
+        "nome": "Meowy",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370819180134472/78655afd3cccfc36fac1f8b4d187f133.png?ex=668f134b&is=668dc1cb&hm=0979cf2ab1cbe277abf71f182c292e6f8e96530bf9c3171d47d9cdb24eaef234&"
+    },
+    {
+        "nome": "Shinobu Kochou",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372246958964826/05c34e57c250337621c821ab22226bc3.png?ex=668f14a0&is=668dc320&hm=97e49bd6f6c84863ea888e2de4e82b76916fb17f13cc7a4eefa60334cce46214&"
+    },
+    {
+        "nome": "Tanjirou Kamado",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372359139950673/6da34a9ad400e10b7737e526c145b2de.png?ex=668f14bb&is=668dc33b&hm=6f6399fb68ec79b5483cd042a061338190841f2af6c11e22f07a084f7778c11f&"
+    },
+    {
+        "nome": "Mitsuri Kanroji",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372428664602706/514f9d54289d0d08fb6eeb19d77c48be.png?ex=668f14cb&is=668dc34b&hm=e1bdbbc3c71f07aaf72a13ec0ec583c2c747d102de7e7cc0103b64f506dc1724&"
+    },
+    {
+        "nome": "Giyuu Tomioka",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372658122395791/a3deb32ade8773f90ff1c4ee4a3c99ba.png?ex=668f1502&is=668dc382&hm=16ba7881687e3ad0b4a64826e2a72c7ae805b580a1e1bed800238e330e57b0a9&"
+    },
+    {
+        "nome": "Inosuke Hashibira",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372723235033218/63414c1335db4f21cc6e87d3c477012f.png?ex=668f1511&is=668dc391&hm=5e3c5a538c8d8e92e830eebf1e718b1d3b6d15ea74699764dabe8d00ffee0f91&"
+    },
+    {
+        "nome": "Zenitsu Agatsuma",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372926247600228/29441b9a1469e0acdc98e216cc90f235.png?ex=668f1542&is=668dc3c2&hm=daa010b062edb9d4da8674a3618dfa9ea27224875134bfce632c28758a18e03c&"
+    },
+    {
+        "nome": "Kyoujurou Rengoku",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372988331819058/7ea86ac4b11b6ad49c68e471eb551d27.png?ex=668f1551&is=668dc3d1&hm=a4f4dcf83e0aa60299c124d60c3403d4a3fa62b932b4c1f5ae0d4a9e6b1226bc&"
+    },
+    {
+        "nome": "Kanao Tsuyuri",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373084033253506/f2e54a376e46a8dfd54eb139aa6d1c71.png?ex=668f1567&is=668dc3e7&hm=17fe26b592b139e340d0b4a68fb1cbf9d34e6b2c448f11f9abcf209b908fd243&"
+    },
+    {
+        "nome": "Tengen Uzui",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373215042207916/c92835ee3f7625f13fa0fc4eda9966f7.png?ex=668f1587&is=668dc407&hm=0f9d9f03696024bf1e1ea13c17e17c89d2d8f7f2968b790bfe3644445d154684&"
+    },
+    {
+        "nome": "Muichirou Tokitou",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373297384784003/51085bfaeb6e858e3e73f62c7198016f.png?ex=668f159a&is=668dc41a&hm=6f3cb2cadea857c4df10ad7c0f639becc0e9547e842b3da06a4ea6bb5e79f84a&"
+    },
+    {
+        "nome": "Akaza",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373368805396552/d290dddca8d83b2372ac03eebe822abe.png?ex=668f15ab&is=668dc42b&hm=70255dc250f1dc46da304cc041b79ddb1b0aaba3a797607e53c318ba7346e19e&"
+    },
+    {
+        "nome": "Obanai Iguro",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373717234749511/a69b4e05e9be25888b65328a8a5c7ea3.png?ex=668f15fe&is=668dc47e&hm=3bade440a44b39809171c439413ccd5446a97b4dfa1c4218313f6688e18d2c41&"
+    },
+    {
+        "nome": "Douma",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373802404282478/42139041ffe71fd341c2fc2a843f1668.png?ex=668f1613&is=668dc493&hm=3787d9face308953bea2bd2214dd33e781cab7485897d0df6dbc76f911d3b90f&"
+    },
+    {
+        "nome": "Daki",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373917789454358/b7d45ff3a999c6b363bef58c24783b4e.png?ex=668f162e&is=668dc4ae&hm=d44dad6a41c5cce9f749431f8bf6b24d46bff20a3f89ee92a674f312413f77d5&"
+    },
+    {
+        "nome": "Sanemi Shinazugawa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374039143256074/a3093b62e872df0bb000abe3be2f19fd.png?ex=668f164b&is=668dc4cb&hm=34d8f65c8c429f4ca5e6d0fbf40e269ff05b6696cecbff1dadada17b3d9aca3d&"
+    },
+    {
+        "nome": "Muzan Kibutsuji",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374218151952465/fc5019a63c62561c032207d67aaa7125.png?ex=668f1676&is=668dc4f6&hm=651d784a189e93749f49968de9805152bc0f64ece17afc915b0199150f8e3078&"
+    },
+    {
+        "nome": "Sabito",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374353279717507/c248f36d7cdc022c59d871c84cdd30e8.png?ex=668f1696&is=668dc516&hm=d980f4d5f20d7fa6475fed2ca3d089f941a5412b5b69037fbf149286ff7b2e3f&"
+    },
+    {
+        "nome": "Kanae Kochou",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374415817052402/241881cb552b4aaa3366c04e64a47a13.png?ex=668f16a5&is=668dc525&hm=ce74dc70d625157f2ce935b8640657a696e9b5456da2c0e0b21c8e25404e14b3&"
+    },
+    {
+        "nome": "Kokushibo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374488638296094/67645d85fa455ac759cee0521eed26db.png?ex=668f16b6&is=668dc536&hm=5c5053403cf28a00ff0a5fd8370cb9462a4191aa05808f5d54d491d9e3318df8&"
+    },
+    {
+        "nome": "Tamayo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374966289956985/82fff7aab0b8b9645db8af927ee7b938.png?ex=668f1728&is=668dc5a8&hm=5f6c793360aa8f1587332125abeac6bc2ece10aa4c4609376099e09da86aa2f5&"
+    },
+    {
+        "nome": "Gyomei Himejima",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260375170376405023/7bcab4a442891e43cf8d7642544857e7.png?ex=668f1759&is=668dc5d9&hm=090c88d00ca51e2ad0354ecaef544038e52f299abd908a0d20bd74185e3929bc&"
+    },
+    {
+        "nome": "Genya Shinazugawa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260375378439180349/5724f81d010e99483951285b7be7f564.png?ex=668f178a&is=668dc60a&hm=0b68e804bfbc21880d80bdc36ca9c2784a35fd471122f36605619d67c63b6edf&"
+    },
+    {
+        "nome": "Makomo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260375533464846426/775c1a77add74ac3c53f14243a6723cf.png?ex=668f17af&is=668dc62f&hm=9d8d509df15d582fbb58f167459c371c5646133cc3ba86c2d3f6927d400fb470&"
+    },
+    {
+        "nome": "Gyuutarou",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376274342379640/fafbc2bac246b116dfd9bae13fbf105f.png?ex=668f1860&is=668dc6e0&hm=b03da5d80ee5942de2f08e0b9a3c550e57d3691e8c41e88f9802a693c1305111&"
+    },
+    {
+        "nome": "Suma",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376382601428992/2e77e4e6c9fac50a0674d9c348c0585f.png?ex=668f187a&is=668dc6fa&hm=305c936d4519c02f85eef68658835cffd383c39fecd56f0c73e1b4f595ad0a44&"
+    },
+    {
+        "nome": "Makio",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376521609056326/f1716699e84f5d1c3851c6f2e7143eee.png?ex=668f189b&is=668dc71b&hm=413a2e8493d4cb112a7e6db448d1653d72957b2c73054a566f42cf15261dc315&"
+    },
+    {
+        "nome": "Enmu",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376649145385082/9c2aab0638fb539e35a25439092fdd97.png?ex=668f18b9&is=668dc739&hm=06ce4042b18f6d76037c1f7aa828dd31f8c2ac2df69010286df71c603e5db9e2&"
+    },
+    {
+        "nome": "Aoi Kanzaki",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376750404276234/491d0eefa67e12baed80f48cee8a29b7.png?ex=668f18d1&is=668dc751&hm=4c899cb1454210b59b8c4986a0c0adf16c3ac65fd5e2504647d31cfd6676d6df&"
+    },
+    {
+        "nome": "Hinatsuru",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376866045431838/5b6d61ce10d72e0e66d881b0c2795650.png?ex=668f18ed&is=668dc76d&hm=e1e99f27a7066f5f44b8c44b3ea52ae43d8c8130d9993c9f684e26c7e3d1e8a6&"
+    },
+    {
+        "nome": "Hotaru Haganezuka",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377039630897252/714e058e3fde6bc3e44cbbc89427057b.png?ex=668f1916&is=668dc796&hm=3670bb57e65d9701d3f6c5a12800c703d69181fe1f2ee14d6e76eac77881d45d&"
+    },
+    {
+        "nome": "Yushiro",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377109327646851/edfeab7a3c0d624c1a69adf5f6b9700b.png?ex=668f1927&is=668dc7a7&hm=7af72a29461e5e97f4e12ea23a83c28b901ebac7fce8cacc388175028c511026&"
+    },
+    {
+        "nome": "Susamaru",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377220900458577/a5785e7bbd9542ebb758ffa0741fddbd.png?ex=668f1942&is=668dc7c2&hm=84519a299f5c21bead9f4b5fdc021c382fdaced959576fd11a29871a41b37b47&"
+    },
+    {
+        "nome": "Sakonji Urokodaki",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377318413697115/c3ea98d6e743adf088df1f1566212fae.png?ex=668f1959&is=668dc7d9&hm=2bf0e85fb2eed724ae297be8f329f490c9e6677954306604056d1cc249ac96da&"
+    },
+    {
+        "nome": "Kagaya Ubuyashiki",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377441642479706/ac428c5cef4edeb973c47d014623bfd6.png?ex=668f1976&is=668dc7f6&hm=48fd6a206963f2f7aa1a754c06d2aa25862f999b407cf2cba965c7ecd09363da&"
+    },
+    {
+        "nome": "Senjurou Rengoku",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377542536335360/4fac2716b86e43172053ce34be8d362e.png?ex=668f198e&is=668dc80e&hm=8076b9f4eba881ed0c8787f9479682b3d95fc129ef157d90f3b032f5ab892a3a&"
+    },
+    {
+        "nome": "Kaigaku",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377628372631572/635c9c0bf204f426d5366b459a16bebd.png?ex=668f19a3&is=668dc823&hm=fbce895b90f3d70ee9eb1c82da7f8f5ce3243aa8fd85d554800ae0d32c2b4bbb&"
+    },
+    {
+        "nome": "Chachamaru",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377709566234685/86b8d3ebd3c0c81e3fbdfff7a0fa8aa0.png?ex=668f19b6&is=668dc836&hm=91fbf1139183ac34bdf485a4f1c80aae04e871d9e28e1a3606463f0634555815&"
+    },
+    {
+        "nome": "Hantengu",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260378115344171008/d3116b14cd0b11f92586f8fe950fd3f6.png?ex=668f1a17&is=668dc897&hm=25b2a643923e6d95fad65f350da0cc06590cf70289b1c319ba1a053dc33fa05e&"
+    },
+    {
+        "nome": "Roxy",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260402304801308793/6077d9977e78b159576acc9f6148cefa.png?ex=668f309e&is=668ddf1e&hm=812603bf7a7bca4073b20e0ee61a3269d29e0dc4d984e0e669ccdeea04003a1b&"
+    },
+    {
+        "nome": "Eris",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260402410187259934/2f700129e8b01fe32cf50da27671c20b.png?ex=668f30b7&is=668ddf37&hm=d8520b484b742bdf4b8dcf9aaa128d9ccb347a6264c0555b474211b985345f08&"
+    },
+    {
+        "nome": "Ghislaine",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260402518345777184/72d5f41c7b5cd634f506c24dd2bfdd97.png?ex=668f30d1&is=668ddf51&hm=4d6f5de37c1eec6cb552863625c77d1757ea6709188b794fa0b8431fa40ccbd9&"
+    },
+    {
+        "nome": "Lilia",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260402812584722534/b9c2be6298555d638f32dbc94a83bacf.png?ex=668f3117&is=668ddf97&hm=a690811d2cf594a375b8201e24b4f9d5168c5c2fc80369896187a5efe9d16b40&"
+    },
+    {
+        "nome": "Aisha Greyrat",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403048988016783/7f963f7b78d1ed950d3469d0cb3b435a.png?ex=668f3150&is=668ddfd0&hm=11eebb7803fe1a7434306152f4bb9d9f70a1a6cda5816fe4fc50ff6d14f89612&"
+    },
+    {
+        "nome": "Elinalise",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403192085221426/4d0db344f627118ef34a3f89aba48fa7.png?ex=668f3172&is=668ddff2&hm=6e2426f1e1437f5b708d551b9075569a62f1ea4c62bc9e6363a4365814cb51f2&"
+    },
+    {
+        "nome": "Kishirika Kishirisu",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403266018218035/83a0da10e901f02418502cea20406dc8.png?ex=668f3183&is=668de003&hm=491b3eb3f66001f77134f478ba51131216790a34a683007e076b6e03a7acb907&"
+    },
+    {
+        "nome": "Ruijerd",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403537297543278/55f6c8e5624a1531b5a0892b3e4eb026.png?ex=668f31c4&is=668de044&hm=7df3863828bca3dce9e704fdbba6c930b1de83b64582c463df2196db1d31de69&"
+    },
+    {
+        "nome": "Norn Greyrat",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403718747197561/ffc3cce5c88beeac534811baadf4f216.png?ex=668f31ef&is=668de06f&hm=db788c3d5793f53045b7c7db3e790079d032ea86782e40d1f4c0dadd32812682&"
+    },
+    {
+        "nome": "Linia",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403823600468132/258d930545d4bcf68780bd87cb285e6f.png?ex=668f3208&is=668de088&hm=836dc01bcddd6b9f89bd768b22db04bccb7355c46aae61ddcb8546f35fc14866&"
+    },
+    {
+        "nome": "Paul Greyrat",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403908677865553/479ddb1f9f36d7bc3d66b66a42015110.png?ex=668f321d&is=668de09d&hm=cb1a87cf7182ff60675f223607c974e3e277029c9d010886d1d7173533f6214a&"
+    },
+    {
+        "nome": "Orsted",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260404026764296286/4b4f689092d294d4952cfc56ad5349ca.png?ex=668f3239&is=668de0b9&hm=21239f3361bc194978510b2be46bc20af600dc8191be79b402f537516e20be76&"
+    },
+    {
+        "nome": "Zumbi",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260406830450868264/latest.png?ex=668f34d5&is=668de355&hm=818405367f352c830f97cdbf8832b29f53500379fc7dcf14811ddf910333cdaf&"
+    },
+    {
+        "nome": "Cartman",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421406366240798/b7e07c8d40751c3475a1d73344be5bae.png?ex=668f4268&is=668df0e8&hm=6265ff555e5dfbf46de26ff21db69e5ba6516acd42945aac39e1cc1b397c4926&"
+    },
+    {
+        "nome": "Kyle",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421525434142800/04ba5195090658e1b8765a27a31608b3.png?ex=668f4285&is=668df105&hm=a3b1d9575ea6c4cb5c7db299e9ad1b5e3204af38599b0f8cfff1108a61bf07ab&"
+    },
+    {
+        "nome": "Stan",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421587384139776/01b38cc648d5289b0068d4e1a5a7aa47.png?ex=668f4293&is=668df113&hm=5d79938856a6f71e6b9ccc245f88ffc1faafa7489cf8aa81a9207d7e8465419e&"
+    },
+    {
+        "nome": "Kenny",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421753285513347/dbd2162dafe570817eae670043d1b8fe.png?ex=668f42bb&is=668df13b&hm=a76884f7fee3aae4883667d573bcc547580681d1df174bccae2632348d76ed2b&"
+    },
+    {
+        "nome": "Butters",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421977655476295/957cf82e019f40a3facb502cf5ee31cc.png?ex=668f42f0&is=668df170&hm=467a613531080437b764603728235a3edda57293b3f20adb6007bee7dbf55276&"
+    },
+    {
+        "nome": "Chef",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422104424382556/d466b4ff22187955842f5da39c0543e7.png?ex=668f430f&is=668df18f&hm=2d96e254020ffabc7d4c40251434e87f32ff03b987460d7a287ed3a6b7d5458c&"
+    },
+    {
+        "nome": "Craig",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422306929578005/ef6ea2f1fa52d0f2814dd1a520d4d452.png?ex=668f433f&is=668df1bf&hm=43a084c021acfe0a3a3fd901141330b8d5044e9cfeb548b028d7571013260b80&"
+    },
+    {
+        "nome": "Tweek",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422397069103224/8151e34b723c72aae14962424c4ecbee.png?ex=668f4354&is=668df1d4&hm=92dca1e34d4273f8f409b946633f2e74a721ab20ff4a83ecb4583f9744602a6e&"
+    },
+    {
+        "nome": "Randy Marsh",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422505793982617/01a065b94dfdc2347bc63cda241169c1.png?ex=668f436e&is=668df1ee&hm=ce627ea60500677829ea7bf3c2495f024799bea7d23b08001f7cb8b6629177a3&"
+    },
+    {
+        "nome": "Wendy",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422650669301791/1e83cda3d82b577d3d9f71255605b223.png?ex=668f4391&is=668df211&hm=40df6e53953e8a31fbe02f46f814828098a4131f34ee46d127e760d44c29a3c9&"
+    },
+    {
+        "nome": "Clyde",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422721200980068/22a2f9aae98239e8408d0e526e4ebd24.png?ex=668f43a2&is=668df222&hm=4e83c74e4b8a834f1b8c045498d5f126f8aacd41bb5fab863d08dbd5226b085d&"
+    },
+    {
+        "nome": "Timmy",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422909357195314/9aac21091a49090d10542277a7d3a3bb.png?ex=668f43cf&is=668df24f&hm=28e78b0df973b3fc4b52e4e6f7e79687830fcad83d277904730cc10d03d4b594&"
+    },
+    {
+        "nome": "Ike",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260423198525362287/e55da3635af2e914f3630d9f7029ae48.png?ex=668f4414&is=668df294&hm=6e3aa7e19643ae3f70e021d8113e20fe42bd7a2bbd63e8ffbc8cd079fb24b73e&"
     }
 ]

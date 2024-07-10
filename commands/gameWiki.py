@@ -10,10 +10,12 @@ prefix = '$'
 data = datetime.date
 DATA_FILE = os.path.join('memoria', 'game.json')
 GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
-JOGOS_MAXIMOS = 10
-INTERVALO_RESET_JOGOS = 20 * 60  # 20 minutos em segundos
-TENTATIVAS_MAXIMAS = 5
+COINS_FILE = os.path.join('memoria', 'coins.json')
 
+JOGOS_MAXIMOS = 10
+INTERVALO_RESET_TENTATIVAS = 5 * 60  # 5 minutos em segundos
+INTERVALO_RESET_JOGOS = 60 * 60  # 20 minutos em segundos
+TENTATIVAS_MAXIMAS = 5
 
 def load_data(file):
     if os.path.exists(file):
@@ -26,6 +28,18 @@ def save_data(file, data):
     with open(file, 'w') as f:
         json.dump(data, f, indent=4)
 
+coins_data = load_data(COINS_FILE)
+def ganhar_coin(id, coinMAX=10):
+    try:
+        # Recompensar o jogador com moedas
+        moedas_atuais = coins_data.get(id, 0)
+        moedas_ganhas = random.randint(10, coinMAX)
+        moedas_atuais += moedas_ganhas
+        coins_data[id] = moedas_atuais
+        save_data(COINS_FILE, coins_data)
+        print(f'Moedas salvas {coins_data}')
+    except Exception as e:
+        print(f"Ocorreu um erro ao salvar as moedas: {e}")
 
 class ModelInfo(discord.ui.Modal):
     def __init__(self, personagem, dados_personagem, jogador_id):
@@ -33,6 +47,7 @@ class ModelInfo(discord.ui.Modal):
         self.personagem = personagem
         self.dados_personagem = dados_personagem
         self.jogador_id = jogador_id
+
 
     descricao = discord.ui.TextInput(label='Descrição', default="", style=discord.TextStyle.paragraph)
     serie = discord.ui.TextInput(label='Universo/Série', default="")
@@ -48,6 +63,7 @@ class ModelInfo(discord.ui.Modal):
                 break
 
         save_data(GAME_FILE, self.dados_personagem)
+        ganhar_coin(self.jogador_id, 100)
         await interaction.response.send_message("Informações atualizadas com sucesso!", ephemeral=True)
 
 
@@ -83,6 +99,7 @@ class ViewInfo(discord.ui.View):
             if self.current >= len(self.embeds):
                 self.current = max(0, len(self.embeds) - 1)
             if self.embeds:
+                ganhar_coin(self.jogador_id, 300)
                 await interaction.response.edit_message(embed=self.embeds[self.current], view=self)
             else:
                 await interaction.response.edit_message(content="Nenhum personagem restante.", view=None)
@@ -138,8 +155,10 @@ class PersonagemSelect(discord.ui.Select):
             self.game_instance.dados_personagem[str(self.jogador_destinatario)].append(personagem)
             save_data(GAME_FILE, self.game_instance.dados_personagem)
             await interaction.response.send_message(f"{personagem_selecionado} foi doado com sucesso!", ephemeral=False)
+            ganhar_coin(interaction.user.id, 250)
         else:
             await interaction.response.send_message("Você não tem permissão para trocar este personagem.", ephemeral=False)
+
 
 
 class DoacaoView(discord.ui.View):
@@ -227,12 +246,12 @@ class GameWiki:
             self.ultima_tentativa[jogadorID] = agora
 
         # Resetar tentativas se passaram 10 minutos desde a última tentativa
-        if agora - self.ultima_tentativa[jogadorID] >= INTERVALO_RESET_JOGOS:
+        if agora - self.ultima_tentativa[jogadorID] >= INTERVALO_RESET_TENTATIVAS:
             self.tentativas_restantes[jogadorID] = TENTATIVAS_MAXIMAS
             self.ultima_tentativa[jogadorID] = agora
 
         if self.tentativas_restantes[jogadorID] <= 0:
-            tempo_restante = INTERVALO_RESET_JOGOS - (agora - self.ultima_tentativa[jogadorID])
+            tempo_restante = INTERVALO_RESET_TENTATIVAS - (agora - self.ultima_tentativa[jogadorID])
             minutos_restantes = round(tempo_restante / 60)
             await message.channel.send(
                 f"<@{message.author.id}>, você não tem mais tentativas restantes. Faltam {minutos_restantes} minutos.")
@@ -298,6 +317,7 @@ class GameWiki:
             self.jogo_de_adivinhar = False
         else:
             if resposta.content.lower().startswith(nome_personagem.lower()):
+
                 if jogadorID not in self.dados_personagem:
                     self.dados_personagem[jogadorID] = []
 
@@ -307,8 +327,10 @@ class GameWiki:
                         if personagem['nome'].lower() == nome_personagem.lower():
                             await canal_jogo.send(f"O(a) personagem {nome_personagem} já pertence a <@{jogador}>.")
                             self.jogo_de_adivinhar = False
+                            ganhar_coin(jogadorID,20)
                             return
-
+                # Recompensar o jogador com moedas
+                ganhar_coin(jogadorID, 50)
                 self.dados_personagem[jogadorID].append({
                     'nome': nome_personagem,
                     'data': datetime.datetime.now().strftime("%d/%m/%Y"),
@@ -318,7 +340,7 @@ class GameWiki:
                 })
                 save_data(GAME_FILE, self.dados_personagem)
 
-                await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é seu")
+                await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é seu.")
                 self.jogo_de_adivinhar = False
             else:
                 self.tentativas_restantes[jogadorID] -= 1
@@ -333,6 +355,7 @@ class GameWiki:
 
     def check_resposta_jogador(self, message, autor_jogador):
         return message.author == autor_jogador
+
 
     async def doar_personagem(self, message):
         if len(message.mentions) != 1:
@@ -349,3 +372,4 @@ class GameWiki:
         personagens = self.dados_personagem[str(jogador_doador)]
         view = DoacaoView(personagens, jogador_doador, jogador_destinatario, self)  # Passar a instância de GameWiki
         await message.channel.send(f"<@{message.author.id}>, escolha um personagem para doar:", view=view)
+

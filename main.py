@@ -21,6 +21,7 @@ from commands.adicionarPersonagem import AdicionarPersonagem
 from commands.avatar import AvatarComandos
 from commands.ajudaCommands import AjudaComando
 from commands.gameWiki import GameWiki
+from commands.wikilist import Wikilist
 from commands.slashCommands import slashCommands
 
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -86,6 +87,7 @@ adicionar_personagem = AdicionarPersonagem(client)
 comandos_de_avatar = AvatarComandos(client)
 ajuda_comando = AjudaComando(client)
 game_wiki = GameWiki(client)
+wiki_list = Wikilist(client)
 
 @client.event
 async def on_message(message):
@@ -99,6 +101,7 @@ async def on_message(message):
         await comandos_de_avatar.avatar(message)
         await ajuda_comando.processar_mensagem(message)
         await game_wiki.processar_mensagem(message)
+        await wiki_list.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações

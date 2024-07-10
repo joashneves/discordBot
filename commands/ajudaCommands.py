@@ -14,13 +14,19 @@ info_avatar = discord.Embed(title='Avatar',
                            description='Lhe mostra um historico de todas as fotos de perfil que o usuario mencionado usou')
 info_avatar.add_field(name='Comando: $avatar', value='paramentros: nenhum ou menção por @\nEx: $avatar @user', inline=False)
 #Embed dos jogos
-info_jogo = discord.Embed(title='Jogo',
+info_jogo = discord.Embed(title='Jogo(1/2)',
                            description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 10 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
 info_jogo.add_field(name='Comando: $jogar', value='apos usar o comando $jogar, escreva o nome correto do personagem que aparece', inline=False)
 info_jogo.add_field(name='Comando: $score', value='Mostra todos os personagens que voce encontrou e possibilita a muda as informações do mesmos.', inline=False)
 info_jogo.add_field(name='Comando: $doar @user', value='Selecione o @ da pessoa que voce queria doar o personagem, e escolha o personagem.', inline=False)
 info_jogo.set_image(url='https://cdn.discordapp.com/attachments/1255938137499107490/1256294540579704832/image.png?ex=66803ef7&is=667eed77&hm=059a36febce9cd6055290de5b6da708d2fbf9b934f0dda5314e9896116afc192&')
 info_jogo.set_footer(text='Imagem de Exemplo')
+info_wiki = discord.Embed(title='Wiki do Jogo(2/2)',
+                           description='Aqui estão alguns comandos para lhe ajudar na pesquisa do bot, apos pegar o personagem seria bom saber dessas coisas')
+info_wiki.add_field(name='Comando: $wiki', value='Mostra todos os personagens descobertos', inline=False)
+info_wiki.add_field(name='Comando: $wikilist', value='Mostra todos os personagens registrados.', inline=False)
+info_wiki.add_field(name='Comando: $pesc [nome_personagem]', value='Mostra se o personagem existe ou não na lista', inline=False)
+info_wiki.set_footer(text='Imagem de Exemplo')
 
 class ViewInfo(discord.ui.View):
     def __init__(self, embeds):
@@ -47,5 +53,5 @@ class AjudaComando():
             return
 
         if mensagem.content.startswith(prefix + "ajuda"):
-            view_info = ViewInfo([info_bot, info_avatar, info_jogo])
+            view_info = ViewInfo([info_bot, info_avatar, info_jogo, info_wiki])
             await mensagem.channel.send(embed=view_info.embeds[0], view=view_info)
