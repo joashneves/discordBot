@@ -13,7 +13,7 @@ GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
 COINS_FILE = os.path.join('memoria', 'coins.json')
 
 JOGOS_MAXIMOS = 10
-INTERVALO_RESET_TENTATIVAS = 5 * 60  # 5 minutos em segundos
+INTERVALO_RESET_TENTATIVAS = 3 * 60  # 5 minutos em segundos
 INTERVALO_RESET_JOGOS = 60 * 60  # 20 minutos em segundos
 TENTATIVAS_MAXIMAS = 5
 
@@ -31,13 +31,19 @@ def save_data(file, data):
 coins_data = load_data(COINS_FILE)
 def ganhar_coin(id, coinMAX=10):
     try:
+        id = str(id)  # Certifique-se de que o ID do usuário é uma string
+        print(f'Pessoa {id}')
         # Recompensar o jogador com moedas
-        moedas_atuais = coins_data.get(id, 0)
         moedas_ganhas = random.randint(10, coinMAX)
-        moedas_atuais += moedas_ganhas
-        coins_data[id] = moedas_atuais
+        print(f'moedas : {moedas_ganhas}')
+        print(f'moedas Atuais: {coins_data.get(id, 0)}')
+        if id in coins_data:
+            coins_data[id] += moedas_ganhas
+        else:
+            coins_data[id] = moedas_ganhas
+        print(f'moedas : {coins_data[id]}')
         save_data(COINS_FILE, coins_data)
-        print(f'Moedas salvas {coins_data}')
+
     except Exception as e:
         print(f"Ocorreu um erro ao salvar as moedas: {e}")
 
@@ -311,7 +317,7 @@ class GameWiki:
         try:
             resposta = await self.client.wait_for('message',
                                                   check=lambda m: self.check_resposta_jogador(m, autor_jogador),
-                                                  timeout=10)
+                                                  timeout=30)
         except asyncio.TimeoutError:
             await canal_jogo.send('Tempo esgotado! O jogo acabou.')
             self.jogo_de_adivinhar = False

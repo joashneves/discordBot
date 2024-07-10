@@ -68,7 +68,7 @@ class Wikilist:
             await self.mostrar_personagens_encontrados(message)
 
     async def procurar_personagem(self, message):
-        termo_busca = message.content[len(prefix + 'procurar'):].strip().lower()
+        termo_busca = message.content[len(prefix + 'pesc'):].strip().lower()
         if not termo_busca:
             await message.channel.send("Você precisa fornecer um nome para procurar.")
             return

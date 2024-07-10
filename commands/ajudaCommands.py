@@ -15,7 +15,7 @@ info_avatar = discord.Embed(title='Avatar',
 info_avatar.add_field(name='Comando: $avatar', value='paramentros: nenhum ou menção por @\nEx: $avatar @user', inline=False)
 #Embed dos jogos
 info_jogo = discord.Embed(title='Jogo(1/2)',
-                           description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 10 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
+                           description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 3 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
 info_jogo.add_field(name='Comando: $jogar', value='apos usar o comando $jogar, escreva o nome correto do personagem que aparece', inline=False)
 info_jogo.add_field(name='Comando: $score', value='Mostra todos os personagens que voce encontrou e possibilita a muda as informações do mesmos.', inline=False)
 info_jogo.add_field(name='Comando: $doar @user', value='Selecione o @ da pessoa que voce queria doar o personagem, e escolha o personagem.', inline=False)
@@ -27,6 +27,27 @@ info_wiki.add_field(name='Comando: $wiki', value='Mostra todos os personagens de
 info_wiki.add_field(name='Comando: $wikilist', value='Mostra todos os personagens registrados.', inline=False)
 info_wiki.add_field(name='Comando: $pesc [nome_personagem]', value='Mostra se o personagem existe ou não na lista', inline=False)
 info_wiki.set_footer(text='Imagem de Exemplo')
+
+tutorial_embed = discord.Embed(title="Tutorial dos Perfis", color=0x7289DA)
+tutorial_embed.add_field(name=f"Explicação Geral!",
+                         value=f'Os perfis começam de modo simples, mas podem acabar ficando um pouco complicado, porem aqui vai umas explicação bem rapida, para começar a configurar o perfil voce precisa de level, quanto mais level voce possui, mais modificações, sempre upe com $upar_perfil'
+                               f'esse comando vai gastar seus pixel, e voce vai ter que juntar denovo pra upar, caso queira saber o custo é 1000 vezes seu nivel, boa compra :D',
+                         inline=False)
+tutorial_embed.add_field(name=f"{prefix}perfil [@usuário]",
+                         value="Mostra o perfil do usuário mencionado ou do autor da mensagem se nenhum usuário for mencionado.")
+tutorial_embed.add_field(name=f"{prefix}editardescricao <nova descrição>", value="Edita a descrição do seu perfil.")
+tutorial_embed.add_field(name=f"{prefix}upar_perfil", value="Aumenta o nível do seu perfil, se possível.")
+tutorial_embed.add_field(name=f"{prefix}escolher_favorito",
+                         value="Permite escolher um personagem favorito para seu perfil.")
+tutorial_embed.add_field(name=f"{prefix}enviar_imagem <URL>",
+                         value="Envia uma imagem para ser usada como imagem personalizada no perfil (requer nível 4).")
+tutorial_embed.add_field(name=f"{prefix}aprendizar @usuário",
+                         value="Inicia um pedido para alguém se tornar seu aprendiz.")
+tutorial_embed.add_field(name=f"{prefix}remover_aprendiz @usuário", value="Remove um usuário como seu aprendiz.")
+tutorial_embed.add_field(name=f"{prefix}editarcorembed <cor hexadecimal>",
+                         value="Edita a cor do embed do perfil (requer nível 5).")
+tutorial_embed.add_field(name=f"{prefix}bank",
+                         value="Mostra quanto de pixel voce tem individualmente.")
 
 class ViewInfo(discord.ui.View):
     def __init__(self, embeds):
@@ -53,5 +74,5 @@ class AjudaComando():
             return
 
         if mensagem.content.startswith(prefix + "ajuda"):
-            view_info = ViewInfo([info_bot, info_avatar, info_jogo, info_wiki])
+            view_info = ViewInfo([info_bot, info_avatar, info_jogo, info_wiki, tutorial_embed])
             await mensagem.channel.send(embed=view_info.embeds[0], view=view_info)
