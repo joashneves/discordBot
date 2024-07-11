@@ -49,7 +49,8 @@ Permite editar a cor do embed do perfil, inserindo o código hexadecimal da cor 
 - Melhorar a funcionalidade dos comandos existentes.
 - Implementar travas adicionais para segurança e controle.
 - Aumentar a interação do bot para uma experiência mais humana.
-
+- Fichas de personagem
+- Conquistas
 ## Concluído
 
 - [x] Criar uma exibição de perfil personalizada.

@@ -6,6 +6,8 @@ import os
 import random
 import asyncio
 
+from commands.Conquistas import Conquistas
+
 prefix = '$'
 data = datetime.date
 DATA_FILE = os.path.join('memoria', 'game.json')
@@ -350,6 +352,8 @@ class GameWiki:
                 save_data(GAME_FILE, self.dados_personagem)
 
                 await canal_jogo.send(f"Você acertou! e agora {nome_personagem} é seu.")
+                conquista = Conquistas(self.client)
+                await conquista.primeiro_personagem(jogadorID)
                 self.jogo_de_adivinhar = False
             else:
                 self.tentativas_restantes[jogadorID] -= 1

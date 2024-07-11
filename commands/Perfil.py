@@ -8,6 +8,7 @@ prefix = '$'
 COINS_FILE = os.path.join('memoria', 'coins.json')
 GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
 PROFILE_FILE = os.path.join('memoria', 'perfil.json')
+CONQUISTAS_FILE = os.path.join('memoria', 'conquistas.json')
 
 def load_data(file):
     if os.path.exists(file):
@@ -79,6 +80,7 @@ class Perfil:
         self.coins_data = load_data(COINS_FILE)
         self.dados_personagem = load_data(GAME_FILE)
         self.perfil_data = load_data(PROFILE_FILE)
+        self.conquista_data = load_data(CONQUISTAS_FILE )
 
     async def mostrar_perfil(self, message):
         if len(message.mentions) > 0:
@@ -117,7 +119,13 @@ class Perfil:
                 embed.set_image(url=imagem_personalizada)
 
             if nivel >= 5:
-                embed.add_field(name="Conquistas", value=", ".join(conquistas), inline=False)
+                if conquistas:
+                    conquistas_desc = "\n".join(
+                        [f"{index + 1}. {conquista}" for index, conquista in enumerate(conquistas)])
+                    embed.add_field(name="Conquistas", value=conquistas_desc, inline=False)
+                else:
+                    embed.add_field(name="Conquistas", value="Nenhuma conquista ainda.", inline=False)
+
                 embed.add_field(name="Aprendiz", value=aprendiz, inline=False)
 
             await message.channel.send(embed=embed)

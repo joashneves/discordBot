@@ -24,6 +24,7 @@ from commands.gameWiki import GameWiki
 from commands.wikilist import Wikilist
 from commands.Coins import Coins
 from commands.Perfil import Perfil
+from commands.Conquistas import Conquistas
 from commands.slashCommands import slashCommands
 
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -92,6 +93,7 @@ game_wiki = GameWiki(client)
 wiki_list = Wikilist(client)
 coins = Coins(client)
 perfil = Perfil(client)
+conquista = Conquistas(client)
 
 @client.event
 async def on_message(message):
@@ -108,6 +110,7 @@ async def on_message(message):
         await wiki_list.processar_mensagem(message)
         await coins.processar_mensagem(message)
         await perfil.processar_mensagem(message)
+        await conquista.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações

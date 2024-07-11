@@ -2,6 +2,8 @@ import discord
 import os
 import json
 
+from commands.Conquistas import Conquistas
+
 prefix = '$'
 COINS_FILE = os.path.join('memoria', 'coins.json')
 
@@ -20,11 +22,14 @@ class Coins:
         self.client = client
         self.coins_data = load_data(COINS_FILE)
 
+
     async def processar_mensagem(self, message):
         if message.author == self.client.user:
             return
 
         if message.content.startswith(prefix + 'bank'):
+            conquista = Conquistas(self.client)
+            await conquista.atribuir_conquista(message.author.id)
             await self.mostrar_coins(message)
 
     async def mostrar_coins(self, message):

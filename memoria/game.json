@@ -2594,5 +2594,173 @@
     {
         "nome": "Yoda",
         "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260794288078327848/e5e89aba-723b-4ba1-852c-d8fba19b1da1-profile_image-300x300.png?ex=66909dae&is=668f4c2e&hm=fabba76cff3ae732599446a8107a34fd8ed55d1018ddd65fd647c94d2b07a284&"
+    },
+    {
+        "nome": "Garnet",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261073056185585748/4ffebe862798112876e9fec026bef474.png?ex=6691a14e&is=66904fce&hm=84fe4c8a6d5dc67216fbe6c3994c545f56bea68d202f042d3d19e34536fd6ba7&"
+    },
+    {
+        "nome": "Lapis Lazuli",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261073166428672040/09fb12467957da96913fc8f75e6f6356.png?ex=6691a168&is=66904fe8&hm=f6048a8b2faaff84cdd782d28446c84d475f1aab665fc52652aac0c2b0c34048&"
+    },
+    {
+        "nome": "Steven",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261073283005157469/49dd94c48aa03b9eda31d35d3063ea64.png?ex=6691a184&is=66905004&hm=1ce6b8ff2413d6e4597b500511a32eee07325895674966de3ed7670e53ada8f9&"
+    },
+    {
+        "nome": "Peridot",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261073350004969643/d53ef6f0ec684f7f0f888971dded59fb.png?ex=6691a194&is=66905014&hm=06f3742f44de9cdda67b905685d4958b52662a2b1f6829a6b12a2a06a13103aa&"
+    },
+    {
+        "nome": "P\u00e9rola",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261073869498744843/8a17fe0383418e1467451b1d986524fc.png?ex=6691a210&is=66905090&hm=3efa10d280881bb7a0dd4f88b52c69ed5d9a1e2fa5bb2998ba35f1a2157b3758&"
+    },
+    {
+        "nome": "Espinela",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261074371439759492/ddf141cfad07ae397d8dd0cf84ebf0a6.png?ex=6691a287&is=66905107&hm=04dda00b97054daf698245a0942433f0856eac5848ccb6447f047eebd7c54527&"
+    },
+    {
+        "nome": "Ametista",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261074490893533235/02e76d3067bcc1edbf6073c1de3ccc8c.png?ex=6691a2a4&is=66905124&hm=43e0a2a3940d89db8fc3804528d1a77a93a00b264a77155bfada3fb9205ba27c&"
+    },
+    {
+        "nome": "Diamante Azul",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261075702854193202/ac86829d114542eb1e66e312c693b765.png?ex=6691a3c5&is=66905245&hm=36926e6f30a7d97dd721ba655b1f1da011c540c9a824b57ee5bab894b8ab6c8c&"
+    },
+    {
+        "nome": "Rose Quartz",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076298617323552/05b0b54a43cdd680c5849980863e804a.png?ex=6691a453&is=669052d3&hm=33dca8a63bc00c7e28c7f1473a97bad52c392108945077c40293c85563491256&"
+    },
+    {
+        "nome": "Diamante Rosa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076440364089405/46e1e5d2529ec420ea5324b5bc1aba25.png?ex=6691a475&is=669052f5&hm=6b8aaf78b06fe1f2c5edb14f321c672e9ef11ef6b5b8369b7083fc960dc48855&"
+    },
+    {
+        "nome": "Safira",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076793105055754/697b1c55b37fc49be2db37f24ebb94a2.png?ex=6691a4c9&is=66905349&hm=397d7ec6dc51f79d55b16632192fe7db1fc29f48ebae7058e4debb61df287710&"
+    },
+    {
+        "nome": "Rubi",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077056138117161/0c0b38d7a7b8be825e3d3076d4292eb4.png?ex=6691a507&is=66905387&hm=fc26c8ad1db158c49f45057c45eb15c6b15198292fa8d162e7cedab013c464cf&"
+    },
+    {
+        "nome": "Le\u00e3o",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077491121127475/886b5410418b745f81d7c2f67f2d0d20.png?ex=6691a56f&is=669053ef&hm=381d77c719afc04697fde80e26b26c9b521a8fdd70257a57c77bddc6bab2bd3a&"
+    },
+    {
+        "nome": "Diamante Branco",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077560926666773/b17d5343b913148ac4077f9d877c30cd.png?ex=6691a580&is=66905400&hm=3025daf08becb2e4a4034fa5b35f2da3fe8d99d00656a4ebdb676e80efcf9bc5&"
+    },
+    {
+        "nome": "Connie",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077615628914688/cfdb7ca119e4299c39c8adc90a65065f.png?ex=6691a58d&is=6690540d&hm=ea310fbe8838701b9264bf9d9f0c74a96918a7947553316afb15f87775d3bfb0&"
+    },
+    {
+        "nome": "Stevonnie",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077940561510571/8fe84f35251f0dd13822f033f75d22ee.png?ex=6691a5da&is=6690545a&hm=b60cb7b05874b131bb2127e691204069d2adfa88e9c1dc0ae42c50fa22ddbaa0&"
+    },
+    {
+        "nome": "Opal",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078018210795652/90b6dc4ba7d4a0682755dc5ea02a66c8.png?ex=6691a5ed&is=6690546d&hm=28c80a717a7f0114b0e629ed3baca5b366b9796772892529351e4a6e936ac0b5&"
+    },
+    {
+        "nome": "Jasper",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078138754961469/77da362389e9329332136a1326d381d0.png?ex=6691a609&is=66905489&hm=de8d2e6e19de618d52c2db597df041c4f3d24dab415548a3543475cc55191fe6&"
+    },
+    {
+        "nome": "Diamante Amarelo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078608261414973/180c00a1252ecdff0c0b35a24eb62a0c.png?ex=6691a679&is=669054f9&hm=ed0e9ebb9e43b5df95ccfb488255d1c08aa33ab246adaa92aed6b18103965f6b&"
+    },
+    {
+        "nome": "Lars",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078666730012672/8228bfa60f63b0a2a95df28999ae09e3.png?ex=6691a687&is=66905507&hm=7dcdfb1cd9d4a25a0f5e9e31009381165307d28c14c77967c7a9854861405929&"
+    },
+    {
+        "nome": "Greg Universo",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078879460917338/5c6bb205c122193ccc5397e38c81e05a.png?ex=6691a6ba&is=6690553a&hm=93d19d56f933493b7f70572c14ec127b40b253b611999b81dd1367c3cab0d9b9&"
+    },
+    {
+        "nome": "Bismuto",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261079212433870919/84034b8ba74688c23f389b12308366b2.png?ex=6691a709&is=66905589&hm=7ece27290553560494b2fa0942a20cd60fbac80a47e6ec2c25b2ac08bc54ead2&"
+    },
+    {
+        "nome": "Sardonyx",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261079797631553637/1000.png?ex=6691a795&is=66905615&hm=8a7b8b27ea6dd394b3a0bdd0e7b9133755dd165af2b90db8e32669a9c151b9b3&"
+    },
+    {
+        "nome": "Ab\u00f3bora",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261079932499660810/1a448e6134d10e4e3f9aa0d86816e063.png?ex=6691a7b5&is=66905635&hm=c79166b7b0dfa122838bb29239bc814bf83f577253b1b08b3d206f76b3347b2e&"
+    },
+    {
+        "nome": "Quartzo Arco-\u00cdris",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261080282900074556/a91ffc66472797b84e2882184a179573.png?ex=6691a809&is=66905689&hm=182e0b3508a8066ff4c6374df249510184e91fb254d344537f34864b8a494a97&"
+    },
+    {
+        "nome": "Quartzo Arco-\u00cdris 2.0",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261080436487094293/latest.png?ex=6691a82d&is=669056ad&hm=1fe08c15d0740c25166ac507a0099f27e05553e36a06168501ba3b73ccd6d6e1&"
+    },
+    {
+        "nome": "P\u00e9rola Azul",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261080832953679913/3d2c86999a8b1e644b51e94933b65426.png?ex=6691a88c&is=6690570c&hm=4ab4a7083564c96561ba77da8fb19eff87ca05ef6936b26cf631ed780d2d8525&"
+    },
+    {
+        "nome": "Obsidiana",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261080999387857017/4eaec255c81baaaa3516f593ea6a9af7.png?ex=6691a8b4&is=66905734&hm=9bace28d8e2fe3e6a37c522e6ee27aec678588af14addb4a0125272aba52467e&"
+    },
+    {
+        "nome": "Quartzo Fum\u00ea",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261081524363591700/1000.png?ex=6691a931&is=669057b1&hm=0661e836c1eae1996b642786dbe16d4b2abd6a103a0e441fd9eb1bf57186c3c5&"
+    },
+    {
+        "nome": "Sadie Miller",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261081935481143317/0ad0f3ff5d1157580ef59526e2215294.png?ex=6691a993&is=66905813&hm=7c556b1cbc0e932ca779d642016c10269f359f27d8d362549b4d7e6ec994cbe3&"
+    },
+    {
+        "nome": "P\u00e9rola Rosa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261082911378247790/088abfb86cddf32cc264ed9db7d0dc4d.png?ex=6691aa7b&is=669058fb&hm=9ee414153b1ba02b924b161883f54536bdc0521789889e0000e09b4d8485aefb&"
+    },
+    {
+        "nome": "Sugilite",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261083279579156572/1000.png?ex=6691aad3&is=66905953&hm=797dd4b565077401210262325d6a2df60a99f82b2e29b64e9504d14709ba19ba&"
+    },
+    {
+        "nome": "Steg",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261083476845789276/595665db370a85124caf34d2798ea996.png?ex=6691ab02&is=66905982&hm=b012103aa11537d7f15af0858aee26ac095b9bdec4339a47f6bffb82e9c94404&"
+    },
+    {
+        "nome": "Mega P\u00e9rola",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261084055944827023/d45789a3a5fc2c88b44bb6e4bfbfb2e2.png?ex=6691ab8c&is=66905a0c&hm=c409969dd3e12503d116d404a9dde548dc2dedc5ff3cd0929deb3edbd636ed4b&"
+    },
+    {
+        "nome": "Gata Steven",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261084260526194718/369f2fef34ad210889cc7a3e78b59d4e.png?ex=6691abbd&is=66905a3d&hm=182e3bd1501860792279cda5c1698c5c27bcc744698009658aa8ff3c79f1b37a&"
+    },
+    {
+        "nome": "Malaquita",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261084417150025891/a87bc871a102f98cd6fafbe7e6e4db56.png?ex=6691abe2&is=66905a62&hm=064600fa58373acce1d2dd6250e4ed0011b2a3bd0866cde5df27b7e857f4961e&"
+    },
+    {
+        "nome": "Nefrita",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261084910920400956/8739762acb4f829a601638b589dcac52.png?ex=6691ac58&is=66905ad8&hm=5d6f7fb00f555f53f1110d605fc3e06d54911272301b60e41c723e6491bb81a3&"
+    },
+    {
+        "nome": "Alexandrite",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261085388336791642/ad05a781a9c69ab87814597cc3b1992f.png?ex=6691acca&is=66905b4a&hm=2fcf820de746972b29ef2bdf72597e2f1af0a269a1a1baf9fa7b308f71cbcb4e&"
+    },
+    {
+        "nome": "Cebola",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261085658282459157/latest.png?ex=6691ad0a&is=66905b8a&hm=936e1fb7862d10ce89df82955ee2cdcab93de8996aa56749a25253a566844fa2&"
+    },
+    {
+        "nome": "Mo\u00e7a Misteriosa",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261086025950826548/8395a7e868d69da8aa3fb1ba12514e44.png?ex=6691ad62&is=66905be2&hm=ac0ee6378ae3ec5b4cda54c39333c6201f0678da1821790671adc9bee42cb209&"
+    },
+    {
+        "nome": "Pedra do Sol",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261086338371944488/94641c2e2a7db375539d187f435648ba.png?ex=6691adac&is=66905c2c&hm=e32484bce2c0fb7b688fb92bd167c6bfab3b03d8d8fcd715b6ffc8ada872f2d6&"
+    },
+    {
+        "nome": "P\u00e9rola Amarela",
+        "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261086481250910208/1000.png?ex=6691adce&is=66905c4e&hm=a166cbcb291190a8c0f16c1cadaac0df43a27e3a9c160a1a6c241367956c24c6&"
     }
 ]
