@@ -15,7 +15,7 @@ info_avatar = discord.Embed(title='Avatar',
 info_avatar.add_field(name='Comando: $avatar', value='paramentros: nenhum ou menção por @\nEx: $avatar @user', inline=False)
 #Embed dos jogos
 info_jogo = discord.Embed(title='Jogo(1/2)',
-                           description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 3 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
+                           description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 1 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
 info_jogo.add_field(name='Comando: $jogar', value='apos usar o comando $jogar, escreva o nome correto do personagem que aparece', inline=False)
 info_jogo.add_field(name='Comando: $score', value='Mostra todos os personagens que voce encontrou e possibilita a muda as informações do mesmos.', inline=False)
 info_jogo.add_field(name='Comando: $doar @user', value='Selecione o @ da pessoa que voce queria doar o personagem, e escolha o personagem.', inline=False)

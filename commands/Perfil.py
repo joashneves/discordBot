@@ -88,7 +88,8 @@ class Perfil:
             user_id = str(message.author.id)
             member = message.author
 
-        coins = self.coins_data.get(user_id, 0)
+        coins_data = load_data(COINS_FILE)
+        coins = coins_data.get(user_id, 0)
         personagens = self.dados_personagem.get(user_id, [])
         perfil = self.perfil_data.get(user_id, {"nivel": 1})
         descricao = perfil.get("descricao", "Sem descrição")
@@ -183,7 +184,8 @@ class Perfil:
 
     async def upar_perfil(self, message):
         user_id = str(message.author.id)
-        coins = self.coins_data.get(user_id, 0)
+        coins_data = load_data(COINS_FILE)
+        coins = coins_data.get(user_id, 0)
         perfil = self.perfil_data.get(user_id, {"nivel": 1})
         nivel_atual = perfil.get("nivel", 1)
         custo_up = 1000 * nivel_atual

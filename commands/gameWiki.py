@@ -13,7 +13,7 @@ GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
 COINS_FILE = os.path.join('memoria', 'coins.json')
 
 JOGOS_MAXIMOS = 10
-INTERVALO_RESET_TENTATIVAS = 3 * 60  # 5 minutos em segundos
+INTERVALO_RESET_TENTATIVAS = 1 * 60  # 1 minutos em segundos
 INTERVALO_RESET_JOGOS = 60 * 60  # 20 minutos em segundos
 TENTATIVAS_MAXIMAS = 5
 
@@ -31,20 +31,21 @@ def save_data(file, data):
 coins_data = load_data(COINS_FILE)
 def ganhar_coin(id, coinMAX=10):
     try:
+        _coins_data = load_data(COINS_FILE)
         id = str(id)  # Certifique-se de que o ID do usuário é uma string
         print(f'Pessoa {id}')
         print(f'Pessoa {coins_data}')
         # Recompensar o jogador com moedas
         moedas_ganhas = random.randint(10, coinMAX)
         print(f'moedas : {moedas_ganhas}')
-        print(f'moedas Atuais: {coins_data.get(id, 0)}')
+        print(f'moedas Atuais: {_coins_data.get(id, 0)}')
         if id in coins_data:
-            coins_data[id] += moedas_ganhas
+            _coins_data[id] += moedas_ganhas
         else:
-            coins_data[id] = moedas_ganhas
+            _coins_data[id] = moedas_ganhas
         print(f'moedas : {coins_data[id]}')
         print(f'Pessoa {coins_data}')
-        save_data(COINS_FILE, coins_data)
+        save_data(COINS_FILE, _coins_data)
 
     except Exception as e:
         print(f"Ocorreu um erro ao salvar as moedas: {e}")
