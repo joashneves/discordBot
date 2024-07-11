@@ -28,9 +28,10 @@ class Coins:
             await self.mostrar_coins(message)
 
     async def mostrar_coins(self, message):
+        coins_data = load_data(COINS_FILE)
         user_id = str(message.author.id)
         if user_id in self.coins_data:
-            coins = self.coins_data[user_id]
+            coins = coins_data[user_id]
             await message.channel.send(f"{message.author.mention}, você tem {coins} pixel's.")
         else:
             await message.channel.send(f"{message.author.mention}, você ainda não possui pixel.")

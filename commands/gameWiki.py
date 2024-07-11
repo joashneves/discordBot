@@ -33,6 +33,7 @@ def ganhar_coin(id, coinMAX=10):
     try:
         id = str(id)  # Certifique-se de que o ID do usuário é uma string
         print(f'Pessoa {id}')
+        print(f'Pessoa {coins_data}')
         # Recompensar o jogador com moedas
         moedas_ganhas = random.randint(10, coinMAX)
         print(f'moedas : {moedas_ganhas}')
@@ -42,6 +43,7 @@ def ganhar_coin(id, coinMAX=10):
         else:
             coins_data[id] = moedas_ganhas
         print(f'moedas : {coins_data[id]}')
+        print(f'Pessoa {coins_data}')
         save_data(COINS_FILE, coins_data)
 
     except Exception as e:
