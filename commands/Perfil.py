@@ -199,10 +199,10 @@ class Perfil:
         custo_up = 1000 * nivel_atual
 
         if coins >= custo_up:
-            self.coins_data[user_id] -= custo_up
+            coins_data[user_id] -= custo_up
             perfil["nivel"] = nivel_atual + 1
             self.perfil_data[user_id] = perfil
-            save_data(COINS_FILE, self.coins_data)
+            save_data(COINS_FILE, coins_data)
             save_data(PROFILE_FILE, self.perfil_data)
             await message.channel.send(f"Parabéns! Você subiu para o nível {perfil['nivel']}!")
         else:
