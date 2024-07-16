@@ -39,6 +39,7 @@ class Wikilist:
     def __init__(self, client):
         self.client = client
         self.dados_personagem = load_data(GAME_FILE)
+        self.todos_personagens = load_data(DATA_FILE)
 
         # Listas para armazenar personagens encontrados e não encontrados
         self.personagens_encontrados = []
@@ -68,22 +69,38 @@ class Wikilist:
             await self.mostrar_personagens_encontrados(message)
 
     async def procurar_personagem(self, message):
+        self.dados_personagem = load_data(GAME_FILE)
+        self.todos_personagens = load_data(DATA_FILE)  # Carrega todos os personagens (descobertos e não descobertos)
+
         termo_busca = message.content[len(prefix + 'pesc'):].strip().lower()
         if not termo_busca:
             await message.channel.send("Você precisa fornecer um nome para procurar.")
             return
 
-        resultados = []
+        resultados_descobertos = []
+        # Primeiro, procura entre todos os personagens descobertos
         for jogador_id, personagens in self.dados_personagem.items():
             for personagem in personagens:
                 if termo_busca in personagem['nome'].lower():
-                    resultados.append(personagem)
+                    print(f'Personagem descoberto encontrado: {personagem["nome"]}!')
+                    resultados_descobertos.append(personagem)
 
-        if resultados:
-            embeds = self.criar_embeds_resultados(resultados)
+        if resultados_descobertos:
+            embeds = self.criar_embeds_resultados(resultados_descobertos)
             await message.channel.send(embed=embeds[0])
         else:
-            await message.channel.send(f"Nenhum personagem encontrado com o nome '{termo_busca}'.")
+            # Se não encontrou personagens descobertos, procura personagens não descobertos
+            resultados_nao_descobertos = []
+            for personagem in self.todos_personagens:
+                if 'data' not in personagem and termo_busca in personagem['nome'].lower():
+                    print(f'Personagem não descoberto encontrado: {personagem["nome"]}!')
+                    resultados_nao_descobertos.append(personagem)
+
+            if resultados_nao_descobertos:
+                embeds = self.criar_embeds_resultados(resultados_nao_descobertos)
+                await message.channel.send(embed=embeds[0])
+            else:
+                await message.channel.send(f"Nenhum personagem encontrado com o nome '{termo_busca}'.")
 
     async def mostrar_personagens_encontrados(self, message):
         embeds = self.criar_embeds_resultados(self.personagens_encontrados)
@@ -124,16 +141,26 @@ class Wikilist:
     def criar_embeds_resultados(self, resultados):
         embeds = []
         for item in resultados:
-            embed = discord.Embed(
-                title=f'Personagem: {item["nome"]}',
-                description=f'Descrição: {item["descricao"]}'
-            )
-            embed.set_image(url=item['imagem'])
-            embed.add_field(name='De(Franquia):', value=item['serie'], inline=False)
-            embed.add_field(name='Data de descoberta', value=item['data'], inline=False)
-            descobridores = self.encontrar_descobridores(item['nome'])
-            if descobridores:
-                embed.set_footer(text=f'Descoberto por: {", ".join(descobridores)}')
+            if 'descricao' in item and item['descricao']:
+                # Personagem com descrição (considerado descoberto)
+                embed = discord.Embed(
+                    title=f'Personagem: {item["nome"]}',
+                    description=f'Descrição: {item["descricao"]}'
+                )
+                embed.set_image(url=item['imagem'])
+                embed.add_field(name='De(Franquia):', value=item['serie'], inline=False)
+                embed.add_field(name='Data de descoberta', value=item['data'], inline=False)
+                descobridores = self.encontrar_descobridores(item['nome'])
+                if descobridores:
+                    embed.set_footer(text=f'Descoberto por: {", ".join(descobridores)}')
+            else:
+                # Personagem sem descrição (considerado não descoberto)
+                embed = discord.Embed(
+                    title=f'Personagem: {item["nome"]}',
+                    description='Este personagem ainda não foi descoberto!'
+                )
+                embed.set_image(url=item['imagem'])
+                embed.add_field(name='De(Franquia):', value=item.get('serie', 'Desconhecida'), inline=False)
 
             embeds.append(embed)
         return embeds

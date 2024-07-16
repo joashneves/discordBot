@@ -323,11 +323,17 @@ class GameWiki:
         try:
             resposta = await self.client.wait_for('message',
                                                   check=lambda m: self.check_resposta_jogador(m, autor_jogador),
-                                                  timeout=30)
+                                                  timeout=50)
         except asyncio.TimeoutError:
             await canal_jogo.send('Tempo esgotado! O jogo acabou.')
             self.jogo_de_adivinhar = False
         else:
+            if resposta.content.lower() == f'{prefix}ff':
+                self.tentativas_restantes[jogadorID] = TENTATIVAS_MAXIMAS
+                await canal_jogo.send(f"{autor_jogador.mention}, você desistiu do jogo atual.")
+                self.jogo_de_adivinhar = False
+                return
+
             if resposta.content.lower().startswith(nome_personagem.lower()):
 
                 if jogadorID not in self.dados_personagem:
@@ -339,7 +345,7 @@ class GameWiki:
                         if personagem['nome'].lower() == nome_personagem.lower():
                             await canal_jogo.send(f"O(a) personagem {nome_personagem} já pertence a <@{jogador}>.")
                             self.jogo_de_adivinhar = False
-                            ganhar_coin(jogadorID,20)
+                            ganhar_coin(jogadorID, 20)
                             return
                 # Recompensar o jogador com moedas
                 ganhar_coin(jogadorID, 50)
