@@ -31,6 +31,7 @@ def save_data(file, data):
         json.dump(data, f, indent=4)
 
 coins_data = load_data(COINS_FILE)
+
 def ganhar_coin(id, coinMAX=10):
     try:
         _coins_data = load_data(COINS_FILE)
@@ -39,14 +40,14 @@ def ganhar_coin(id, coinMAX=10):
         print(f'Pessoa {coins_data}')
         # Recompensar o jogador com moedas
         moedas_ganhas = random.randint(10, coinMAX)
-        print(f'moedas : {moedas_ganhas}')
-        print(f'moedas Atuais: {_coins_data.get(id, 0)}')
-        if id in coins_data:
+        print(f'moedas ganhas: {moedas_ganhas}')
+        print(f'moedas atuais: {_coins_data.get(id, 0)}')
+        if id in _coins_data:
             _coins_data[id] += moedas_ganhas
         else:
             _coins_data[id] = moedas_ganhas
-        print(f'moedas : {coins_data[id]}')
-        print(f'Pessoa {coins_data}')
+        print(f'moedas atualizadas: {_coins_data[id]}')
+        print(f'Pessoa {_coins_data}')
         save_data(COINS_FILE, _coins_data)
 
     except Exception as e:
