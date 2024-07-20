@@ -155,6 +155,12 @@ async def on_message(message):
 
 #endregion
 
+@client.event
+async def on_member_join(member):
+    print(f"{member.name} entrou no servidor.")
+
+    bot_atribuicargo = AtribuiCargo(client)
+    await bot_atribuicargo.atribuiCargo()
 
 # sincroniza os comandos slash
 @bot.command()
@@ -166,12 +172,6 @@ async def sicronizar(ctx:commands.Context):
     else:
         await ctx.reply(f'Voce é FRACO!')
 
-@client.event
-async def on_member_join(member):
-    print(f"{member.name} entrou no servidor.")
-
-    bot_atribuicargo = AtribuiCargo(client)
-    await bot_atribuicargo.atribuiCargo()
 
 @bot.tree.command(description='responde Ola')
 async def ola(interact:discord.Interaction):

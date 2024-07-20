@@ -120,13 +120,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258815401475837962/2051542ad32f741427bd2ee9ef1d2085.png?ex=66896ab3&is=66881933&hm=d5a28b3a039e8e12b05314ae8f1c11e9f18c399d0bbfb7c45aeeaf191334709f&"
         },
         {
-            "nome": "Marceline",
-            "data": "07/07/2024",
-            "descricao": "Vampira gay que come jujuba",
-            "serie": "hora de aventura",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259550945659064320/96cd1ff53bc7683f1c1e65352e5f245a.png?ex=668c17ba&is=668ac63a&hm=23b50e72a40030f6b81c03779f17ad9e3a65b7458442238b745caafd6bc9f020&"
-        },
-        {
             "nome": "elon musk",
             "data": "09/07/2024",
             "descricao": "filha da puta babaca bilionario fudido merda lixo bostinha lixo otario, babaquinha fudido, idiota lixo maldito",
@@ -442,13 +435,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260549489823846420/300px-Shadowheart.png?ex=668fb9b2&is=668e6832&hm=f4bccf77802a3a4b79ae550f1f6ec30f9a757336bf95a10e1648c6e4178a791c&"
         },
         {
-            "nome": "Diamante Rosa",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076440364089405/46e1e5d2529ec420ea5324b5bc1aba25.png?ex=6691a475&is=669052f5&hm=6b8aaf78b06fe1f2c5edb14f321c672e9ef11ef6b5b8369b7083fc960dc48855&"
-        },
-        {
             "nome": "Monica Geller",
             "data": "15/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -526,11 +512,151 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260549645747093544/299px-Astarion.png?ex=668fb9d7&is=668e6857&hm=bd2238ab742d4cf05b3faa3c8d6e78c6ef785523a18583580fbb38f4283631b3&"
         },
         {
-            "nome": "Diamante Branco",
+            "nome": "Smokey Brown",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262618396030140446/latest.png?ex=66974083&is=6695ef03&hm=bb299ff6d91d327550ed6381515347decd7406b85005675cba230b78aafd5da3&"
+        },
+        {
+            "nome": "nono Doutor",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262626281355218985/OIP.png?ex=669747db&is=6695f65b&hm=8365166e72983f9b183e3248351b294ee8cabbf67ae3df042b489bf711877de3&"
+        },
+        {
+            "nome": "Princesa Caro\u00e7o",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262607661111705640/latest.png?ex=66973684&is=6695e504&hm=a19c87191b53a6991c6af7b38c955abb87dbcfb456f93e5c03c2f66c71d0b5f4&"
+        },
+        {
+            "nome": "Jonathan Byers",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355541411299369/b6d8474c0ffbe8ee5c1c2766360cdd52.png?ex=668f0511&is=668db391&hm=17662f8e88dccc3ee053f76bd9eef118116629338b66749b19cf881336e055e4&"
+        },
+        {
+            "nome": "Chandler bing",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260783279389413487/8c9f851946d1cdf1084c976fbb0944b1.png?ex=6690936e&is=668f41ee&hm=c6dae36c4c7be03f86cab83a962bba92463a0fd5b387b67330756f0a960f7913&"
+        },
+        {
+            "nome": "Myrkul",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260564143640018984/300px-Apostle_of_Myrkul.png?ex=668fc757&is=668e75d7&hm=29540f8a3cf5528069b34d3cffd6fb00216642546a7025b7233a50b72a37104d&"
+        },
+        {
+            "nome": "Erina Pendleton",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262617832558952558/latest.png?ex=66973ffd&is=6695ee7d&hm=ad871c3852addae2a9a4096e561e0da77ecd58ebd0c2e2feb3b5ab7a2351f125&"
+        },
+        {
+            "nome": "Absolute",
             "data": "15/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077560926666773/b17d5343b913148ac4077f9d877c30cd.png?ex=6691a580&is=66905400&hm=3025daf08becb2e4a4034fa5b35f2da3fe8d99d00656a4ebdb676e80efcf9bc5&"
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260565355609325619/300px-Netherbrain_Illusion.png?ex=668fc878&is=668e76f8&hm=cf0ad8029b1d24f7778fbda5537ce5a9194cb3da5a2991dfca9175406aa4691f&"
+        },
+        {
+            "nome": "Aphrodite",
+            "data": "16/07/2024",
+            "descricao": "Deusa da infidelidade, quer dizer, da beleza, isso isso me distrair foi mal",
+            "serie": "Hades",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257074068328558/latest.png?ex=668ea95c&is=668d57dc&hm=d8870df0c9e8e653c01e0e7ebdcbc2063c480ed58daf441a1cbf97e2a2917e4f&"
+        },
+        {
+            "nome": "Trish",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262514720976670831/1000.png?ex=6696dff5&is=66958e75&hm=3e3310867cd1098d3021689ce7c03688815102b9841fac369dbd2186b5281ed5&"
+        },
+        {
+            "nome": "Oscar",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262953559931228311/latest.png?ex=669878a9&is=66972729&hm=680475baf35b7187da57840fad0feb6114e4caebf90d5750b917ff9050eebd1c&"
+        },
+        {
+            "nome": "terceiro doutor",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262625576594837574/Doctor-Who-Worst-Traits-Third.png?ex=66974733&is=6695f5b3&hm=f2aad661d553de26eb6afb73cd84a1948fd62f384613f4b89bd0422808d1d470&"
+        },
+        {
+            "nome": "Ares",
+            "data": "16/07/2024",
+            "descricao": "Deus da guerrar que treta com a irm\u00e3",
+            "serie": "Hades",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260258191669727282/1000.png?ex=668eaa67&is=668d58e7&hm=ce2fdbe75ab9f403f4867daffb883df85bef204a6af1edfdaba734863c7fde95&"
+        },
+        {
+            "nome": "Rudol von Stroheim",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262617970203693117/latest.png?ex=6697401e&is=6695ee9e&hm=64715b5340f7e9cd3b3ab51293c73f88098e5121ed2ecb3396c83b2df9c4183f&"
+        },
+        {
+            "nome": "Taro Makimura",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262571293715464222/latest.png?ex=669714a5&is=6695c325&hm=d83e30db00bb5a16eee494fc66e0410819257b1eff6c744c2f15611ce6a06512&"
+        },
+        {
+            "nome": "Suzi Q",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262618264534515743/latest.png?ex=66974064&is=6695eee4&hm=dcabaa74e6c3d57246d5a3efcf7cd791566b66501c86a15cc6883ceba62f22d1&"
+        },
+        {
+            "nome": "Ashe",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262621266293297182/Ashe_0.png?ex=66974330&is=6695f1b0&hm=161b499f3de7727a136a0be1bb87e5919cb5f0690f42d3f291c5d3091c67afd3&"
+        },
+        {
+            "nome": "Sejuani",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262837083060568104/Sejuani_0.png?ex=66980c2e&is=6696baae&hm=74f8657b9b04b1069f1a1e782ae783efba6f834c68c4537c6ba0706ef115b20b&"
+        },
+        {
+            "nome": "Clara Oswald",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262625058694889572/1000.png?ex=669746b8&is=6695f538&hm=965ab6e3b42b3ac806efdd146476be92e44a154a35ec3ff7a7394ea5e3f94799&"
+        },
+        {
+            "nome": "Planetina",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262948291461517416/latest.png?ex=669873c1&is=66972241&hm=f0b12a42ed80f35ae5ae3475c3138f4f7ebe1b2fbe6a337fc7737c7135f2c3eb&"
+        },
+        {
+            "nome": "Amy Pond",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262625229964968016/latest.png?ex=669746e1&is=6695f561&hm=669a42b0059bf4da87b896b9d86fb2c29aeebb16ece60b507bbe5dac8f7f2f8b&"
         }
     ],
     "670678422359375896": [
@@ -1447,13 +1573,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259550478958723184/cbc8b246903174ccecedabdc498fc4de.png?ex=668c174b&is=668ac5cb&hm=21aacd800fd78dece470e28f3980eee5ada38928aa8e090a8371793577f4b3f8&"
         },
         {
-            "nome": "Kenny",
-            "data": "10/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421753285513347/dbd2162dafe570817eae670043d1b8fe.png?ex=668f42bb&is=668df13b&hm=a76884f7fee3aae4883667d573bcc547580681d1df174bccae2632348d76ed2b&"
-        },
-        {
             "nome": "Taki Tachibana",
             "data": "10/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -1797,20 +1916,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260778390588493904/50246555d8c29e539d31da84c03ad4e1.png?ex=66908ee0&is=668f3d60&hm=86da985b4d17d7d19c27a6193b16f9c62697bb53a2227161ea31835f611b50ed&"
         },
         {
-            "nome": "Titi",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353613088423996/921b7ce9a3c02a285ebce5c92529e444.png?ex=668f0345&is=668db1c5&hm=aed96f103ee3078f7f6f6f5ea8e735f444f656c08b81835933590957f4d46aef&"
-        },
-        {
-            "nome": "Isabelle",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260575261104144435/240px-Isabelle_SSBU.png?ex=668fd1b2&is=668e8032&hm=4c2e8caa25c8977ce2659447bf0e0ee63c033377458442bf47c2ea9e34f78bd1&"
-        },
-        {
             "nome": "Kokushibo",
             "data": "15/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -1832,13 +1937,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261086481250910208/1000.png?ex=6691adce&is=66905c4e&hm=a166cbcb291190a8c0f16c1cadaac0df43a27e3a9c160a1a6c241367956c24c6&"
         },
         {
-            "nome": "Absolute",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260565355609325619/300px-Netherbrain_Illusion.png?ex=668fc878&is=668e76f8&hm=cf0ad8029b1d24f7778fbda5537ce5a9194cb3da5a2991dfca9175406aa4691f&"
-        },
-        {
             "nome": "Yuuta Okkotsu",
             "data": "15/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -1853,27 +1951,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377318413697115/c3ea98d6e743adf088df1f1566212fae.png?ex=668f1959&is=668dc7d9&hm=2bf0e85fb2eed724ae297be8f329f490c9e6677954306604056d1cc249ac96da&"
         },
         {
-            "nome": "jair bolsonaro",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1257129303489904640/1Bw9Kwb_p34mCWTDUfxFIVw.png?ex=66834866&is=6681f6e6&hm=a7644373fb29478d6070ec0713902802a1abf641f817906295b29fce2ecf56f1&"
-        },
-        {
-            "nome": "Wamu",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262571568521809951/latest.png?ex=669714e7&is=6695c367&hm=edf8672c0b046075069a873c93c4177549f7f0f6c4421c4085f692e9b6bdcea0&"
-        },
-        {
-            "nome": "Miuccia Miuller",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262568404771143690/latest.png?ex=669711f5&is=6695c075&hm=687729b78251bf8a1699a52105719bfe0e42ecd93932c36d64ca895dc1a4d042&"
-        },
-        {
             "nome": "Reiner",
             "data": "16/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -1886,13 +1963,6 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259550377510961193/2c4880ec7decff9eff44468cbe25262d.png?ex=668c1733&is=668ac5b3&hm=366b97addb5c9f15a9a5a7ba1506e014e12579a9c386d4870c3080fec0c4d8c7&"
-        },
-        {
-            "nome": "Vanilla Ice",
-            "data": "16/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262567521106792528/1000.png?ex=66971122&is=6695bfa2&hm=1f6c6c25444dfd1fb45a4bb5939089a21be2a64e0ddc5a46aa3453239e58a892&"
         },
         {
             "nome": "Ace",
@@ -1916,13 +1986,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365834229121036/7913b1cf30bb0e576c7f60e2a93e512f.png?ex=668f0ea7&is=668dbd27&hm=78d5b0435519e9af12ebf83686b70f9d2663bba0331b727b60f18bc66f5253b0&"
         },
         {
-            "nome": "Buford",
-            "data": "16/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260737437945298996/15337e9794862cea155c02c4f0fdb6f7.png?ex=669068bc&is=668f173c&hm=ef51d8ddc1d1574fb15c918e789259a27780e0333617611a30ff2a5f79e67a87&"
-        },
-        {
             "nome": "Betty Grof",
             "data": "16/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -1935,6 +1998,909 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260747421638725642/9828564c46b359a1c8d5b5fb3c13f7ac.png?ex=66907208&is=668f2088&hm=ef95c1a6bbcaccdf8dfa1731c1ba7fc5b17751dda8b6114421ac34216aab250f&"
+        },
+        {
+            "nome": "Jason Lannister",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262619125042384897/d91f1044e40cbc2fe9dc64dd2f28b2ea.png?ex=66974131&is=6695efb1&hm=59782468ca36a8a8e31e998926488b5c083597b6e8776d1ee9f4ce1f957a8517&"
+        },
+        {
+            "nome": "Silk",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259577749551714545/2faeb47c1f6a200bede8f1cc02ce96b6.png?ex=668c30b1&is=668adf31&hm=63b3097f5e4d00494eeea0ffb636c8374637117bba5596b68ac4c44d17b0af88&"
+        },
+        {
+            "nome": "Beomgyu",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260736562254315554/5f7f26c673a2961ae1e05f9ad9ffe074.png?ex=669067eb&is=668f166b&hm=4c95281eab184a7e56cae9c7a6a419de3188c2a6b2d45680d1b51f320122e979&"
+        },
+        {
+            "nome": "Solu\u00e7o",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259554925587726427/997fcc6fd7e3b457e16dc5a25cbadb42.png?ex=668c1b6f&is=668ac9ef&hm=b82f53f2317b186ad3945882636ac342d1a0284d4c624ba5d2449585faeca61f&"
+        },
+        {
+            "nome": "Martin Brenner",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260356210994184294/111709cb3695dd9e9be5438d7b8ebec3.png?ex=668f05b0&is=668db430&hm=1107648c930f772cb2b979ad979bd9ebf037794fd8193fe6bee746116db5448a&"
+        },
+        {
+            "nome": "Marceline",
+            "data": "07/07/2024",
+            "descricao": "Vampira gay que come jujuba",
+            "serie": "hora de aventura",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259550945659064320/96cd1ff53bc7683f1c1e65352e5f245a.png?ex=668c17ba&is=668ac63a&hm=23b50e72a40030f6b81c03779f17ad9e3a65b7458442238b745caafd6bc9f020&"
+        },
+        {
+            "nome": "Princesa de Fogo",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262605624550887424/0ca3155f4195d66493450565ddb90f86.png?ex=6697349e&is=6695e31e&hm=7053ec1d9f8d77076a192458cb6bb6e562c4125bd6e07968c55e274b5f7fc70c&"
+        },
+        {
+            "nome": "Percedal",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258818347005640756/e0b20b6e1f5b5e478c3342214245411a.png?ex=66896d71&is=66881bf1&hm=6c5ee6f3ef2bc51167a3f820123717587150040d6559b723dc4e7a6e70e630cf&"
+        },
+        {
+            "nome": "Yeonjun",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260735596159176714/f6153a033611110c3aff7afce1e505ef.png?ex=66906705&is=668f1585&hm=4d80359b5ab1662775cb38f5a814f1e6cdb1c8f526e26c04f81626633df9c7c2&"
+        },
+        {
+            "nome": "Diana",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262622559413866506/Diana_0.png?ex=66974464&is=6695f2e4&hm=b70b56f879c0e5fa09fc36d4bbb08d88fafa66b3710f1c26b591ecd3a917e291&"
+        },
+        {
+            "nome": "Stanley Pines",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260738310335365151/65fe088e617df6ab8131481e2b84086f.png?ex=6690698c&is=668f180c&hm=8966d1c484e09b8ce805d1077132278e27a2e6bf5869fa6de18c14a8bd26c9d2&"
+        },
+        {
+            "nome": "Zero Two",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259564785713020938/3438ca3643795f3f88f58963e09c2605.png?ex=668c249e&is=668ad31e&hm=7f8c626208d2fbb99fcf950d3756cffe138d6a82330f775e1a15d8400ab572e8&"
+        },
+        {
+            "nome": "Simon Strong",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262619395667001418/184a53d216a9a39cc65ae39690003689.png?ex=66974172&is=6695eff2&hm=539b357dddc472ec56b049d0e858f6bf0cce8f62f87079e76edbbca1e016f8d5&"
+        },
+        {
+            "nome": "Ms. Joke",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260778415082963075/03366f2d3a17e82d634c8808e9cc241b.png?ex=66908ee6&is=668f3d66&hm=88a2b55d66543b535480bd416e1c016e37eaaedaab2d3fd9e737711722528aad&"
+        },
+        {
+            "nome": "Kenjaku",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367634642239588/b4f0ba7b8769b453445f881199a051c9.png?ex=668f1054&is=668dbed4&hm=b6dac57f804aaff0ae1e2e081dbe7d4b7008eb2d6d3f236e4dbb159248979831&"
+        },
+        {
+            "nome": "Do contra",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353364764655737/35536133603d012214e6cdf230a770cd.png?ex=668f030a&is=668db18a&hm=55438d1ab0fa107168e41105541bc06d606ad8170d6cea6cbff993e1511d08aa&"
+        },
+        {
+            "nome": "Lisa",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260352171644420146/9e63bd5d11ad2a565314e992aa4ba90e.png?ex=668f01ed&is=668db06d&hm=807b9c8daf75cce001d19f97fa4a04b6c3c6b45c7f19814f8cb67581eb1ebfe5&"
+        },
+        {
+            "nome": "Eijirou Kirishima",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260744038592806932/f22df08004e799a1baa5e040f71496c7.png?ex=66906ee2&is=668f1d62&hm=322827fc2b681485559cd6bc8c6a666504a4a3d717f075f76ce097cb129b14ea&"
+        },
+        {
+            "nome": "Zeke",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260343783837405356/eb4a1a6ee87f4eb65e76de0d0bee32c2.jpg?ex=668efa1e&is=668da89e&hm=f299122ca66bb4443934a72bc8ac5b0a55b1b88fa7c3b3176f1b500781839182&"
+        },
+        {
+            "nome": "Shyvana",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262840721652842546/Shyvana_0.png?ex=66980f92&is=6696be12&hm=8d7381c98b336d718234cb5a080299fa08b8c64ff2d6bfcd1d2e362360a93ecb&"
+        },
+        {
+            "nome": "Lissandra",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262626647807623178/Lissandra_0.png?ex=66974833&is=6695f6b3&hm=072752b227842897fc0364a65d336e38cfa7c94872b4026b9f8f8658fd2d4804&"
+        },
+        {
+            "nome": "Momo",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260367292290564167/3239383e8adeeedce2689359ba8dbfb2.png?ex=668f1002&is=668dbe82&hm=339fdc3f0a1f16afa7e221466e4ee674ac4622988c4a0c2dc5985df6faa4f3e9&"
+        },
+        {
+            "nome": "Ricardio",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262612474281066526/d4dc10fddb200a36fc03bf9cfbc9d330.png?ex=66973b00&is=6695e980&hm=858f87f7b0206e109011cc029239f184cf02e3ea34ce0692592ae4948dc83a08&"
+        },
+        {
+            "nome": "Pieck Finger",
+            "data": "15/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259566410468950136/e64a09f57b7de293d5964924f3b377d9.png?ex=668c2621&is=668ad4a1&hm=2e2f5f807a412a0752e84187b073e66c93b10d50022dc2e9fbadd1498e8f35f7&"
+        },
+        {
+            "nome": "Onyankopon",
+            "data": "15/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351241737863289/aef7163aede8370653670aefd0905630.png?ex=668f0110&is=668daf90&hm=8fffc9e6c9cc245aa7c059f5781f01011c17e9f9e83e90b692832b70073f7309&"
+        },
+        {
+            "nome": "Pike",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258823949396086784/ccbd5e3355d38318453aa0466e1ff460.png?ex=668972a9&is=66882129&hm=fb7c120d8a5751af355342c48260f4a4815b066d8a8a9863ea61256463a1d6e3&"
+        },
+        {
+            "nome": "Gyuutarou",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376274342379640/fafbc2bac246b116dfd9bae13fbf105f.png?ex=668f1860&is=668dc6e0&hm=b03da5d80ee5942de2f08e0b9a3c550e57d3691e8c41e88f9802a693c1305111&"
+        },
+        {
+            "nome": "Diamante Branco",
+            "data": "15/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077560926666773/b17d5343b913148ac4077f9d877c30cd.png?ex=6691a580&is=66905400&hm=3025daf08becb2e4a4034fa5b35f2da3fe8d99d00656a4ebdb676e80efcf9bc5&"
+        },
+        {
+            "nome": "Diamante Rosa",
+            "data": "15/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076440364089405/46e1e5d2529ec420ea5324b5bc1aba25.png?ex=6691a475&is=669052f5&hm=6b8aaf78b06fe1f2c5edb14f321c672e9ef11ef6b5b8369b7083fc960dc48855&"
+        },
+        {
+            "nome": "Swain",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262842283339026536/Swain_0.png?ex=66981106&is=6696bf86&hm=b363f9c346ef93801b6d8e82ce619e9e5157983390c133ee4dfef84eec0b97b7&"
+        },
+        {
+            "nome": "Cebola",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261085658282459157/latest.png?ex=6691ad0a&is=66905b8a&hm=936e1fb7862d10ce89df82955ee2cdcab93de8996aa56749a25253a566844fa2&"
+        },
+        {
+            "nome": "Madame Web",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262576581755404419/1000.png?ex=66971992&is=6695c812&hm=4073238443e645c219b265d1ae81a85abc503248a3be4e154ae6b4279deda981&"
+        },
+        {
+            "nome": "Yone",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262942535664537600/Yone_0.png?ex=66986e64&is=66971ce4&hm=1e0b61e2df7a7f7c5094829d6c7694d9455dc896e258eec33f9aba3b9c429f72&"
+        },
+        {
+            "nome": "Princesa Caranguejo",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262615729027420242/latest.png?ex=66973e08&is=6695ec88&hm=14ce21d99697a16efdc823e22e1f1a842558a691984e55f4f09cb7e0ba16daaf&"
+        },
+        {
+            "nome": "Agust\u00edn Madrigal",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262944902279335956/a2c2805b21fa41040d1e3e78e845f336.png?ex=66987099&is=66971f19&hm=4e261ca6b16d216eb34ad2c519b3fc915f77fe25b81c34deb331cae54f3cd60f&"
+        },
+        {
+            "nome": "Mulher-hulk",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262970202442694676/f6b36e2348e58afee1915c3dc1e8c223.png?ex=66988829&is=669736a9&hm=f5e30bfea2eaf7d61596d5858a1b64d1c0374e1e497e93458f0dfe10406ca624&"
+        },
+        {
+            "nome": "Bishop",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262972042777460736/c4e16d37ac1e9b8c097e466de994acbd.png?ex=669889df&is=6697385f&hm=be9d30e6c285fea7d7cd18adf5a82529a746b0d9bd1f07840df425e646694828&"
+        },
+        {
+            "nome": "Coby",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260358829246251038/9a5878c89f6a019fdf6f09949d2850db.png?ex=668f0821&is=668db6a1&hm=8db676d1aaab420d0d5ee48730feca4035229f76ac06e93c5dcda7204c2d20c3&"
+        },
+        {
+            "nome": "Kiyomi Takada",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262959849495335072/e8e2fd2943e8255e8ca94dc8c45851f4.png?ex=66987e84&is=66972d04&hm=613bb927ac490118e6b77734a230a30ee923d70a9ff1b0e76ac01230c2b663f6&"
+        },
+        {
+            "nome": "Sylvia",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260736837001941126/264ac4d6afe8c89d9c49465399b7d228.png?ex=6690682d&is=668f16ad&hm=d34af2295b8d51f5f26cbf0fafd1927b140ad97dec4f6bcaeadd2c67409d9c66&"
+        },
+        {
+            "nome": "Soraka",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262842226548019210/Soraka_0.png?ex=669810f9&is=6696bf79&hm=af6460366d40000ab9e23d45b9002e259c3dc15446ee8d4747f43db4cd38d356&"
+        },
+        {
+            "nome": "Mega P\u00e9rola",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261084055944827023/d45789a3a5fc2c88b44bb6e4bfbfb2e2.png?ex=6691ab8c&is=66905a0c&hm=c409969dd3e12503d116d404a9dde548dc2dedc5ff3cd0929deb3edbd636ed4b&"
+        },
+        {
+            "nome": "Xayah",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262942278071222383/1200.png?ex=66986e27&is=66971ca7&hm=ecbe395a46213e601edbcf4e7bccd588446080db6af208b4fb58e9360275d459&"
+        },
+        {
+            "nome": "BMO",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262604996143222864/671d8dda2933d4c46e119d7859c6ec63.png?ex=66973409&is=6695e289&hm=b64933939616dab445819780d4c66017340d126032431c7e531b9fd7edb39f26&"
+        },
+        {
+            "nome": "Gekko",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258814892862083152/fd8f04f5a5f5c64eda24972e07cc0208.png?ex=66896a3a&is=668818ba&hm=e779615749c40c1bd7bce9e337a44d7bfe31859005afb4470634ad0a5fd0832d&"
+        },
+        {
+            "nome": "Kaldo Gehenna",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260741118153199757/cd90d5e68393cb432ff0d75d360b865c.png?ex=66906c2a&is=668f1aaa&hm=e686f6d5fa1ef4e46d3576613353f2094bf42b04901b4d6aed39ad28974103a1&"
+        },
+        {
+            "nome": "Luna",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262978956475498517/latest.png?ex=66989050&is=66973ed0&hm=4e209e45a4595ff878b59231aa764944fa44af990ae05e56073776909c587691&"
+        },
+        {
+            "nome": "Kishirika Kishirisu",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403266018218035/83a0da10e901f02418502cea20406dc8.png?ex=668f3183&is=668de003&hm=491b3eb3f66001f77134f478ba51131216790a34a683007e076b6e03a7acb907&"
+        },
+        {
+            "nome": "Leona",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262626438406737980/Leona_0.png?ex=66974801&is=6695f681&hm=cc3086d61e0679ebd5cda30ee144533556cac3af32ac0348649910076b430fdc&"
+        },
+        {
+            "nome": "Meowy",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370819180134472/78655afd3cccfc36fac1f8b4d187f133.png?ex=668f134b&is=668dc1cb&hm=0979cf2ab1cbe277abf71f182c292e6f8e96530bf9c3171d47d9cdb24eaef234&"
+        },
+        {
+            "nome": "Neptr",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262610915690418229/latest.png?ex=6697398c&is=6695e80c&hm=78ad3ccbd848daa3f3e49a69c8c1cacbea60926d7c308709eaf73f161b64017f&"
+        },
+        {
+            "nome": "Galio",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623201461272576/Galio_0.png?ex=669744fd&is=6695f37d&hm=d78ccd0461f4202d8a63226d5bf9303995d387199893162846faf162affa8e16&"
+        },
+        {
+            "nome": "Nanaba",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260348821251293285/5a535fb58062df317f918edb601b1336.jpg?ex=668efecf&is=668dad4f&hm=e5dff5df5bb5cfb55b29dbccc98d501981f2999e99d0a566b0bf73d1dc295c23&"
+        },
+        {
+            "nome": "Judy Hopps",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258818066196987947/912364be57b87e4f3d8d483a88df2d33.png?ex=66896d2e&is=66881bae&hm=8bd7f5e2bd8a3d762877e86b211bbe7b6b1c9486c484ae74ea66222ab7f9c00a&"
+        },
+        {
+            "nome": "Illaoi",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623847539019867/Illaoi_0.png?ex=66974597&is=6695f417&hm=2e65051b1a104834d6d68188b7121658f96e64ea6fcca80b0b763d9bf93fa8ab&"
+        },
+        {
+            "nome": "Kayn",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262625747626102825/Kayn_0.png?ex=6697475c&is=6695f5dc&hm=0c43a80d64290b3d4cf4b35536c4afdc956d99c6dc77b5dd2fdc7b7bbbeaa282&"
+        },
+        {
+            "nome": "Hulk",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262967651072868463/369ce91643b0c3446e647b3e4bff2a9c.png?ex=669885c8&is=66973448&hm=10c9d8a540384a66f3f4659b1189fa35a3a30fdc332bded3e9ab2a7c316d8743&"
+        },
+        {
+            "nome": "Nostalgia",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262976753681563738/1000.png?ex=66988e43&is=66973cc3&hm=ea88a2a651af3f55051a56f2a2bfcccc6be970125eede65f9d8e0547bd43eaf8&"
+        },
+        {
+            "nome": "Yasuo",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262942485261451364/Yasuo_0.png?ex=66986e58&is=66971cd8&hm=8540f4d1585cc466e6b0896d4a84428510d4b0e6ffa1297f4ee224bbcd5f4150&"
+        },
+        {
+            "nome": "Fizz",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623133521936467/Fizz_0.png?ex=669744ed&is=6695f36d&hm=f983b4ae4c7176d23dd40d952be6ab7ee76a5f04a3a6ab015ebb522106fab72f&"
+        },
+        {
+            "nome": "Rika",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366377676570745/6cc417bc75e3722fe8f0a49b558a9c88.png?ex=668f0f28&is=668dbda8&hm=a6f1d869f586e0e3cf14853667b0e4f0720c50cb3ff889610f3be50f24a0efe7&"
+        },
+        {
+            "nome": "Falc\u00e3o",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262966241107120169/9010c0a7c779b56fe0cfaa2e17cee26c.png?ex=66988478&is=669732f8&hm=82881b8a0c15ae0b9b42094bc8a7f474630cbacd34ac989640b5e13c9503d17b&"
+        },
+        {
+            "nome": "Safira",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076793105055754/697b1c55b37fc49be2db37f24ebb94a2.png?ex=6691a4c9&is=66905349&hm=397d7ec6dc51f79d55b16632192fe7db1fc29f48ebae7058e4debb61df287710&"
+        },
+        {
+            "nome": "Marina",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354444563058729/873ef6362db75e5aa22cbf67673b9da7.png?ex=668f040b&is=668db28b&hm=6fbb0e134e0da01957488597450ba17f1607bee1fcac3cc272546ff5bdb22257&"
+        },
+        {
+            "nome": "Quartzo Arco-\u00cdris",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261080282900074556/a91ffc66472797b84e2882184a179573.png?ex=6691a809&is=66905689&hm=182e0b3508a8066ff4c6374df249510184e91fb254d344537f34864b8a494a97&"
+        },
+        {
+            "nome": "Miwa",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365480313622648/90c394b97251a6818a403999a76b5fc3.png?ex=668f0e52&is=668dbcd2&hm=f69bd7dd80a26d2eeb87fb7790ad9ee7d13913b4f63d9671ff407b0d24a7e796&"
+        },
+        {
+            "nome": "Gyomei Himejima",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260375170376405023/7bcab4a442891e43cf8d7642544857e7.png?ex=668f1759&is=668dc5d9&hm=090c88d00ca51e2ad0354ecaef544038e52f299abd908a0d20bd74185e3929bc&"
+        },
+        {
+            "nome": "Mirko",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260743227431059456/381b180a6dea825f474811b0ffa8a712.png?ex=66906e20&is=668f1ca0&hm=c3644472d053ded48e1dc3fd6131967ff1a8dfd790b57724a98f9d17f9e7f306&"
+        },
+        {
+            "nome": "Smoker",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260360769946521600/0ab9e0e5c26a84a0ef7a26c8bbd669ff.png?ex=668f09ef&is=668db86f&hm=ae27295763246ed0abec44d89eb19b87da41e3a0ab44fc1e47bed7acca3614db&"
+        },
+        {
+            "nome": "Fera",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262970891319377973/latest.png?ex=669888cd&is=6697374d&hm=a36e035c387d4a00192a5807562f7a155d69b437f87f480816547ae5b1b7dd50&"
+        },
+        {
+            "nome": "Ada Wong",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262609839012581386/25a4a5e239d23ff3f231d590dcc07a77.png?ex=6697388b&is=6695e70b&hm=86ecce953b571f4b00012b085a245d3d0475100f5fe8620f178bf6f597fb2b95&"
+        },
+        {
+            "nome": "Sova",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258815100798763200/53fa143a3a4d7bd12b069e5e86e6ca27.png?ex=66896a6b&is=668818eb&hm=7d4a354c5d2f22d9130f2f07dc9625c7daed822470fe369cd839dfd94b088747&"
+        },
+        {
+            "nome": "Gwimbly",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262953412849434634/latest.png?ex=66987886&is=66972706&hm=012654be90d36e0ec0feff9ea3584e21dc7e14182c90bda5c6584262b60cca74&"
+        },
+        {
+            "nome": "Chopper",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260359427383361719/8343fe54e9c821afc269739df1a814f5.png?ex=668f08af&is=668db72f&hm=f2f46e2a3bcb995726399e70477a6316abfd410b859778f6afb5dce9ee923a3f&"
+        },
+        {
+            "nome": "Salo",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262955331797909616/latest.png?ex=66987a4f&is=669728cf&hm=fc36dff6dbe0eb14b417770536445b514a7c0d883b57e4ab5b92179791f1bdf7&"
+        },
+        {
+            "nome": "Brimstone",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258815252703871059/6c0fa3ef18f7e8f10d99f8effca5f15c.png?ex=66896a8f&is=6688190f&hm=bff8fe1133fa2f30db53b43ba86d823e18e3fa4519db8a99ba0181689abc1c42&"
+        },
+        {
+            "nome": "Syndra",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262842393712001215/Syndra_0.png?ex=66981121&is=6696bfa1&hm=9f71196234714a5409fded562b57cbacc64898711b2deebf3c935745120f1896&"
+        },
+        {
+            "nome": "Kagamine Rin",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262979429580410960/91e2f8310c09a182a955c29c4cf568e5.png?ex=669890c1&is=66973f41&hm=7d48337cccefaf6cd0c434b2717414dfa5b9c18b1602ecd76106ba05ecc963e6&"
+        },
+        {
+            "nome": "Desmond",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262952762333990913/latest.png?ex=669877eb&is=6697266b&hm=700d0a460f53d6afdb3a21ead4649088ca616cf5105df8180b32c930bac0da06&"
+        },
+        {
+            "nome": "Sr. Meeseeks",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262951254720643154/latest.png?ex=66987683&is=66972503&hm=eb23c5b6f7ccd0ecaf9a1c5a43d630501dd757ffb0c51876bd6645a8f111a316&"
+        },
+        {
+            "nome": "Morty Maligno",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262946209363132477/4e37c24123004ccdb3e306ddb51e14c4.png?ex=669871d0&is=66972050&hm=044885bd4bf7166c55faac372b73a61d10927e20526740069d4b6a1aa947ef64&"
+        },
+        {
+            "nome": "Jean Grey",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262970603925934183/df2b502695f91e0d08740cc73cb6c481.png?ex=66988888&is=66973708&hm=0731381ad1d9b02abba7077f14c7c786a1794d489d8cd8f48ca874a170d6296e&"
+        },
+        {
+            "nome": "Vayne",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262941551013658655/Vayne_0.png?ex=66986d7a&is=66971bfa&hm=c7fe1093907742bd1b4951f7deeb43291e8b98de13dbc46900baceb88962779d&"
+        },
+        {
+            "nome": "Malzahar",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262626988661805087/Malzahar_0.png?ex=66974884&is=6695f704&hm=b76d7569508e73ff8ec5b92fc5c9e42574572d25401f6b767c8ca29dd7ea3cd1&"
+        },
+        {
+            "nome": "Taliyah",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262842871309008950/Taliyah_0.png?ex=66981193&is=6696c013&hm=0de6084782ca2f4a7d09b7fa5f22c9d4bb8bcf38e732221c5a66bedace060458&"
+        },
+        {
+            "nome": "Rose Quartz",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261076298617323552/05b0b54a43cdd680c5849980863e804a.png?ex=6691a453&is=669052d3&hm=33dca8a63bc00c7e28c7f1473a97bad52c392108945077c40293c85563491256&"
+        },
+        {
+            "nome": "Rek'Sai",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262829833327476816/RekSai_0.png?ex=6698056e&is=6696b3ee&hm=546f4700f1e98658fe09e28ff11c7bb20b75da1173aa836c4d2e45e9826201f3&"
+        },
+        {
+            "nome": "Le\u00e3o",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261077491121127475/886b5410418b745f81d7c2f67f2d0d20.png?ex=6691a56f&is=669053ef&hm=381d77c719afc04697fde80e26b26c9b521a8fdd70257a57c77bddc6bab2bd3a&"
+        },
+        {
+            "nome": "Bill Andersen",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262976805464444999/latest.png?ex=66988e4f&is=66973ccf&hm=0177056c1673d564fbfc82d81e816cd9c8bcd77368757b380a334de4e7ab97b2&"
+        },
+        {
+            "nome": "Graves",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623525035053078/Graves_00_Base-Cigar.png?ex=6697454a&is=6695f3ca&hm=0d2c2aac84f06df74f3e99c2248d4fa771976740ddf93511ebdad8e87c3201e4&"
+        },
+        {
+            "nome": "Pepa Madrigal",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262944561362374726/fd131252152b2df2c16503ffcdf49b69.png?ex=66987047&is=66971ec7&hm=202f6693bba426aceb9c378cc5039a7ad10c9978330562cc791cceaf59b13029&"
+        },
+        {
+            "nome": "Holga",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259567771025412107/e0be6ebb0fd8dad936ddd3103b2c8004.png?ex=668c2766&is=668ad5e6&hm=013f8cd67296a5b726d3780707537967a28c1065a7e4a47a338acf2427428322&"
+        },
+        {
+            "nome": "Aatrox",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262620548907667526/Aatrox_0.png?ex=66974285&is=6695f105&hm=4914338f70766c4dcd55af29809419a504dac68e50b73444a66722bc9da092a2&"
+        },
+        {
+            "nome": "Jotaro Kujo",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262559039196500040/latest.png?ex=6697093c&is=6695b7bc&hm=7b95fda22ab240dca66516f53bc2729b55d0f522e5d3cbcf43ec15460ce3b9e6&"
+        },
+        {
+            "nome": "Orianna",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262826740321882223/Orianna_0.png?ex=6698028d&is=6696b10d&hm=5a05e3266a85efd1046437f70b01c018a701289c5892fa7083a92e1900d4e2b4&"
+        },
+        {
+            "nome": "Brittany",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262953496131403806/latest.png?ex=6698789a&is=6697271a&hm=16b45466aa473990998921b0cacf0f7a489946630162114359a85cf89deb1c8e&"
+        },
+        {
+            "nome": "Ekko",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262622735201206322/Ekko_0.png?ex=6697448e&is=6695f30e&hm=4bcd1ce6f6089c2b2daff27c228edd144f7968f976caac34cd70d5fdef2d99cd&"
+        },
+        {
+            "nome": "Kanae Kochou",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260374415817052402/241881cb552b4aaa3366c04e64a47a13.png?ex=668f16a5&is=668dc525&hm=ce74dc70d625157f2ce935b8640657a696e9b5456da2c0e0b21c8e25404e14b3&"
+        },
+        {
+            "nome": "Diamante Amarelo",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078608261414973/180c00a1252ecdff0c0b35a24eb62a0c.png?ex=6691a679&is=669054f9&hm=ed0e9ebb9e43b5df95ccfb488255d1c08aa33ab246adaa92aed6b18103965f6b&"
+        },
+        {
+            "nome": "Cerberus",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257782066708531/latest.png?ex=668eaa05&is=668d5885&hm=45c94aad42c00ea35d44fc47e4fd7e9ee7a4237ce86ebfe3610d69e1ef2b6a08&"
+        },
+        {
+            "nome": "Jacaerys Velaryon",
+            "data": "18/07/2024",
+            "descricao": "Filho da rainha, herdeiro do trono de ferro, o mais lindo do reino, o mais inteligente, perfeito, sem defeitos, namorado da anita e futuro esposo \ud83d\ude0d",
+            "serie": "Casa do Drag\u00e3o",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262617936548593685/d3d06b11499edacb3f87992a88794612.png?ex=66974016&is=6695ee96&hm=9cdc230ab9cc62b59713f14b21f42e9013e70535ee9b87e5637efb17d6b86140&"
+        },
+        {
+            "nome": "Quartzo Fum\u00ea",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261081524363591700/1000.png?ex=6691a931&is=669057b1&hm=0661e836c1eae1996b642786dbe16d4b2abd6a103a0e441fd9eb1bf57186c3c5&"
+        },
+        {
+            "nome": "Huck",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262956689355837471/99e7c202a35c4b5888bc32b572be00e2.png?ex=66987b93&is=66972a13&hm=cb16e5156291611029f85f2a4e0037ff0515bba4e0873858dd3959c4ce54f750&"
+        },
+        {
+            "nome": "Lars",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261078666730012672/8228bfa60f63b0a2a95df28999ae09e3.png?ex=6691a687&is=66905507&hm=7dcdfb1cd9d4a25a0f5e9e31009381165307d28c14c77967c7a9854861405929&"
+        },
+        {
+            "nome": "Xaveco",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353797100933201/1d49ebf24472c0e00089c9809b908c49.png?ex=668f0371&is=668db1f1&hm=326266e98b3baeab9dfbf79d6cec204a825969406fb3f70e6c8ca6a848056fd9&"
+        },
+        {
+            "nome": "Loid Forger",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262977242825490504/latest.png?ex=66988eb7&is=66973d37&hm=e6f1c7c978413bf8eeed904d0a98a771b940109144a2e0b0c4a33d79e0759c80&"
+        },
+        {
+            "nome": "Tristana",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262849984160858132/Tristana_0.png?ex=66981832&is=6696c6b2&hm=9b5ca67196ed0956e8374f9741dd78dbb01979a34e53605b063ccbf9c0e8cc58&"
+        },
+        {
+            "nome": "Rhaenys Targaryen",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262617370116231258/99f7efcb04131bb1053f9a1886a6a2c5.png?ex=66973f8f&is=6695ee0f&hm=2b331787cdfe06410bc2f506d7ff8be2e740bd8676f5f615a83a06ed66c278ae&"
+        },
+        {
+            "nome": "Light Yagami",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262957897571106866/ae23438970ddfb23c28988068da09897.png?ex=66987cb3&is=66972b33&hm=7bb1a359bf6be88fcfe3b3a31f34f3c06b1b78168e83fb701954bcdf039581cd&"
+        },
+        {
+            "nome": "Poppy",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258817290099494933/3defd176ff939d434451d444b83be03f.png?ex=66896c75&is=66881af5&hm=188fc07ea84de0654fe4c0c4af6f32e5553090dfaa05e5499c4ebcfdca2a340b&"
+        },
+        {
+            "nome": "Homem-Aranha",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262962386994991135/il_570xN.png?ex=669880e1&is=66972f61&hm=2392666a7f07f8175ef631f359dfb2b21bbce5bd96e24f5950d703e4647622e0&"
+        },
+        {
+            "nome": "Yor Forger",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262977298257154108/latest.png?ex=66988ec4&is=66973d44&hm=8e145c4d6304d1cc8fae1e80532433c29c52efb983374dab446e128148ad6807&"
+        },
+        {
+            "nome": "Lich",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262606651639463996/latest.png?ex=66973593&is=6695e413&hm=bfbac54c1182455a8f5080960f17fc03b79b1581f313349b0fd2a3436d1dc883&"
+        },
+        {
+            "nome": "Senhor Sapo",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262952670550032456/latest.png?ex=669877d5&is=66972655&hm=c9253885162f9c36d395e3f89b0b71bce4daef784e07b0c87cbfac3d9044aaa8&"
+        },
+        {
+            "nome": "Falco",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345423432781894/f3d09e0d2c7d89bb23c4d5ae86e4a285.jpg?ex=668efba5&is=668daa25&hm=e38e48cf864e00df18e12b2777c217146609f60b5929eb386c18784463e584bf&"
+        },
+        {
+            "nome": "Sr. Presidente",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262950978336850001/latest.png?ex=66987641&is=669724c1&hm=632f4c8e4756da4cf9381ee5208bc075f567ffb7066a9929d72f75ed5faf822a&"
+        },
+        {
+            "nome": "Mary Jane Watson",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262968098991116379/b87b0a77970b9e9a27289d0166fce89d.png?ex=66988633&is=669734b3&hm=73affd3a73fd3eb2bf35f00bcb9e362c4500f06f7087cbedaff872a4f459a9a1&"
+        },
+        {
+            "nome": "Nefertari Vivi",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260361187548205077/d439b07e23a99a7dbf0d6889ab4f7601.png?ex=668f0a53&is=668db8d3&hm=6cf7365e801e22c7900624f2121bdbc7689ec6061778819426f238cf308361a4&"
+        },
+        {
+            "nome": "Alan",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262952546696433694/latest.png?ex=669877b7&is=66972637&hm=8b3b04e8afcf321167f092a7c5b42377041c77cc0809006c0dd49149ed99b08e&"
+        },
+        {
+            "nome": "Malaquita",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261084417150025891/a87bc871a102f98cd6fafbe7e6e4db56.png?ex=6691abe2&is=66905a62&hm=064600fa58373acce1d2dd6250e4ed0011b2a3bd0866cde5df27b7e857f4961e&"
+        },
+        {
+            "nome": "Megurine Luka",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262979587969646602/d3531172c447e20df579de911c39da4c.png?ex=669890e6&is=66973f66&hm=952a8340cbfcfbee177e452b8d5b8c0f3dd4679f5b1650840107c8a5d625a3cb&"
+        },
+        {
+            "nome": "Mordekaiser",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262627315926437971/Mordekaiser_0.png?ex=669748d2&is=6695f752&hm=affa4df593c0c5dff2c5eed7a80ac6b48ab351e5397fe328bcb378453d82abb0&"
+        },
+        {
+            "nome": "Finn Ames",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260740899286028328/3b574eb88623f3779a9e3113d97c1523.png?ex=66906bf5&is=668f1a75&hm=db6871e29c15e8c299f7eeeb7170b96995731afb9ae45f09f55da85d9d3b350f&"
+        },
+        {
+            "nome": "KAY/O",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258815910022742190/571ecd136b89b5f362d24bd1bacc62e6.png?ex=66896b2c&is=668819ac&hm=7fd963beea8d543150650b8f6a0236f0ebacf5e8bfaef8cb7e9947a801013067&"
+        },
+        {
+            "nome": "Camilo Madrigal",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262943878345003048/d38503db71f713e4ebe311f60639c331.png?ex=66986fa4&is=66971e24&hm=b785d9ba2b27ecba28ac4f179a976cb084dea6d1080dab6cbfb1c3b1b58705fb&"
+        },
+        {
+            "nome": "Gwen",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623583964762174/Gwen_0.png?ex=66974558&is=6695f3d8&hm=e742eba98b24c749d33a703de1379d6a009fee3b47b4c4b8215bf92b4f479671&"
+        },
+        {
+            "nome": "Himiko Toga",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260742505654390864/9ba0fc4dc7ca0c3e6b513fdacd9fc4ec.png?ex=66906d74&is=668f1bf4&hm=0f74f1be32523ae2ccb5ecdb3ce6e890fd03c18bfa0abd58687b873439f666ff&"
+        },
+        {
+            "nome": "Zilean",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262942990973014026/Zilean_0.png?ex=66986ed1&is=66971d51&hm=c2a59d119b73421d7b5ffecd005b0fd1c9d3059db23e91a77c624b76c2d7444e&"
+        },
+        {
+            "nome": "Jessica",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262946802018029609/e5c61cfa1584994477420c97ba553dd1.png?ex=6698725e&is=669720de&hm=e01f874fe1c401011d371c9b1d203e06a8a1d725d2e1784de534d1776c6afa43&"
         }
     ],
     "957273790587486278": [
@@ -1993,6 +2959,41 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260402410187259934/2f700129e8b01fe32cf50da27671c20b.png?ex=668f30b7&is=668ddf37&hm=d8520b484b742bdf4b8dcf9aaa128d9ccb347a6264c0555b474211b985345f08&"
+        },
+        {
+            "nome": "Lee Sin",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262626383017017488/LeeSin_0.png?ex=669747f4&is=6695f674&hm=3f3aad7c9a949085f9bb06dbb88025f192a32dd962bf26fd6cd8a50f7b5a8183&"
+        },
+        {
+            "nome": "Law",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362171921989702/8e4ce352ddc7ed03660346ecce085d38.png?ex=668f0b3e&is=668db9be&hm=c29089b2ac16521b688d23de4365185cd2effdf5b50f8079c72100b9db8cbb61&"
+        },
+        {
+            "nome": "Mordomo Menta",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262608213581369365/latest.png?ex=66973708&is=6695e588&hm=b8d6c21a8a373efc8adc1c89c171baa5c550bb0c7a98c9603b30e708712d29e5&"
+        },
+        {
+            "nome": "Mosh",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260337609289367605/f5fc1b1b2d9e8ffff0bd9eaf6e0c11a6.jpg?ex=668ef45d&is=668da2dd&hm=a64c06a66a80915b76ff1d06db1c0db262ac17f7eb8c2b9ff09068ab9ba5f53b&"
+        },
+        {
+            "nome": "Ryuk",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262958331375648839/7ed123be2ecd3e21a232f721cd458f80.png?ex=66987d1a&is=66972b9a&hm=5b56b2a5a30298e7e69cfa25e5c798cd011e42de7d07e4058a10b1318274180b&"
         }
     ],
     "701853733880856709": [
@@ -2016,6 +3017,90 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260582114466861128/image.png?ex=668fd814&is=668e8694&hm=5113df3db59ca58a34bca8817e3f87cba4740255276fe0ca93f87607bb42c117&"
+        },
+        {
+            "nome": "Princesa Caf\u00e9 da Manh\u00e3",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262614691105214464/latest.png?ex=66973d10&is=6695eb90&hm=8a2dbbedf35e691909433536fdc55a0e69699e0b4993b870e8c261a4a60b71cc&"
+        },
+        {
+            "nome": "Diamante Azul",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261075702854193202/ac86829d114542eb1e66e312c693b765.png?ex=6691a3c5&is=66905245&hm=36926e6f30a7d97dd721ba655b1f1da011c540c9a824b57ee5bab894b8ab6c8c&"
+        },
+        {
+            "nome": "Anivia",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262621021102669915/Anivia_0.png?ex=669742f5&is=6695f175&hm=757ee25b446dd4b8c0dd365c048c9a2b24efc9b767d4eb5bf09d2134cfa312ef&"
+        },
+        {
+            "nome": "Hwei",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623785698197565/Hwei_0.png?ex=66974588&is=6695f408&hm=0193c1595782393a0da6759021a0aa3197d8932ad7e2e35cbaf4b95272a28e12&"
+        },
+        {
+            "nome": "Rammus",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262829767623708802/Rammus_0.png?ex=6698055e&is=6696b3de&hm=dafd177534a0013ff78e25dceda3c8f8736d6fbbc10c30a3e6189b233566b238&"
+        },
+        {
+            "nome": "Naafiri",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262627458134441994/Naafiri_0.png?ex=669748f4&is=6695f774&hm=dfa90f692b1c27a2dacfbbdb48170fa5ff0d3634171ff2ab468430c22f7dfd88&"
+        },
+        {
+            "nome": "Coruja C\u00f3smica",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262611460689887282/latest.png?ex=66973a0e&is=6695e88e&hm=0790b7587c375e7c950145ea438ca3aed900b36e05986fa87b88abec50fa27ce&"
+        },
+        {
+            "nome": "Harbor",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258815352872370246/11c3add25a85f83570e398d4014c78f0.png?ex=66896aa7&is=66881927&hm=2e0cd09357fdcd5e4fc679100fba6a00df96bd03208ca061f87fed47515ddb7b&"
+        },
+        {
+            "nome": "Skye",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258815123812913162/383058156211145384fc365e39b1e71b.png?ex=66896a71&is=668818f1&hm=371221ec3042fd1d2e52d480589ef06a590722c36b5052119a4962c2988cf46b&"
+        },
+        {
+            "nome": "Corlys Velaryon",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262618307715006524/4cde7c675271e3b54f102354c037920d.png?ex=6697406e&is=6695eeee&hm=c16a33674094a233bab0d74e7411038c844ad268a7d3daeeb047a1944912a518&"
+        },
+        {
+            "nome": "Bill",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260739637039726683/a5eb8d7edf65c88d0f9dbcc004d0934d.png?ex=66906ac8&is=668f1948&hm=e43e3ed3a81cd9c33ee618983d0140ebb383ba51e49a24956ceb7d0af5dc0f6d&"
+        },
+        {
+            "nome": "Maria Cascuda",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354302892048404/7a36098b3ad3cb6ae357c391af38c797.png?ex=668f03ea&is=668db26a&hm=5934fb0b61bf71ac107db2bd47dfee0eb5fbe77785aa76e40c123866462f1cda&"
         }
     ],
     "913190805106216961": [
@@ -2046,13 +3131,6 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260793459124736050/YR54-aPl_400x400.png?ex=66909ce9&is=668f4b69&hm=7a894be76f630f91039c12f739f88b4863cd1ac076d7e8a984c0712b0f8705f5&"
-        },
-        {
-            "nome": "Peppermint",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260778759334662194/1000.png?ex=66908f38&is=668f3db8&hm=591cc4e694e12ae4bc1196463e2be40d76cc6cd57f21eda437617221a4e8a5d6&"
         },
         {
             "nome": "Nana Shimura",
@@ -2116,6 +3194,146 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262516820326354974/1000.png?ex=6696e1ea&is=6695906a&hm=a48d8e4e4f3db504b3ce2afe4fc57a18d99c01d06eca7c2ee1abf716a118104a&"
+        },
+        {
+            "nome": "Toji Fushiguro",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364531562184838/9de5d2ab40011b354914c778341e3bff.png?ex=668f0d70&is=668dbbf0&hm=212cba62a7e77ac6fb6567927577d43e0c06bca7be1c817b9e0f754de2985c7a&"
+        },
+        {
+            "nome": "Eddie Munson",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355647657086996/3c3da4a59becf46542133866a6cf4e2e.png?ex=668f052a&is=668db3aa&hm=7164765174930a41ca92a241bb935c9837ca9419a0aa7dee060496a29f042a9a&"
+        },
+        {
+            "nome": "Fiddlesticks",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623004723118171/011422_Fiddlesticks_Splash_v1.png?ex=669744ce&is=6695f34e&hm=9633e91170f0a996d7cb71d34996b46aacfcba8c6403634588dc52812613058d&"
+        },
+        {
+            "nome": "Bismuto",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261079212433870919/84034b8ba74688c23f389b12308366b2.png?ex=6691a709&is=66905589&hm=7ece27290553560494b2fa0942a20cd60fbac80a47e6ec2c25b2ac08bc54ead2&"
+        },
+        {
+            "nome": "Lucas Sinclair",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260354925834141849/43eab69e4f4f895ef2900adb9babd82c.png?ex=668f047e&is=668db2fe&hm=f29484b5ccee4aae17534273459b67b1ebf5745d16592f1f1b8986b26288179b&"
+        },
+        {
+            "nome": "Lapis Lazuli",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1261073166428672040/09fb12467957da96913fc8f75e6f6356.png?ex=6691a168&is=66904fe8&hm=f6048a8b2faaff84cdd782d28446c84d475f1aab665fc52652aac0c2b0c34048&"
+        },
+        {
+            "nome": "Quinn",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262827332163473418/Quinn_0.png?ex=6698031a&is=6696b19a&hm=1f9758c9e8c16d06d208032dfb0a1f09d04eab1fa38dece569d0f3d9eb35bf9a&"
+        },
+        {
+            "nome": "George Joestar",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262559515220381766/latest.png?ex=669709ad&is=6695b82d&hm=d3137d6ef6a95abff332dcd725815e12bc4339d50d0a6f1c6ea309e8a919779b&"
+        },
+        {
+            "nome": "Talon",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262849763930275840/Talon_0.png?ex=669817fe&is=6696c67e&hm=6577c478ab08fa4c8fb52cdedfd5eb0ed95738dbed093965874d7b45595eea99&"
+        },
+        {
+            "nome": "kennen",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262625808099315712/Kennen_0.png?ex=6697476b&is=6695f5eb&hm=0ecc375545d5f718182b5a4f66693a815a38dba5efae9edb6f1ca93f90236061&"
+        },
+        {
+            "nome": "Capit\u00e3 Marvel",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262969225455075348/0b77be2a2dccfe3f55560f609df273ce.png?ex=66988740&is=669735c0&hm=82cf8a9f7fd6b940f9703dd0fbc81d3abe598967c9fea97616790c748104e41f&"
+        },
+        {
+            "nome": "Innocent Zero",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260742115256696832/20d246c8cc72655796413dcc6cf82997.png?ex=66906d17&is=668f1b97&hm=fa4c178036e688941ac5bc4305d6afcf4fc2004e460de81c9eddad8c3f12f0bf&"
+        },
+        {
+            "nome": "Senna",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262837453052448788/Senna_0.png?ex=66980c87&is=6696bb07&hm=1f3c20468f64842289ce7a2d2a5a674eea1b4d15c9d081d526ae910ef495eec3&"
+        },
+        {
+            "nome": "Dot",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260740625863544842/0ffe7fbc0c7ceac28cb81893b0ca6cd5.png?ex=66906bb4&is=668f1a34&hm=17d0e8fa4b8e6ac893eafeab5d4d833099440698a6886433a65da33aea53460c&"
+        },
+        {
+            "nome": "Endeavor",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260747089504239739/58cd1662fbbc90ebef9a8715d37dbaa7.png?ex=669071b9&is=668f2039&hm=c9c495e2f24e4fc22685afecee7a7c2c1f7e19c6a8b36e6ddf0c8e79612b87fd&"
+        },
+        {
+            "nome": "Hotaru Haganezuka",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260377039630897252/714e058e3fde6bc3e44cbbc89427057b.png?ex=668f1916&is=668dc796&hm=3670bb57e65d9701d3f6c5a12800c703d69181fe1f2ee14d6e76eac77881d45d&"
+        },
+        {
+            "nome": "Makio",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260376521609056326/f1716699e84f5d1c3851c6f2e7143eee.png?ex=668f189b&is=668dc71b&hm=413a2e8493d4cb112a7e6db448d1653d72957b2c73054a566f42cf15261dc315&"
+        },
+        {
+            "nome": "Corki",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262622426773323877/Corki_0.png?ex=66974444&is=6695f2c4&hm=d13fe8473985716619e2bf2e3aa8e0645cb781ba4385a5c37b72f809f7183a10&"
+        },
+        {
+            "nome": "Heimerdinger",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262623726034354196/Heimerdinger_0.png?ex=6697457a&is=6695f3fa&hm=1e31d7799ec09ba3cf491484ed7b1cfeba79dcfb0798da109ef3af79fcb4a42a&"
+        },
+        {
+            "nome": "Mihawk",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260363423930388571/97e622c43d051bff321c8d97b3009c32.png?ex=668f0c68&is=668dbae8&hm=aa094de6598daad746477a1f030352f8089ecf080c49e044b5cc5a2cdae0bc22&"
         }
     ],
     "739278344499232851": [
@@ -2199,22 +3417,22 @@
         {
             "nome": "Jinbe",
             "data": "09/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "Companheiro do Luffy",
+            "serie": "One Piece",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260362544225321030/bed32c9e9903b0bb7e7dbcc872c0f44d.png?ex=668f0b96&is=668dba16&hm=307d7b11551210ba931a926f8d1f2a906553b3ff0c152111db765d5d92e1bb64&"
         },
         {
             "nome": "Petra",
             "data": "09/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "Crush do levi",
+            "serie": "AOT",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260345079055388824/1f7942468e76b3f0bef0c06416a30e9b.jpg?ex=668efb52&is=668da9d2&hm=ce74572c42dbe47dd92d80364862349f251554e536c878db9f9a4a1ff71384c8&"
         },
         {
             "nome": "Pochita",
             "data": "10/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "demoin fofo",
+            "serie": "CSM",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370137094291496/b9bb1600f8e04c9c43d57f727041a2a7.png?ex=668f12a9&is=668dc129&hm=331e98acdbd6978f4e7b0e65d3b3ff35bfa13c62f86a0c4ddc6e77b23cc72ce3&"
         },
         {
@@ -2234,22 +3452,22 @@
         {
             "nome": "goku",
             "data": "09/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "Oi, eu sou o Goku",
+            "serie": "Dragon ball Z",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256309066817474703/OIP.png?ex=66804c7e&is=667efafe&hm=383a68a74e110496975a59c2188751c69f3066732926bdde6547ae50b6d4a268&"
         },
         {
             "nome": "Chousou",
             "data": "10/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "Irm\u00e3o fav do itadori",
+            "serie": "JJK",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260364932705292460/2d8ecd5eeca8cbae02954474ffbce60c.png?ex=668f0dd0&is=668dbc50&hm=f4aae88838fe7e3cc0c9c8a0241e22a293bb7ebbb3e8cb088cee8c29862b03db&"
         },
         {
             "nome": "Shoko",
             "data": "10/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
+            "descricao": "Fumante do trio",
+            "serie": "JJK",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260365995940515922/e8d8bf95fbc916a4d8f3f0fae35e0839.png?ex=668f0ecd&is=668dbd4d&hm=f67d4606247d737c1bc2a8d7597e620ef0301453c414f463b8f4f1437fe3b293&"
         },
         {
@@ -2384,6 +3602,125 @@
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260361429295304767/22f2a02f34396a336de8269eaf95fdb6.png?ex=668f0a8d&is=668db90d&hm=075d2e69001a924be6f364cab15ae8389379102f34fdd3f22b20779ccde63b77&"
+        },
+        {
+            "nome": "Kanao Tsuyuri",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260373084033253506/f2e54a376e46a8dfd54eb139aa6d1c71.png?ex=668f1567&is=668dc3e7&hm=17fe26b592b139e340d0b4a68fb1cbf9d34e6b2c448f11f9abcf209b908fd243&"
+        },
+        {
+            "nome": "Magali",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353016532570172/f40793e04d6f817486c7cb43f211c241.png?ex=668f02b7&is=668db137&hm=959860631ee96105f6b94542e773775086ead67a0e2fad70a3f4b8bdb86ebd33&"
+        },
+        {
+            "nome": "Princesa Jujuba",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262605086580801587/3f1daab58fdbe90ad2c304f657aa8bb8.png?ex=6697341e&is=6695e29e&hm=779555bfef436f04b6bff9e79ea19114271751bbff338c4f6f84048c748f565e&"
+        },
+        {
+            "nome": "Pessoa-P\u00e1ssaro",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262946740315754496/7434a33dfecb059cef015dfb090bf5f0.png?ex=6698724f&is=669720cf&hm=3e22aef43e2d4b26722ba023c69de0ef0c658f95384dcd7dab0244f10ca5ec19&"
+        },
+        {
+            "nome": "Cartman",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421406366240798/b7e07c8d40751c3475a1d73344be5bae.png?ex=668f4268&is=668df0e8&hm=6265ff555e5dfbf46de26ff21db69e5ba6516acd42945aac39e1cc1b397c4926&"
+        },
+        {
+            "nome": "Zeus",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260256919268888797/1000.png?ex=668ea937&is=668d57b7&hm=7bdc3250c3a84cf09909f2b61fee49fda5a96e2269e50097fdc1e2e954c3d36b&"
+        },
+        {
+            "nome": "Hades",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260257631013175366/latest.png?ex=668ea9e1&is=668d5861&hm=080e6b727c27b7ee6c405697d913e61beb2435091f12f6f6138d728715564440&"
+        },
+        {
+            "nome": "Soldado Inverna",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262966374813405244/515d7181ad2e023ed4e5dcebc4882623.png?ex=66988498&is=66973318&hm=4a16c99ebc8b4b2cb7298687e5fa278e42bafc0b25ab88f3cb5ed99b8003b840&"
+        },
+        {
+            "nome": "knuckles",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1256308123476430980/R.png?ex=66804b9d&is=667efa1d&hm=2d48b68b0117a8aa61d5c41247e90c15d019856333b6ca8757f247147ceef91d&"
+        },
+        {
+            "nome": "Gambit",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262971026401132644/7537610d0225d9a9920b086e78ef8235.png?ex=669888ed&is=6697376d&hm=a1b2963a9aeb04af548ec85c0b4972541997e61d076f81b286d0cf2dde2a7580&"
+        },
+        {
+            "nome": "Aisha Greyrat",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260403048988016783/7f963f7b78d1ed950d3469d0cb3b435a.png?ex=668f3150&is=668ddfd0&hm=11eebb7803fe1a7434306152f4bb9d9f70a1a6cda5816fe4fc50ff6d14f89612&"
+        },
+        {
+            "nome": "Saiko",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262956201482653737/584f22e1f34d6be5021c33e46cc71b43258293c7r1-603-508v2_00.png?ex=66987b1f&is=6697299f&hm=dc90a78d2f6a54c1d8a7aa5a1d4a243e1f2a4a2b9d78fc0e7a9299faad8a693a&"
+        },
+        {
+            "nome": "Jubileu",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262971327929651230/latest.png?ex=66988935&is=669737b5&hm=1cdcd29040c1c262ee09f770355c94649e1d20f52b35d125081cf7f6f116cfd3&"
+        },
+        {
+            "nome": "Hajime Kashimo",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260366597013377164/9483f17bcc3f746c3974e1b57194f832.png?ex=668f0f5d&is=668dbddd&hm=d4633f26648bc43d5c2ba04274dd54337605c9c72033c13eb4beecc3c124f1a6&"
+        },
+        {
+            "nome": "pac",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260793633276428379/APkrFKZzroFwNjMd4NgMzGnZ9urBLoEs6U2leDkcnPWe_Qs900-c-k-c0x00ffffff-no-rj.png?ex=66909d12&is=668f4b92&hm=721e4336f7d89f1c61c0d2dca083f0309bc271cd6390e56874b52fc2627bacfc&"
+        },
+        {
+            "nome": "Pantera Negra",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262967970682900561/ea476e033e90994ebd0a04d6a608a2cd.png?ex=66988615&is=66973495&hm=c9915997f5ccf9da293fd5f7d9444f7cbb5fbb0794e9a228ef3682c9d20a19a9&"
+        },
+        {
+            "nome": "Kirito",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1263614175544873051/b5d10b1824ac8ef1bdba1cd0133955f3.png?ex=669adfe8&is=66998e68&hm=a0b5e3a07f5b841807c3c14eb5ffc7e9642f6ce91b1b830887f8f11d4b298dbd&"
         }
     ],
     "1260176904884064337": [
@@ -2432,13 +3769,6 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260779043285106808/latest.png?ex=66908f7c&is=668f3dfc&hm=9e7e3a0f63a71abe54a1362e70ff56997d3903f45ebfdd297d98ac2ea1582cee&"
         },
         {
-            "nome": "Pieck Finger",
-            "data": "15/07/2024",
-            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
-            "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259566410468950136/e64a09f57b7de293d5964924f3b377d9.png?ex=668c2621&is=668ad4a1&hm=2e2f5f807a412a0752e84187b073e66c93b10d50022dc2e9fbadd1498e8f35f7&"
-        },
-        {
             "nome": "Kyle",
             "data": "15/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
@@ -2446,11 +3776,330 @@
             "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421525434142800/04ba5195090658e1b8765a27a31608b3.png?ex=668f4285&is=668df105&hm=a3b1d9575ea6c4cb5c7db299e9ad1b5e3204af38599b0f8cfff1108a61bf07ab&"
         },
         {
-            "nome": "Onyankopon",
+            "nome": "Peppermint",
             "data": "15/07/2024",
             "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
             "serie": "Serie",
-            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260351241737863289/aef7163aede8370653670aefd0905630.png?ex=668f0110&is=668daf90&hm=8fffc9e6c9cc245aa7c059f5781f01011c17e9f9e83e90b692832b70073f7309&"
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260778759334662194/1000.png?ex=66908f38&is=668f3db8&hm=591cc4e694e12ae4bc1196463e2be40d76cc6cd57f21eda437617221a4e8a5d6&"
+        },
+        {
+            "nome": "Titi",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260353613088423996/921b7ce9a3c02a285ebce5c92529e444.png?ex=668f0345&is=668db1c5&hm=aed96f103ee3078f7f6f6f5ea8e735f444f656c08b81835933590957f4d46aef&"
+        },
+        {
+            "nome": "Dizzy",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260337353390821387/c65634667afc51fa3c70b2fb42642894.jpg?ex=668ef420&is=668da2a0&hm=323292a45fda4971fd70de75d6f300a0362b54691404edc00c6e5ebe3774aac5&"
+        },
+        {
+            "nome": "Darius",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262622484453396482/Darius_0.png?ex=66974452&is=6695f2d2&hm=1e5be9f9c7c90cdc25768a6acefc0b68c95c5008b9c30b16d341293ffd5fdf3d&"
+        },
+        {
+            "nome": "Billy Hargrove",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260355966365335604/218dd576daeb55e5c317eb84d4f84b56.png?ex=668f0576&is=668db3f6&hm=d12682e41f816ec6d5273b13daf7ff8aafa1d343b4ecbbe5cf96facfa306a18e&"
+        },
+        {
+            "nome": "Estelar",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1259563099384447007/cf003669c33606fe440a48446d112bf4.png?ex=668c230c&is=668ad18c&hm=f1118a05636ea2b7c39085249c64aa992164f1b6d278faf5f16bb2bf682af71e&"
+        },
+        {
+            "nome": "Iggy",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262618688012685405/latest.png?ex=669740c9&is=6695ef49&hm=9a499e9bf29e037584a0f298c0fc768819f04dbd2592355ae9f6d4513cd995b7&"
+        },
+        {
+            "nome": "Draven",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262622679106715718/Draven_0.png?ex=66974481&is=6695f301&hm=8791f420e2055ad645b57768cfa9a5540dfe1cd978056edd5391f779b8d37f74&"
+        },
+        {
+            "nome": "Lim\u00e3ograb",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262607944755707954/0756bc5500829c82560edd80a43b2e04.png?ex=669736c8&is=6695e548&hm=983cb8d1c18d0bbe507049f09ccdf0ee14f1036c0325a0f6bed7955250d213ae&"
+        },
+        {
+            "nome": "Luffy",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260357485953290320/02bc1ddfb478c7069ac1db5017955648.png?ex=668f06e0&is=668db560&hm=f695e2114835edced64298767455a3a85948e07a64804e456f17e7d455bdce03&"
+        },
+        {
+            "nome": "Kishibe",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260370676577992784/a6f4c5e65289a708a84e9465db1a74cd.png?ex=668f1329&is=668dc1a9&hm=02d9d2e5562d999f89e63f733b09b96d8b1ed250a043b25bd443264e36a319e2&"
+        },
+        {
+            "nome": "Kenny",
+            "data": "10/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260421753285513347/dbd2162dafe570817eae670043d1b8fe.png?ex=668f42bb&is=668df13b&hm=a76884f7fee3aae4883667d573bcc547580681d1df174bccae2632348d76ed2b&"
+        },
+        {
+            "nome": "Isabelle",
+            "data": "15/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260575261104144435/240px-Isabelle_SSBU.png?ex=668fd1b2&is=668e8032&hm=4c2e8caa25c8977ce2659447bf0e0ee63c033377458442bf47c2ea9e34f78bd1&"
+        },
+        {
+            "nome": "jair bolsonaro",
+            "data": "15/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1257129303489904640/1Bw9Kwb_p34mCWTDUfxFIVw.png?ex=66834866&is=6681f6e6&hm=a7644373fb29478d6070ec0713902802a1abf641f817906295b29fce2ecf56f1&"
+        },
+        {
+            "nome": "Blitzcrank",
+            "data": "16/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262621714609737809/Blitzcrank_0.png?ex=6697439b&is=6695f21b&hm=9487c2f754ddba951b5279dab50d2f755688dbfaac3fb7d0a2d3541da8d21963&"
+        },
+        {
+            "nome": "Damien Darkblood",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262975690094018580/latest.png?ex=66988d45&is=66973bc5&hm=f53ffa059976de21743071b1d40648d2a3116efe569d575f19b5157e5002f9a8&"
+        },
+        {
+            "nome": "Orochinho",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262956669365653534/AIdro_mqid49axgnXPXLdtstC08hzC9y7XBQlUelD-nCzj4FIVos900-c-k-c0x00ffffff-no-rj.png?ex=66987b8e&is=66972a0e&hm=cd19097d2286cd600fc4f266d10878bfaadc224bd84d98c2a6ac9b586eff0aa8&"
+        },
+        {
+            "nome": "Rex Splode",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262975219707154495/latest.png?ex=66988cd5&is=66973b55&hm=ac18ef39cb51cff4df7f25d6582f662268c8c8c46d0f74ddc0c051738a2ed86f&"
+        },
+        {
+            "nome": "808",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260778623703580692/1000.png?ex=66908f18&is=668f3d98&hm=9c6f7c27acb95f1ec174378d98832aa552e623e3171670c46e2fdf6d37fb65dc&"
+        },
+        {
+            "nome": "Candace",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260737142389215253/bac8d1d7b85a82600cc2e239d14d963e.png?ex=66906876&is=668f16f6&hm=b5ab933c11f777f42a7515533605e3860a4c8360c3cf1692347f2244d30915d9&"
+        },
+        {
+            "nome": "Joyce Smith",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262948679715917824/latest.png?ex=6698741d&is=6697229d&hm=a5f026035f1219f6b9e0a350caae799bf55609b2662776dc08610fb744a142f3&"
+        },
+        {
+            "nome": "Cecil Stedman",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262974991897727057/3dd5efaddc0f7a11d4db44562f015ab3.png?ex=66988c9f&is=66973b1f&hm=7e6185e6e36e47e7ecf3f6c3e174ad5d66e12dd591c6ce7ab2cb49752d9f0e42&"
+        },
+        {
+            "nome": "Bloofy",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262976873105719336/1000.png?ex=66988e5f&is=66973cdf&hm=b337355aab3a6596053bb9477c9c314efe032be1aabae4157e772be36f41f376&"
+        },
+        {
+            "nome": "Chai",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260778554946486312/latest.png?ex=66908f07&is=668f3d87&hm=e9ce033005a3e8e2242269f240d795310a64b589362a381644ed716e646986cd&"
+        },
+        {
+            "nome": "Nico",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262514841373900921/1000.png?ex=6696e012&is=66958e92&hm=3f55198a27f39b594acf43e7572646bb887a2d9009a453b20f1256d207244f9a&"
+        },
+        {
+            "nome": "Fionna",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262605782965293097/8ab4241d51dbba978a7f2c4d76e87a32.png?ex=669734c4&is=6695e344&hm=0cc1d4706912899114bb41b775345dca529c6fb0ecbec9ff652fded796cd3d73&"
+        },
+        {
+            "nome": "Holy Kujo",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262559649639563324/1000.png?ex=669709cd&is=6695b84d&hm=987be921458f8b64242481964b91dc0f6fd2666e2310c0d8a1c31d17cefdcb07&"
+        },
+        {
+            "nome": "Mitsuri Kanroji",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260372428664602706/514f9d54289d0d08fb6eeb19d77c48be.png?ex=668f14cb&is=668dc34b&hm=e1bdbbc3c71f07aaf72a13ec0ec583c2c747d102de7e7cc0103b64f506dc1724&"
+        },
+        {
+            "nome": "rakin",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260792605168500766/rakin1.png?ex=66909c1d&is=668f4a9d&hm=179b18fcab2460e539786b473f7dde75eeac9830a5ffa3065979b0f660b4a652&"
+        },
+        {
+            "nome": "Robbie Valentino",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260738488928833576/da9b908425ecc7f8c4bf90440fa9a31b.png?ex=669069b7&is=668f1837&hm=7c13d5c901e9f2bdb4bd1e479e66b1900f9978375bfb44211ae511b800f14ceb&"
+        },
+        {
+            "nome": "Feiticeira Escarlate",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262964976235315210/Feiticeira_Escarlate.png?ex=6698834b&is=669731cb&hm=c30e95bacd77b6bc3fe890ec91ea5f4088abb4f4fca31be33856ef7b5c583c7b&"
+        },
+        {
+            "nome": "Roquefort",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260779332855529593/1000.png?ex=66908fc1&is=668f3e41&hm=a3cb3cf2d45768c23abaa90af277fcbebf96d865b56a6dd32d11a884a9893561&"
+        },
+        {
+            "nome": "Tweek",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422397069103224/8151e34b723c72aae14962424c4ecbee.png?ex=668f4354&is=668df1d4&hm=92dca1e34d4273f8f409b946633f2e74a721ab20ff4a83ecb4583f9744602a6e&"
+        },
+        {
+            "nome": "Todd",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262975964774924409/latest.png?ex=66988d86&is=66973c06&hm=c56cf8d6df166c181bb88fe486e58bbc6b1be5c8ebc7c6713680f521792d6d21&"
+        },
+        {
+            "nome": "Randy Marsh",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1260422505793982617/01a065b94dfdc2347bc63cda241169c1.png?ex=668f436e&is=668df1ee&hm=ce627ea60500677829ea7bf3c2495f024799bea7d23b08001f7cb8b6629177a3&"
+        },
+        {
+            "nome": "Mello",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262958885791334410/250.png?ex=66987d9f&is=66972c1f&hm=c6b8f184b3f34abbe4bcb14cf0d1a3865d144f4322a366773a42fa623287a89d&"
+        },
+        {
+            "nome": "Leone Abbacchio",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262619594225352814/latest.png?ex=669741a1&is=6695f021&hm=f2f1c87b68409095e34782587cddfa1568e8c4a2cc7ecd25ee15e9ba7aa4aa8b&"
+        },
+        {
+            "nome": "Vergil",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262513682886168679/1000.png?ex=6696defe&is=66958d7e&hm=70c3d5cef34645962934133b774023d8dd6825ce022aebd54788380fee11fb60&"
+        },
+        {
+            "nome": "Bruno Bucciarati",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262619546297040988/1000.png?ex=66974196&is=6695f016&hm=35f3c8170b03856e9ad1cb675e025953c49ba595315d2afd3bb19f71de8409ab&"
+        },
+        {
+            "nome": "Deadpool",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262962582860464229/da1d6d6d1254d0b9a8df14d2dc93398d.png?ex=66988110&is=66972f90&hm=5ee8b2ff69c4d0d1c55979731bc0167f0477f78000c07f0011e75d874b1704c2&"
+        },
+        {
+            "nome": "Mariah",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262572967187972156/latest.png?ex=66971634&is=6695c4b4&hm=337d7afe0b44f52dddb3a3dcac550954d1b27aca081074edfd263beb447a99db&"
+        },
+        {
+            "nome": "Fiona Frost",
+            "data": "19/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262977759807017072/latest.png?ex=66988f32&is=66973db2&hm=5daaf50c859de5192851e0eb032abdb71511f182c24b58938c43a724bd7f822b&"
+        },
+        {
+            "nome": "Deadlock",
+            "data": "20/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258814977901596672/b76128b44ffbef517719785ede8c1abe.png?ex=66896a4e&is=668818ce&hm=b0276406f8797fd0b176b574f4f1d32652a1b1e06589eb66c4e2685202c0565b&"
+        }
+    ],
+    "536847816220213259": [
+        {
+            "nome": "Ansiedade",
+            "data": "17/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1258812139485790208/803d1b9cf504a88bd2e6c08df92bc5ea.png?ex=668967a9&is=66881629&hm=a2cda2f3bd648b16a5ea6673c03f83bd4a8223a03420ec0189f7e5296c3565d9&"
+        }
+    ],
+    "384832545306705920": [
+        {
+            "nome": "Katarina",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262624996233052281/Katarina_0.png?ex=669746a9&is=6695f529&hm=727e236c50d50d082659ff95dc6cf394708a185265332225dc03f7050be051aa&"
+        },
+        {
+            "nome": "Princesa Frutinhas",
+            "data": "18/07/2024",
+            "descricao": "Descri\u00e7\u00e3o padr\u00e3o",
+            "serie": "Serie",
+            "imagem": "https://cdn.discordapp.com/attachments/1253663458071941201/1262616408756453437/latest.png?ex=66973eaa&is=6695ed2a&hm=ad8523d786755006677ff5763dd8bcd4c1e7dcbb442adb2d6d0012e9cb1a9949&"
         }
     ]
 }

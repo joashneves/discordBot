@@ -110,7 +110,14 @@ class Perfil:
             embed.add_field(name="Personagens", value=num_personagens)
             embed.add_field(name="Pixel's", value=coins)
             embed.add_field(name="Descrição", value=descricao, inline=False)
-
+            mestre = None
+            for user_id, user_data in self.perfil_data.items():
+                if user_data.get("aprendiz") == member.name:
+                    mestre = user_id
+                    break
+            if mestre:
+                mestre_member = await self.client.fetch_user(int(mestre))
+                embed.set_footer(text=f"Aprendiz de: {mestre_member.name}")
             if nivel >= 3:
                 embed.add_field(name="Casado: ", value=personagem_favorito, inline=False)
                 embed.set_thumbnail(url=member.avatar.url)
@@ -205,6 +212,8 @@ class Perfil:
             save_data(COINS_FILE, coins_data)
             save_data(PROFILE_FILE, self.perfil_data)
             await message.channel.send(f"Parabéns! Você subiu para o nível {perfil['nivel']}!")
+        elif perfil["nivel"] >= 5:
+            await message.channel.send(f"Você ja esta no nivel maximo.")
         else:
             await message.channel.send(f"Você precisa de {custo_up} moedas para upar para o próximo nível.")
 

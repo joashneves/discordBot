@@ -10,9 +10,12 @@ info_bot.add_field(name='Sobre a Skalart', value='Eu sirvo apenas para servi voc
 info_bot.add_field(name='Github', value='https://github.com/joashneves/discordBot', inline=False)
 info_bot.set_image(url='https://cdn.discordapp.com/attachments/1255938137499107490/1255938517800976384/Comission_Joas.png?ex=667ef364&is=667da1e4&hm=f1d461dc9dd574874a9b1e801d50151ab230d1db12f418c3863e27814a827783&')
 info_bot.set_footer(text='Imagem por: https://x.com/Arty_Kafka')
-info_avatar = discord.Embed(title='Avatar',
+info_avatar = discord.Embed(title='Extras',
                            description='Lhe mostra um historico de todas as fotos de perfil que o usuario mencionado usou')
-info_avatar.add_field(name='Comando: $avatar', value='paramentros: nenhum ou menção por @\nEx: $avatar @user', inline=False)
+info_avatar.add_field(name='Comando: $avatar',
+                      value='paramentros: nenhum ou menção por @\nEx: $avatar @user', inline=False)
+info_avatar.add_field(name='Comando: $r [numero]D[numero]',
+                      value='Passar a quantidade de dados, e o numero de lados, exemplo: 4D20, rola quatro dados de 20 lados', inline=False)
 #Embed dos jogos
 info_jogo = discord.Embed(title='Jogo(1/2)',
                            description='Explicação de como funciona o jogo do bot\nVoce possui 5 tentativas a cada 1 minutos, seu objetivo é descobri o nome do personagem que aparece, ao conseguir voce adiciona ele a sua coleção e tem a possibilidade de editar suas informações')
