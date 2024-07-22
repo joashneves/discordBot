@@ -20,7 +20,7 @@ class messagensBotRespostas():
                 print(f"prompt: {prompt}")
                 stream = ollama.chat(
                     model='phi3',
-                    messages=[{'role': 'user', 'content': f'Responda em portugues a mensagem: {prompt}'}],
+                    messages=[{'role': 'user', 'content': f'Responda em portugues a mensagem em uma mensagem curta: {prompt}'}],
                     stream=True,
                 )
                 mensagem_bot = ""
