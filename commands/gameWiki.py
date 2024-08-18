@@ -13,6 +13,7 @@ data = datetime.date
 DATA_FILE = os.path.join('memoria', 'game.json')
 GAME_FILE = os.path.join('memoria', 'dados_personagem.json')
 COINS_FILE = os.path.join('memoria', 'coins.json')
+GAMEOFF_CHANNELS_FILE = os.path.join('memoria', 'canais_gameoff.json')
 
 JOGOS_MAXIMOS = 10
 INTERVALO_RESET_TENTATIVAS = 1 * 60  # 1 minutos em segundos
@@ -171,8 +172,6 @@ class PersonagemSelect(discord.ui.Select):
         else:
             await interaction.response.send_message("Você não tem permissão para trocar este personagem.", ephemeral=False)
 
-
-
 class DoacaoView(discord.ui.View):
     def __init__(self, personagens, jogador_doador, jogador_destinatario, game_instance):
         super().__init__()
@@ -203,6 +202,13 @@ class DoacaoView(discord.ui.View):
             self.page += 1
             self.update_select()
             await interaction.response.edit_message(view=self)
+
+def load_image_channels():
+    data = load_data(GAMEOFF_CHANNELS_FILE)
+    return data.get('canais_gameoff', [])
+
+canais_gameoof = load_image_channels()
+
 class GameWiki:
     def __init__(self, client):
         self.client = client
@@ -217,18 +223,20 @@ class GameWiki:
     async def processar_mensagem(self, message):
         if message.author == self.client.user:
             return
+        if message.channel.id not in canais_gameoof:
+            if message.content.startswith(prefix + 'jogar'):
+                if not self.jogo_de_adivinhar:
+                    await self.iniciar_jogo(message)
+                else:
+                    await message.channel.send("Um jogo já está em andamento.")
 
-        if message.content.startswith(prefix + 'jogar'):
-            if not self.jogo_de_adivinhar:
-                await self.iniciar_jogo(message)
-            else:
-                await message.channel.send("Um jogo já está em andamento.")
+            if message.content.startswith(prefix + 'score'):
+                await self.mostrar_score(message)
 
-        if message.content.startswith(prefix + 'score'):
-            await self.mostrar_score(message)
-
-        if message.content.startswith(prefix + 'doar'):
-            await self.doar_personagem(message)
+            if message.content.startswith(prefix + 'doar'):
+                await self.doar_personagem(message)
+        elif message.content.startswith(prefix + 'jogar') and message.channel.id in canais_gameoof :
+            await message.channel.send("Aqui não pode se inicar um jogo.")
 
     async def iniciar_jogo(self, message):
         jogadorID = str(message.author.id)

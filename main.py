@@ -26,6 +26,9 @@ from commands.Coins import Coins
 from commands.Perfil import Perfil
 from commands.Conquistas import Conquistas
 from commands.slashCommands import slashCommands
+from commands.ignoraCanal import colocarCanalDeImagens
+##S3nha
+from s3nha.atribuicargos3nha import AtribuiCargoS3nha
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 
@@ -78,7 +81,9 @@ async def on_ready():
     activity = discord.Activity(type=discord.ActivityType.playing, name='apenas em dias uteis')
 
     bot_atribuicargo = AtribuiCargo(client)
+    bot_atribuicargoS3nha = AtribuiCargoS3nha(client)
     await bot_atribuicargo.atribuiCargo()
+    await bot_atribuicargoS3nha.atribuiCargo()
 
     await client.change_presence(activity=activity)
 
@@ -94,6 +99,7 @@ wiki_list = Wikilist(client)
 coins = Coins(client)
 perfil = Perfil(client)
 conquista = Conquistas(client)
+colocar_canal_imagem = colocarCanalDeImagens(client)
 
 @client.event
 async def on_message(message):
@@ -111,6 +117,7 @@ async def on_message(message):
         await coins.processar_mensagem(message)
         await perfil.processar_mensagem(message)
         await conquista.processar_mensagem(message)
+        await colocar_canal_imagem.processar_mensagem(message)
 
     jogadorID = str(message.author.id)
 #region // reações
@@ -160,7 +167,9 @@ async def on_member_join(member):
     print(f"{member.name} entrou no servidor.")
 
     bot_atribuicargo = AtribuiCargo(client)
+    bot_atribuicargoS3nha = AtribuiCargoS3nha(client)
     await bot_atribuicargo.atribuiCargo()
+    await bot_atribuicargoS3nha.atribuiCargo()
 
 # sincroniza os comandos slash
 @bot.command()
