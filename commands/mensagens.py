@@ -15,9 +15,8 @@ def load_data(file):
                 data = json.load(f)
                 # Certifica-se de que o retorno é uma lista se o arquivo contiver uma lista
                 if isinstance(data, dict) and 'canais_imagem' in data:
+                    print(data['canais_imagem'])
                     return data['canais_imagem']
-                elif isinstance(data, dict) and 'canais_gameoff' in data:
-                    return data['canais_gameoff']
                 return []
     except Exception as e:
         print(f"Erro ao carregar dados do arquivo {file}: {e}")
@@ -46,6 +45,18 @@ class messagensBotRespostas():
         if "s3nha" in mensagem.content:
             await mensagem.add_reaction('❤')
 
+        if mensagem.content.startswith("$falar"):
+            try:
+                # Pega o conteúdo da mensagem após o comando "$falar"
+                message_to_send = mensagem.content.split("$falar", 1)[1].strip()
+                # Envia a mensagem no mesmo canal
+                await mensagem.channel.send(message_to_send)
+                # Exclui a mensagem original do usuário
+                await mensagem.delete()
+            except Exception as e:
+                await mensagem.channel.send("Não foi possível enviar a mensagem.")
+                print(f"Erro ao enviar mensagem: {e}")
+
         # Responder quando o bot for mencionado
         if self.client.user in mensagem.mentions:
             content_after_mention = mensagem.content.split(' ', 1)[-1].strip()
@@ -59,18 +70,18 @@ class messagensBotRespostas():
                 self.message_history.append(f"Bot: {response}")
 
             # Verifica se a mensagem é em um canal de imagens e se contém anexos
-            if mensagem.channel.id in  self.canais_imagem:
-                if mensagem.attachments:
-                    attachment = mensagem.attachments[0]
-                    if attachment.url:
-                        try:
-                            # Pega a última mensagem do canal para adicionar reações
-                            last_message = await mensagem.channel.fetch_message(mensagem.channel.last_message_id)
-                            emoji_list = ['👍', '👎', '❤', '😂', '😲']
-                            for emoji in emoji_list:
-                                await last_message.add_reaction(emoji)
-                        except Exception as e:
-                            print(f"Erro ao adicionar reações: {e}")
+        if mensagem.channel.id in self.canais_imagem:
+            if mensagem.attachments:
+                attachment = mensagem.attachments[0]
+                if attachment.url:
+                    try:
+                        # Pega a última mensagem do canal para adicionar reações
+                        last_message = await mensagem.channel.fetch_message(mensagem.channel.last_message_id)
+                        emoji_list = ['👍', '👎', '❤', '😂', '😲']
+                        for emoji in emoji_list:
+                            await last_message.add_reaction(emoji)
+                    except Exception as e:
+                        print(f"Erro ao adicionar reações: {e}")
 
     async def generate_response(self, prompt):
         try:
