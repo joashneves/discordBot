@@ -159,10 +159,6 @@ async def on_message(message):
         emberd = discord.Embed(title='ping', description=f'Seu ping é {latency:.2f}')
         await message.channel.send(embed=emberd)
 
-    @bot.event
-    async def on_message(message):
-        if message.author == bot.user:
-            return
 
         # Adiciona a mensagem à lista de mensagens recentes
         recent_messages.append(message.content)
