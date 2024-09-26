@@ -9,7 +9,11 @@ class Avatar(commands.Cog):
 
     @commands.command()
     async def avatar(self, ctx:commands.Context):
-        await ctx.reply(ctx.author.avatar)
+        if ctx.message.mentions:
+            user = ctx.message.mentions[0]
+        else:
+            user = ctx.message.author
+        await ctx.reply(user.avatar)
 
 async def setup(bot):
     await bot.add_cog(Avatar(bot))
