@@ -23,4 +23,5 @@ async def on_ready():
     await carregar_comandos()
     print(f"Bot {bot.user.name} está online!")
 
+
 bot.run(TOKEN)
