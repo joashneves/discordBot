@@ -6,7 +6,7 @@ const FranquiaTemplate = (props) => {
   const navigate = useNavigate();
   return (
     <>
-      <div className={styles.corDefundo} onClick={() => navigate(`/personagens/:${props.numero}`)}> 
+      <div className={styles.corDefundo} onClick={() => navigate(`/personagens/${props.id}`)}> 
         <div>
           <p>Nome :</p>
           <p>{props.name}</p> {/* Corrigido para props.name */}

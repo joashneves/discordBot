@@ -56,6 +56,7 @@ const ListaFranquia = () => {
         franquiasFiltradas.slice().reverse().map((franquia) => (
           <FranquiaTemplate
             key={franquia.id}
+            id={franquia.id}
             name={franquia.name}
             description={franquia.description}
             creator={franquia.creator}

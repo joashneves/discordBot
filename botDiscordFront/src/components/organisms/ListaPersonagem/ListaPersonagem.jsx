@@ -9,6 +9,7 @@ const ListaPersonagens = ({ idFranquia }) => {
 
   // Buscar personagens com base na franquia e paginação
   useEffect(() => {
+    console.log(idFranquia)
     axios.get(`${import.meta.env.VITE_REACT_APP_LINK}Personagems/franquia/${idFranquia}?pageNumber=${pageNumber}&pageQuantity=${pageQuantity}`)
       .then(response => {
         setPersonagens(response.data || []); // Acessa o array de personagens corretamente
