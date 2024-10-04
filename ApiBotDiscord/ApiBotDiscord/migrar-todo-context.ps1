@@ -1,6 +1,7 @@
 ﻿$contexts = @(
     "FranquiaContext",
-    "PersonagemContext"
+    "PersonagemContext",
+    "ContaContext"
 )
 
 foreach ($context in $contexts) {

@@ -1,0 +1,29 @@
+:root {
+    --column-width: 10%; /* Largura da coluna lateral */
+    --background-color: #111111;
+    --link-hover-background: #1F1F1F;
+}
+
+.colunaMain {
+    position: fixed; /* Fixar a posição da coluna */
+    top: 0;            /* Alinhar ao topo da tela */
+    left: 0;           /* Alinhar à esquerda */
+    width: var(--column-width); /* Definir a largura da coluna */
+    height: 100vh;     /* Definir a altura para 100% da tela */
+    background-color: var(--background-color); /* Cor de fundo da coluna */
+    z-index: 1;        /* Garantir que a coluna esteja acima do conteúdo principal */
+}
+
+.conteudo_link {
+    padding: 12px;
+}
+
+.conteudo_link:hover {
+    background-color: var(--link-hover-background);
+    cursor: pointer;
+}
+
+.mainContent {
+    margin-left: var(--column-width); /* Adicionar margem para empurrar o conteúdo para a direita */
+    padding: 20px; /* Adicionar algum espaçamento interno */
+}

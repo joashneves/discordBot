@@ -11,6 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './components/pages/login/Login.jsx'
 import Home from './components/pages/Home/Home.jsx';
 import AuthWrapper from './utils/AuthWrapper.jsx';
+import Franquias from './components/pages/Persona/Franquias.jsx'
 
 const router = createBrowserRouter([{
   path: "/", // Páginas protegidas
@@ -21,6 +22,13 @@ const router = createBrowserRouter([{
     element: (
       <AuthWrapper>
         <Home />
+        </AuthWrapper>
+    ),
+  },{
+    path: "/Persona", // Páginas protegidas
+    element: (
+      <AuthWrapper>
+        <Franquias />
         </AuthWrapper>
     ),
   }

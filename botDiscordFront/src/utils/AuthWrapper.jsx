@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const AuthWrapper = () => {
+const AuthWrapper = ({children}) => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    console.log("Autenticando...")
     const checkAuth = () => {
       const token = sessionStorage.getItem('accessToken');
       const user = sessionStorage.getItem('user'); 
@@ -18,7 +19,8 @@ const AuthWrapper = () => {
     checkAuth();
   }, [navigate]);
 
-  return <>{children}</>;
+  return<>{children}</>
+
 };
 
 export default AuthWrapper;

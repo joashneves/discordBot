@@ -1,5 +1,130 @@
 [
   {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "GetContaSet",
+    "RelativePath": "api/Contas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBotDiscord.Domain.Models.Conta, ApiBotDiscord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "PostConta",
+    "RelativePath": "api/Contas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contaDto",
+        "Type": "ApiBotDiscord.Domain.Dto.ContaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiBotDiscord.Domain.Models.Conta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "GetConta",
+    "RelativePath": "api/Contas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiBotDiscord.Domain.Models.Conta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "PutConta",
+    "RelativePath": "api/Contas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "conta",
+        "Type": "ApiBotDiscord.Domain.Models.Conta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "DeleteConta",
+    "RelativePath": "api/Contas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "Login",
+    "RelativePath": "api/Contas/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "ApiBotDiscord.Domain.Dto.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiBotDiscord.Controllers.FranquiasController",
     "Method": "GetFranquiaSet",
     "RelativePath": "api/Franquias",
@@ -137,9 +262,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "personagem",
-        "Type": "ApiBotDiscord.Domain.Models.Personagem",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name_Franquia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArquivoPersonagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const AuthWrapperADM = () => {
+const AuthWrapperADM = ({children}) => {
   const navigate = useNavigate();
 
   useEffect(() => {

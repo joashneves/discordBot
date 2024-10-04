@@ -16,10 +16,12 @@ namespace ApiBotDiscord.Controllers
     public class PersonagemsController : ControllerBase
     {
         private readonly PersonagemContext _context;
+        private readonly FranquiaContext _contextFranquia;
 
-        public PersonagemsController(PersonagemContext context)
+        public PersonagemsController(PersonagemContext context, FranquiaContext contextFranquia)
         {
             _context = context;
+            _contextFranquia = contextFranquia;
         }
 
         // GET: api/Personagems
@@ -81,6 +83,28 @@ namespace ApiBotDiscord.Controllers
         {
             try
             {
+                // Verificar se a franquia existe pelo nome
+                var franquia = await _contextFranquia.FranquiaSet
+                    .FirstOrDefaultAsync(f => f.Name == personagemViewModel.Name_Franquia);
+
+                if (franquia == null)
+                {
+                    return BadRequest(new { mensagem = "Franquia não encontrada. Por favor, verifique o nome da franquia." });
+                }
+
+                // Verificar se o arquivo enviado é uma imagem
+                var permittedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                var ext = Path.GetExtension(personagemViewModel.ArquivoPersonagem.FileName).ToLowerInvariant();
+                if (!permittedExtensions.Contains(ext))
+                {
+                    return BadRequest(new { mensagem = "Arquivo inválido. Apenas imagens (.jpg, .jpeg, .png, .gif) são permitidas." });
+                }
+                // Verificar se o gênero fornecido é válido
+                if (!Enum.TryParse(personagemViewModel.Gender, true, out GenderEnum genderEnum))
+                {
+                    return BadRequest(new { mensagem = "Gênero inválido. Por favor, forneça um valor válido: Feminino, Masculino, Não-Binário, Fluido, Outros." });
+                }
+
                 // Criar o caminho para o arquivo
                 var filePath = Path.Combine("Storage/Personagens", personagemViewModel.ArquivoPersonagem.FileName);
 
@@ -90,13 +114,16 @@ namespace ApiBotDiscord.Controllers
                     await personagemViewModel.ArquivoPersonagem.CopyToAsync(fileStream);
                 }
 
+                // Criar um novo personagem e associar à franquia existente
                 var novoPersonagem = new Personagem
                 {
                     Name = personagemViewModel.Name,
-                    Gender = personagemViewModel.Gender,
-                    Id_Franquia = personagemViewModel.Id_Franquia,
+                    Gender = genderEnum, // Utilizar o valor da enumeração
+                    CaminhoArquivo = filePath,
+                    Id_Franquia = franquia.Id, // Associar à franquia encontrada
                 };
-                
+
+                // Adicionar o personagem ao contexto
                 _context.PersonagemSet.Add(novoPersonagem);
                 await _context.SaveChangesAsync();
 
@@ -105,7 +132,7 @@ namespace ApiBotDiscord.Controllers
             catch (Exception ex)
             {
                 // Logar o erro e retornar um status de erro apropriado
-                return StatusCode(500, new { mensagem = "Ocorreu um erro ao criar o arquivo do boletim", erro = ex.Message });
+                return StatusCode(500, new { mensagem = "Ocorreu um erro ao cadastrar o personagem.", erro = ex.Message });
             }
         }
 

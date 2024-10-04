@@ -4,16 +4,16 @@ import styles from './LoginForm.module.css';
 import axios from 'axios';
 
 const LoginForm = () => {
-    const [userOrEmail, setUserOrEmail] = useState('');
+    const [userName, setUserOrEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
   
-    const handleLogin = async () => {
+    const handleLogin = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.post(`${import.meta.env.VITE_REACT_APP_LINK}contas/login`, {
-          userOrEmail,
+        const response = await axios.post(`${import.meta.env.VITE_REACT_APP_LINK}Contas/login`, {
+          userName,
           password,
         });
         console.log(response.data)
@@ -23,7 +23,7 @@ const LoginForm = () => {
         if (token) {
           sessionStorage.setItem('accessToken', token); // Salva o token no sessionStorage
         }
-        sessionStorage.setItem('user', userOrEmail); 
+        sessionStorage.setItem('user', userName); 
         sessionStorage.setItem('password', password); 
   
         // Redireciona para a página desejada após o login
@@ -42,7 +42,7 @@ const LoginForm = () => {
                     <input
                         type="text"
                         id="username"
-                        value={userOrEmail}
+                        value={userName}
                         onChange={(e) => setUserOrEmail(e.target.value)}
                         required
                         className={styles.preencherInput}

@@ -1,9 +1,8 @@
 import React from "react";
-import styles from './Home.module.css';
+import styles from './Franquias.module.css';
 import Coluna from "../../molecules/coluna/Coluna";
 
-const Home = () =>{
-
+const Franquias = () =>{
     return(
         <>
         <div className={styles.paginaPrincipal}>
@@ -14,4 +13,4 @@ const Home = () =>{
     )
 }
 
-export default Home;
+export default Franquias;
