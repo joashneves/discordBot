@@ -11,6 +11,7 @@ import Login from './components/pages/login/Login.jsx'
 import Home from './components/pages/Home/Home.jsx';
 import AuthWrapper from './utils/AuthWrapper.jsx';
 import Franquias from './components/pages/Persona/Franquias.jsx'
+import PersonagemLista from './components/pages/PersonagemLista/PersonagemLista.jsx';
 
 const router = createBrowserRouter([{
   path: "/", // Páginas protegidas
@@ -28,6 +29,13 @@ const router = createBrowserRouter([{
     element: (
       <AuthWrapper>
         <Franquias />
+        </AuthWrapper>
+    ),
+  },{
+    path: "/personagens/:id", // Páginas protegidas
+    element: (
+      <AuthWrapper>
+        <PersonagemLista />
         </AuthWrapper>
     ),
   }

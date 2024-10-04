@@ -28,9 +28,8 @@ namespace ApiBotDiscord.Migrations.Personagem
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<int>("Gender")
+                        .HasColumnType("int");
 
                     b.Property<int>("Id_Franquia")
                         .HasColumnType("int");

@@ -31,7 +31,6 @@ namespace ApiBotDiscord.Controllers
         {
             return await _context.PersonagemSet.ToListAsync();
         }
-
         // GET: api/Personagems/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Personagem>> GetPersonagem(int id)
@@ -44,6 +43,44 @@ namespace ApiBotDiscord.Controllers
             }
 
             return personagem;
+        }
+        [HttpGet("franquia/{id_franquia}")] // Rota que aceita um id de franquia
+        public async Task<ActionResult<IEnumerable<Personagem>>> GetPersonagensByFranquia(int id_franquia, int pageNumber = 0, int pageQuantity = 10)
+        {
+            try
+            {
+                // Validar valores de paginação
+                if (pageNumber < 0)
+            {
+                return BadRequest(new { mensagem = "O número da página não pode ser negativo." });
+            }
+
+            if (pageQuantity <= 0)
+            {
+                return BadRequest(new { mensagem = "A quantidade de itens por página deve ser maior que zero." });
+            }
+            // Filtra os personagens que pertencem à franquia especificada
+            var personagens = await _context.PersonagemSet
+                .Where(p => p.Id_Franquia == id_franquia) // Supondo que IdFranquia é a propriedade que relaciona o personagem à franquia
+                .Skip(pageNumber * pageQuantity) // Pula os registros das páginas anteriores
+                .Take(pageQuantity) // Pega a quantidade de registros solicitados
+                .ToListAsync();
+
+            if (personagens == null || !personagens.Any())
+            {
+                return NotFound(); // Retorna 404 se não encontrar personagens
+            }
+
+            return Ok(personagens); // Retorna a lista de personagens encontrados
+            }
+            catch (Exception ex)
+            {
+                // Logar o erro (opcional: você pode logar o erro em um sistema de log)
+                Console.WriteLine($"Erro ao obter as Personagem paginadas: {ex.Message}");
+
+                // Retornar status 500 com a mensagem de erro
+                return StatusCode(500, new { mensagem = "Ocorreu um erro ao obter as franquias paginadas.", erro = ex.Message });
+            }
         }
         [AllowAnonymous]
         [HttpGet("Pag")] // Retorna todas as franquias com paginação
@@ -179,6 +216,45 @@ namespace ApiBotDiscord.Controllers
             {
                 // Logar o erro e retornar um status de erro apropriado
                 return StatusCode(500, new { mensagem = "Ocorreu um erro ao cadastrar o personagem.", erro = ex.Message });
+            }
+        }
+        [AllowAnonymous]
+        [HttpGet("Download/{id}")]
+        public IActionResult Download(int id)
+        {
+            try
+            {
+                var boletim = _context.PersonagemSet.Find(id);
+
+                // Se o boletim não for encontrado, retorna 404
+                if (boletim == null)
+                {
+                    return NotFound(new { mensagem = "Personagem não encontrado." });
+                }
+                var filePath = boletim.CaminhoArquivo;
+
+                // Verifica se o arquivo existe no caminho fornecido
+                if (!System.IO.File.Exists(filePath))
+                {
+                    return NotFound(new { mensagem = "Arquivo não encontrado no servidor." });
+                }
+
+                // Leia o arquivo em bytes
+                byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
+
+                // Determine o tipo MIME do arquivo
+                var mimeType = "application/pdf"; // Pode precisar ajustar com base no tipo de arquivo real
+
+                var fileContentResult = new FileContentResult(fileBytes, mimeType)
+                {
+                    FileDownloadName = boletim.CaminhoArquivo
+                };
+                return fileContentResult;
+            }
+            catch (Exception ex)
+            {
+                // Loga o erro e retorna um status de erro apropriado
+                return StatusCode(500, new { mensagem = "Ocorreu um erro ao buscar o Personagem", erro = ex.Message });
             }
         }
 
