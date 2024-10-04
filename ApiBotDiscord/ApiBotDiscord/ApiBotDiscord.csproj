@@ -20,8 +20,8 @@
 
   <ItemGroup>
     <Folder Include="Domain\Dto\" />
-    <Folder Include="Storage\" />
     <Folder Include="Services\" />
+    <Folder Include="Storage\Personagens\" />
   </ItemGroup>
 
 </Project>

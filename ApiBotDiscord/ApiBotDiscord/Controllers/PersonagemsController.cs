@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ApiBotDiscord.Domain.Models;
 using ApiBotDiscord.Infraestrutura;
+using ApiBotDiscord.Domain.viewmodels;
 
 namespace ApiBotDiscord.Controllers
 {
@@ -76,12 +77,36 @@ namespace ApiBotDiscord.Controllers
         // POST: api/Personagems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Personagem>> PostPersonagem(Personagem personagem)
+        public async Task<ActionResult<Personagem>> PostPersonagem([FromForm] PersonagemViewModel personagemViewModel)
         {
-            _context.PersonagemSet.Add(personagem);
-            await _context.SaveChangesAsync();
+            try
+            {
+                // Criar o caminho para o arquivo
+                var filePath = Path.Combine("Storage/Personagens", personagemViewModel.ArquivoPersonagem.FileName);
 
-            return CreatedAtAction("GetPersonagem", new { id = personagem.Id }, personagem);
+                // Salvar o arquivo no sistema de arquivos
+                using (Stream fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await personagemViewModel.ArquivoPersonagem.CopyToAsync(fileStream);
+                }
+
+                var novoPersonagem = new Personagem
+                {
+                    Name = personagemViewModel.Name,
+                    Gender = personagemViewModel.Gender,
+                    Id_Franquia = personagemViewModel.Id_Franquia,
+                };
+                
+                _context.PersonagemSet.Add(novoPersonagem);
+                await _context.SaveChangesAsync();
+
+                return Ok(novoPersonagem);
+            }
+            catch (Exception ex)
+            {
+                // Logar o erro e retornar um status de erro apropriado
+                return StatusCode(500, new { mensagem = "Ocorreu um erro ao criar o arquivo do boletim", erro = ex.Message });
+            }
         }
 
         // DELETE: api/Personagems/5
