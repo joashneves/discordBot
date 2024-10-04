@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiBotDiscord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87bb7bf0416c281737ceeef9e0bf36b8b0d4aed0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d090ca494ef28ec3ef333bf5606f9ce89dcb2e92")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiBotDiscord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiBotDiscord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

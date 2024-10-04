@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\controllers\\personagemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\domain\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\domain\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\controllers\\franquiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\controllers\\franquiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\domain\\viewmodels\\personagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\domain\\viewmodels\\personagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\domain\\models\\franquia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\domain\\models\\franquia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\domain\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\domain\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\domain\\viewmodels\\personagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\domain\\viewmodels\\personagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\domain\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|solutionrelative:apibotdiscord\\controllers\\contascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0F70C46-19B8-4F8B-8FE0-F82CA53AC7A4}|ApiBotDiscord\\ApiBotDiscord.csproj|c:\\prog\\botdiscord\\discordbot\\apibotdiscord\\apibotdiscord\\migrar-todo-context.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -78,24 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CadastrarPersonagemDTO.cs",
-              "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
-              "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
-              "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
-              "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:42:47.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CadastrarFranquiaDTO.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Dto\\CadastrarFranquiaDTO.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Dto\\CadastrarFranquiaDTO.cs",
@@ -108,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Program.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Program.cs",
@@ -121,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Personagem.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Models\\Personagem.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Models\\Personagem.cs",
@@ -134,20 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FranquiasController.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\FranquiasController.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Controllers\\FranquiasController.cs",
               "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\FranquiasController.cs",
               "RelativeToolTip": "ApiBotDiscord\\Controllers\\FranquiasController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwFQAAAAJAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvy0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T17:56:42.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Models\\Conta.cs",
@@ -160,13 +147,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Franquia.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Models\\Franquia.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Models\\Franquia.cs",
               "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Models\\Franquia.cs",
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Models\\Franquia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T17:31:37.628Z",
               "EditorCaption": ""
@@ -179,14 +166,14 @@
               "RelativeDocumentMoniker": "ApiBotDiscord\\Controllers\\PersonagemsController.cs",
               "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\PersonagemsController.cs",
               "RelativeToolTip": "ApiBotDiscord\\Controllers\\PersonagemsController.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAEwGoAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAADwvzEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T17:57:09.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PersonagemViewModel.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\viewmodels\\PersonagemViewModel.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\viewmodels\\PersonagemViewModel.cs",
@@ -195,6 +182,32 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T17:58:13.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContasController.cs",
+              "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\ContasController.cs",
+              "RelativeDocumentMoniker": "ApiBotDiscord\\Controllers\\ContasController.cs",
+              "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\ContasController.cs",
+              "RelativeToolTip": "ApiBotDiscord\\Controllers\\ContasController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAqwHoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:46:57.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CadastrarPersonagemDTO.cs",
+              "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
+              "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
+              "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
+              "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\CadastrarPersonagemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:42:47.155Z",
               "EditorCaption": ""
             },
             {
@@ -226,19 +239,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ContasController.cs",
-              "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\ContasController.cs",
-              "RelativeDocumentMoniker": "ApiBotDiscord\\Controllers\\ContasController.cs",
-              "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\ContasController.cs",
-              "RelativeToolTip": "ApiBotDiscord\\Controllers\\ContasController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAqwHoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:46:57.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\appsettings.json",
               "RelativeDocumentMoniker": "ApiBotDiscord\\appsettings.json",
@@ -251,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ContaDTO.cs",
               "DocumentMoniker": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Domain\\Dto\\ContaDTO.cs",
               "RelativeDocumentMoniker": "ApiBotDiscord\\Domain\\Dto\\ContaDTO.cs",

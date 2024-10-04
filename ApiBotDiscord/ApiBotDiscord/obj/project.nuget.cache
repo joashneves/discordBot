@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tk5UESI7B9dpmiiME9iVSkHM4nolhOzKMCgNYjYT62FK3u0jIiR+Wm6jUEOp0wzJGWuaNTxFzHGZoZf5xB46rg==",
+  "dgSpecHash": "OT7Zyd6d5ls=",
   "success": true,
-  "projectFilePath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
+  "projectFilePath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\apibotdiscord\\ApiBotDiscord.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joas.neves\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\joas.neves\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

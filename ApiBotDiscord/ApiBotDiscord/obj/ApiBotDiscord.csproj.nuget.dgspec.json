@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj": {}
+    "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\apibotdiscord\\ApiBotDiscord.csproj": {}
   },
   "projects": {
-    "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj": {
+    "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\apibotdiscord\\ApiBotDiscord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
+        "projectUniqueName": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\apibotdiscord\\ApiBotDiscord.csproj",
         "projectName": "ApiBotDiscord",
-        "projectPath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
+        "projectPath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\apibotdiscord\\ApiBotDiscord.csproj",
         "packagesPath": "C:\\Users\\joas.neves\\.nuget\\packages\\",
-        "outputPath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\obj\\",
+        "outputPath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\apibotdiscord\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joas.neves\\AppData\\Roaming\\NuGet\\NuGet.Config",

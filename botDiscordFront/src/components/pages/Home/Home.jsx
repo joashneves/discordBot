@@ -8,7 +8,9 @@ const Home = () =>{
         <>
         <div className={styles.paginaPrincipal}>
             <Coluna/>
-        <div className={styles.mainContent}></div>
+        <div className={styles.mainContent}>
+            
+        </div>
         </div>
         </>
     )

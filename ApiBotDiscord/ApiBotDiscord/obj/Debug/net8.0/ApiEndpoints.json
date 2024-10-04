@@ -234,6 +234,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiBotDiscord.Controllers.FranquiasController",
+    "Method": "GetPagFranquiaSet",
+    "RelativePath": "api/Franquias/Pag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBotDiscord.Domain.Models.Franquia, ApiBotDiscord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ApiBotDiscord.Controllers.PersonagemsController",
     "Method": "GetPersonagemSet",
     "RelativePath": "api/Personagems",
@@ -361,6 +392,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.PersonagemsController",
+    "Method": "GetPagPersonagemSet",
+    "RelativePath": "api/Personagems/Pag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBotDiscord.Domain.Models.Personagem, ApiBotDiscord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ApiBotDiscord.Controllers.WeatherForecastController",

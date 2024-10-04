@@ -1,0 +1,10 @@
+.corDefundo{
+    display: grid;
+    padding: 12px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1f1f1f;
+}
+.corDefundo:hover{
+    cursor: pointer;
+    background-color: var(--background-color);
+}

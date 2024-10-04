@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ApiBotDiscord.Domain.Models;
 using ApiBotDiscord.Infraestrutura;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ApiBotDiscord.Controllers
 {
@@ -27,6 +28,52 @@ namespace ApiBotDiscord.Controllers
         {
             return await _context.FranquiaSet.ToListAsync();
         }
+        [AllowAnonymous]
+        [HttpGet("Pag")] // Retorna todas as franquias com paginação
+        public async Task<ActionResult<IEnumerable<Franquia>>> GetPagFranquiaSet(int pageNumber = 0, int pageQuantity = 10)
+        {
+            try
+            {
+                // Validar valores de paginação
+                if (pageNumber < 0)
+                {
+                    return BadRequest(new { mensagem = "O número da página não pode ser negativo." });
+                }
+
+                if (pageQuantity <= 0)
+                {
+                    return BadRequest(new { mensagem = "A quantidade de itens por página deve ser maior que zero." });
+                }
+
+                // Calcular total de registros
+                var totalRecords = await _context.FranquiaSet.CountAsync();
+
+                // Obter registros paginados
+                var franquiasPaginadas = await _context.FranquiaSet
+                    .Skip(pageNumber * pageQuantity) // Pula os registros das páginas anteriores
+                    .Take(pageQuantity) // Pega a quantidade de registros solicitados
+                    .ToListAsync();
+
+                // Retornar dados de paginação e as franquias
+                return Ok(new
+                {
+                    PageNumber = pageNumber,
+                    PageQuantity = pageQuantity,
+                    TotalRecords = totalRecords,
+                    TotalPages = (int)Math.Ceiling((double)totalRecords / pageQuantity), // Total de páginas
+                    Franquias = franquiasPaginadas
+                });
+            }
+            catch (Exception ex)
+            {
+                // Logar o erro (opcional: você pode logar o erro em um sistema de log)
+                Console.WriteLine($"Erro ao obter as franquias paginadas: {ex.Message}");
+
+                // Retornar status 500 com a mensagem de erro
+                return StatusCode(500, new { mensagem = "Ocorreu um erro ao obter as franquias paginadas.", erro = ex.Message });
+            }
+        }
+
 
         // GET: api/Franquias/5
         [HttpGet("{id}")]

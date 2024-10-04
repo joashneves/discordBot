@@ -1,0 +1,21 @@
+.mainContainer{
+    padding: 1rem;
+    align-self: auto;
+    background-color: var(--background-color);
+}
+.procurarContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.inputProcurar{
+    margin-top: 1rem;
+    height: 21px;
+    width: 21rem;
+}
+.botaoBuscar{
+    height: 21px;
+    width: 21rem;
+}
+.botaoBuscar:hover{
+    cursor: pointer;
+}
