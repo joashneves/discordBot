@@ -60,7 +60,7 @@ const CadastrarFranquia = () => {
     return (
         <>
             <article className={styles.mainCadastrar}>
-                <h1>Cadastrar Publicação</h1>
+                <h1>Cadastrar Franquia</h1>
                 <form className={styles.formCadastrar} onSubmit={handleSubmit}>
                     <div className={styles.secaoPreencher}>
                         <label htmlFor="nome">Nome:</label>

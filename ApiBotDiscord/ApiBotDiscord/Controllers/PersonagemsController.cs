@@ -9,6 +9,7 @@ using ApiBotDiscord.Domain.Models;
 using ApiBotDiscord.Infraestrutura;
 using ApiBotDiscord.Domain.viewmodels;
 using Microsoft.AspNetCore.Authorization;
+using ApiBotDiscord.Domain.Dto;
 
 namespace ApiBotDiscord.Controllers
 {
@@ -129,19 +130,33 @@ namespace ApiBotDiscord.Controllers
         }
 
         // PUT: api/Personagems/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPersonagem(int id, Personagem personagem)
+        public async Task<IActionResult> PutPersonagem(int id, AtualizarPersonagemDTO personagem)
         {
-            if (id != personagem.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(personagem).State = EntityState.Modified;
 
             try
             {
+
+            // Verifica se o personagem existe antes de tentar atualizar
+            var existingPersonagem = await _context.PersonagemSet.FindAsync(id);
+            if (existingPersonagem == null)
+            {
+                return NotFound();
+            }
+            // Verificar se o gênero fornecido é válido
+            if (!Enum.TryParse(personagem.Gender, true, out GenderEnum genderEnum))
+            {
+                return BadRequest(new { mensagem = "Gênero inválido. Por favor, forneça um valor válido: Feminino, Masculino, Não-Binário, Fluido, Outros." });
+            }
+
+            // Criar um novo personagem e associar à franquia existente
+            var AtualizarPersonagem = new Personagem
+            {
+                Name = personagem.Name,
+                Gender = genderEnum, // Utilizar o valor da enumeração
+                CaminhoArquivo = existingPersonagem.CaminhoArquivo,
+            };
+                _context.Entry(AtualizarPersonagem).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
@@ -158,6 +173,7 @@ namespace ApiBotDiscord.Controllers
 
             return NoContent();
         }
+
 
         // POST: api/Personagems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -182,6 +198,7 @@ namespace ApiBotDiscord.Controllers
                 {
                     return BadRequest(new { mensagem = "Arquivo inválido. Apenas imagens (.jpg, .jpeg, .png, .gif) são permitidas." });
                 }
+
                 // Verificar se o gênero fornecido é válido
                 if (!Enum.TryParse(personagemViewModel.Gender, true, out GenderEnum genderEnum))
                 {
@@ -189,7 +206,17 @@ namespace ApiBotDiscord.Controllers
                 }
 
                 // Criar o caminho para o arquivo
+                var fileNameWithoutExtension = Path.GetFileNameWithoutExtension(personagemViewModel.ArquivoPersonagem.FileName);
+                var fileName = fileNameWithoutExtension;
                 var filePath = Path.Combine("Storage/Personagens", personagemViewModel.ArquivoPersonagem.FileName);
+
+                // Verifica se o arquivo já existe e, se sim, cria um novo nome
+                int count = 1;
+                while (System.IO.File.Exists(filePath))
+                {
+                    fileName = $"{fileNameWithoutExtension}_{count++}{ext}";
+                    filePath = Path.Combine("Storage/Personagens", fileName);
+                }
 
                 // Salvar o arquivo no sistema de arquivos
                 using (Stream fileStream = new FileStream(filePath, FileMode.Create))
@@ -218,6 +245,7 @@ namespace ApiBotDiscord.Controllers
                 return StatusCode(500, new { mensagem = "Ocorreu um erro ao cadastrar o personagem.", erro = ex.Message });
             }
         }
+
         [AllowAnonymous]
         [HttpGet("DownloadPersonagemByName")]
         public async Task<IActionResult> DownloadPersonagemByName(string nome, string? franquia = null)

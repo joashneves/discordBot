@@ -371,7 +371,7 @@
       },
       {
         "Name": "personagem",
-        "Type": "ApiBotDiscord.Domain.Models.Personagem",
+        "Type": "ApiBotDiscord.Domain.Dto.AtualizarPersonagemDTO",
         "IsRequired": true
       }
     ],
@@ -472,26 +472,6 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBotDiscord.Domain.Models.Personagem, ApiBotDiscord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ApiBotDiscord.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBotDiscord.WeatherForecast, ApiBotDiscord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
