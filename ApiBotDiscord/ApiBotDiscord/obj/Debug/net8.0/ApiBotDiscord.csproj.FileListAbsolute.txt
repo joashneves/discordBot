@@ -268,3 +268,13 @@ C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\obj\Debug\net8.0\refin
 C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\obj\Debug\net8.0\ApiBotDiscord.pdb
 C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\obj\Debug\net8.0\ApiBotDiscord.genruntimeconfig.cache
 C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\obj\Debug\net8.0\ref\ApiBotDiscord.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\dotenv.net.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\prog\botdiscord\discordBot\ApiBotDiscord\ApiBotDiscord\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

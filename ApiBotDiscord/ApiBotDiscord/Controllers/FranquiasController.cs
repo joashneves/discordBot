@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ApiBotDiscord.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class FranquiasController : ControllerBase
@@ -23,6 +24,7 @@ namespace ApiBotDiscord.Controllers
         }
 
         // GET: api/Franquias
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Franquia>>> GetFranquiaSet()
         {
@@ -77,6 +79,7 @@ namespace ApiBotDiscord.Controllers
 
         // GET: api/Franquias/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Franquia>> GetFranquia(int id)
         {
             var franquia = await _context.FranquiaSet.FindAsync(id);

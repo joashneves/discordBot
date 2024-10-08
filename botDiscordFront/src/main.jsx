@@ -12,6 +12,7 @@ import Home from './components/pages/Home/Home.jsx';
 import AuthWrapper from './utils/AuthWrapper.jsx';
 import Franquias from './components/pages/Persona/Franquias.jsx'
 import PersonagemLista from './components/pages/PersonagemLista/PersonagemLista.jsx';
+import AuthWrapperADM from './utils/AuthWrapperADM.jsx';
 
 const router = createBrowserRouter([{
   path: "/", // Páginas protegidas
@@ -20,23 +21,23 @@ const router = createBrowserRouter([{
   },{
     path: "/Home", // Páginas protegidas
     element: (
-      <AuthWrapper>
+      <AuthWrapperADM>
         <Home />
-        </AuthWrapper>
+        </AuthWrapperADM>
     ),
   },{
     path: "/Persona", // Páginas protegidas
     element: (
-      <AuthWrapper>
+      <AuthWrapperADM>
         <Franquias />
-        </AuthWrapper>
+        </AuthWrapperADM>
     ),
   },{
     path: "/personagens/:id", // Páginas protegidas
     element: (
-      <AuthWrapper>
+      <AuthWrapperADM>
         <PersonagemLista />
-        </AuthWrapper>
+        </AuthWrapperADM>
     ),
   }
 ]);

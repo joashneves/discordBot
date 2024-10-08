@@ -13,6 +13,7 @@ using ApiBotDiscord.Domain.Dto;
 
 namespace ApiBotDiscord.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PersonagemsController : ControllerBase
@@ -28,12 +29,14 @@ namespace ApiBotDiscord.Controllers
 
         // GET: api/Personagems
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Personagem>>> GetPersonagemSet()
         {
             return await _context.PersonagemSet.ToListAsync();
         }
         // GET: api/Personagems/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Personagem>> GetPersonagem(int id)
         {
             var personagem = await _context.PersonagemSet.FindAsync(id);
@@ -46,6 +49,7 @@ namespace ApiBotDiscord.Controllers
             return personagem;
         }
         [HttpGet("franquia/{id_franquia}")] // Rota que aceita um id de franquia
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Personagem>>> GetPersonagensByFranquia(int id_franquia, int pageNumber = 0, int pageQuantity = 10)
         {
             try

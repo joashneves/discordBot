@@ -10,9 +10,12 @@ using ApiBotDiscord.Infraestrutura;
 using ApiBotDiscord.Domain.Dto;
 using System.Text;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Authorization;
+using ApiBotDiscord.Services;
 
 namespace ApiBotDiscord.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ContasController : ControllerBase
@@ -151,6 +154,7 @@ namespace ApiBotDiscord.Controllers
 
             return NoContent();
         }
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
         {
@@ -179,7 +183,8 @@ namespace ApiBotDiscord.Controllers
                 }
 
                 // Gerar o token JWT
-                return Ok();
+                var token = TokenGeneration.GenerateToken(conta);
+                return Ok(new { Token = token });
             }
             catch (Exception ex)
             {
