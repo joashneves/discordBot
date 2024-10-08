@@ -219,44 +219,99 @@ namespace ApiBotDiscord.Controllers
             }
         }
         [AllowAnonymous]
-        [HttpGet("Download/{id}")]
-        public IActionResult Download(int id)
+        [HttpGet("DownloadPersonagemByName")]
+        public async Task<IActionResult> DownloadPersonagemByName(string nome, string? franquia = null)
         {
             try
             {
-                var boletim = _context.PersonagemSet.Find(id);
-
-                // Se o boletim não for encontrado, retorna 404
-                if (boletim == null)
+                // Valida se o nome foi fornecido
+                if (string.IsNullOrWhiteSpace(nome))
                 {
-                    return NotFound(new { mensagem = "Personagem não encontrado." });
+                    return BadRequest(new { mensagem = "O nome do personagem é obrigatório." });
                 }
-                var filePath = boletim.CaminhoArquivo;
+
+                Personagem personagem;
+
+                // Verifica se a franquia foi fornecida
+                if (!string.IsNullOrWhiteSpace(franquia))
+                {
+                    // Busca a franquia com base no nome
+                    var franquiaEntity = await _contextFranquia.FranquiaSet.FirstOrDefaultAsync(f => f.Name == franquia);
+
+                    if (franquiaEntity == null)
+                    {
+                        return NotFound(new { mensagem = "Franquia não encontrada." });
+                    }
+
+                    // Busca o personagem com base no nome e na franquia fornecida
+                    personagem = await _context.PersonagemSet
+                        .FirstOrDefaultAsync(p => p.Name == nome && p.Id_Franquia == franquiaEntity.Id);
+
+                    if (personagem == null)
+                    {
+                        return NotFound(new { mensagem = "Personagem não encontrado para o nome e franquia especificados." });
+                    }
+                }
+                else
+                {
+                    // Busca o personagem apenas com base no nome
+                    var personagens = await _context.PersonagemSet
+                        .Where(p => p.Name == nome)
+                        .ToListAsync();
+
+                    if (!personagens.Any())
+                    {
+                        return NotFound(new { mensagem = "Nenhum personagem encontrado com esse nome." });
+                    }
+
+                    // Verifica se existem personagens com o mesmo nome, mas de franquias diferentes
+                    if (personagens.Count > 1)
+                    {
+                        return BadRequest(new
+                        {
+                            mensagem = "Existem vários personagens com o mesmo nome. Por favor, especifique a franquia para refinar a busca.",
+                            personagens = personagens.Select(p => new { p.Name }).ToList()
+                        });
+                    }
+
+                    personagem = personagens.First(); // Retorna o único personagem encontrado
+                }
 
                 // Verifica se o arquivo existe no caminho fornecido
+                var filePath = personagem.CaminhoArquivo;
                 if (!System.IO.File.Exists(filePath))
                 {
                     return NotFound(new { mensagem = "Arquivo não encontrado no servidor." });
                 }
 
-                // Leia o arquivo em bytes
+                // Lê o arquivo em bytes
                 byte[] fileBytes = System.IO.File.ReadAllBytes(filePath);
 
-                // Determine o tipo MIME do arquivo
-                var mimeType = "application/pdf"; // Pode precisar ajustar com base no tipo de arquivo real
+                // Determina o tipo MIME do arquivo com base na extensão
+                var mimeType = GetMimeType(filePath);
 
-                var fileContentResult = new FileContentResult(fileBytes, mimeType)
-                {
-                    FileDownloadName = boletim.CaminhoArquivo
-                };
-                return fileContentResult;
+                // Retorna o arquivo para download
+                return File(fileBytes, mimeType, Path.GetFileName(filePath));
             }
             catch (Exception ex)
             {
-                // Loga o erro e retorna um status de erro apropriado
-                return StatusCode(500, new { mensagem = "Ocorreu um erro ao buscar o Personagem", erro = ex.Message });
+                return StatusCode(500, new { mensagem = "Ocorreu um erro ao baixar a imagem do personagem.", erro = ex.Message });
             }
         }
+
+        // Método auxiliar para determinar o tipo MIME com base na extensão do arquivo
+        private string GetMimeType(string filePath)
+        {
+            var ext = Path.GetExtension(filePath).ToLowerInvariant();
+            return ext switch
+            {
+                ".jpg" or ".jpeg" => "image/jpeg",
+                ".png" => "image/png",
+                ".gif" => "image/gif",
+                _ => "application/octet-stream", // Default para arquivos não reconhecidos
+            };
+        }
+
 
         // DELETE: api/Personagems/5
         [HttpDelete("{id}")]

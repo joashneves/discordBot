@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './PersonagemTemplate.module.css';
 import { useNavigate } from 'react-router-dom'; 
+import ImagemPersonagem from '../imagemPersonagem/imagemPersonagem';
 
 const PersonagemTemplate = (props) => {
   const navigate = useNavigate();
@@ -16,7 +17,7 @@ const PersonagemTemplate = (props) => {
           <p>{props.gender}</p> {/* Corrigido para props.description */}
         </div>
         <div>
-            {/*Imagem*/}
+            <ImagemPersonagem idFranquia={props.idFranquia} nome={props.name}/>
         </div>
       </div>
       <hr />

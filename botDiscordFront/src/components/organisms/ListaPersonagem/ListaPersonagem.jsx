@@ -35,6 +35,7 @@ const ListaPersonagens = ({ idFranquia }) => {
           <PersonagemTemplate
             key={personagem.id}
             id={personagem.id}
+            idFranquia={idFranquia}
             name={personagem.name}
             gender={personagem.gender}
             caminhoArquivo={personagem.caminhoArquivo}

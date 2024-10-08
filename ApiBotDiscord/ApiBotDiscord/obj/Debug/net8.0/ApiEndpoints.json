@@ -395,16 +395,21 @@
   },
   {
     "ContainingType": "ApiBotDiscord.Controllers.PersonagemsController",
-    "Method": "Download",
-    "RelativePath": "api/Personagems/Download/{id}",
+    "Method": "DownloadPersonagemByName",
+    "RelativePath": "api/Personagems/DownloadPersonagemByName",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "franquia",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
