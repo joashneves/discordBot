@@ -3,6 +3,7 @@ import styles from './PersonagemLista.module.css';
 import Coluna from "../../molecules/coluna/Coluna";
 import ListaPersonagens from "../../organisms/ListaPersonagem/ListaPersonagem";
 import { useParams } from "react-router-dom";
+import EnviarPersonagem from "../../organisms/EnviarPersonagem/EnviarPersonagem";
 
 const PersonagemLista = () => {
 
@@ -14,6 +15,7 @@ const PersonagemLista = () => {
             <div className={styles.paginaPrincipal}>
                 <Coluna />
                 <div className={styles.mainContent}>
+                <EnviarPersonagem/>
                 <ListaPersonagens idFranquia={id} />
                 </div>
 
