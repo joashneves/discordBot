@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "contaDto",
-        "Type": "ApiBotDiscord.Domain.Dto.ContaDTO",
+        "Type": "ApiBotDiscord.Domain.Dto.Conta.ContaDTO",
         "IsRequired": true
       }
     ],
@@ -73,27 +73,6 @@
   },
   {
     "ContainingType": "ApiBotDiscord.Controllers.ContasController",
-    "Method": "PutConta",
-    "RelativePath": "api/Contas/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "conta",
-        "Type": "ApiBotDiscord.Domain.Models.Conta",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
     "Method": "DeleteConta",
     "RelativePath": "api/Contas/{id}",
     "HttpMethod": "DELETE",
@@ -110,6 +89,22 @@
   },
   {
     "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "AtualizarConta",
+    "RelativePath": "api/Contas/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contaDto",
+        "Type": "ApiBotDiscord.Domain.Dto.Conta.AtualizarSenhaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
     "Method": "Login",
     "RelativePath": "api/Contas/login",
     "HttpMethod": "POST",
@@ -118,7 +113,7 @@
     "Parameters": [
       {
         "Name": "loginDto",
-        "Type": "ApiBotDiscord.Domain.Dto.LoginDTO",
+        "Type": "ApiBotDiscord.Domain.Dto.Conta.LoginDTO",
         "IsRequired": true
       }
     ],

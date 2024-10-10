@@ -1,4 +1,4 @@
-﻿namespace ApiBotDiscord.Domain.Dto
+﻿namespace ApiBotDiscord.Domain.Dto.Conta
 {
     public class LoginDTO
     {

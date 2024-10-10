@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ApiBotDiscord.Domain.Models;
 using ApiBotDiscord.Infraestrutura;
-using ApiBotDiscord.Domain.Dto;
 using System.Text;
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Authorization;
 using ApiBotDiscord.Services;
+using ApiBotDiscord.Domain.Dto.Conta;
 
 namespace ApiBotDiscord.Controllers
 {
@@ -64,13 +64,13 @@ namespace ApiBotDiscord.Controllers
         }
 
         [HttpPut("atualizar")]
-        public async Task<IActionResult> AtualizarConta([FromBody] ContaUpdateDTO contaDto, string userName)
+        public async Task<IActionResult> AtualizarConta([FromBody] AtualizarSenhaDTO contaDto)
         {
             try
             {
                 // Busca a conta no banco de dados com base no nome e email fornecidos
                 var contaExistente = await _context.ContaSet
-                    .FirstOrDefaultAsync(c => c.UserName == contaDto.User && c.Email == contaDto.Email);
+                    .FirstOrDefaultAsync(c => c.UserName == contaDto.UserName && c.Email == contaDto.Email);
 
                 if (contaExistente == null)
                 {

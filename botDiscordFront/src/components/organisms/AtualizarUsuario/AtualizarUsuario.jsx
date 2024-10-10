@@ -12,14 +12,12 @@ const AtualizarUsuario = () => {
     const [user , setUser] = useState(sessionStorage.getItem('user'));
     const [senhaAntiga, setSenhaAntiga] = useState('');
     const [novaSenha, setNovaSenha] = useState();
-    const [nivelNovo, setNivelNovo] = useState(3)
     const [error, setError] = useState(null); // Estado para tratar erros
     const [userdata, setUserData] = useState({
         user: 'string',
         email: 'string',
         senhaAntiga: 'string',
         novaSenha: '',
-        nivelNovo: 1,
     });
 
     // Função para buscar os dados do usuário quando o componente é montado
@@ -51,11 +49,10 @@ const AtualizarUsuario = () => {
         event.preventDefault();
 
         const usuarioObj = {
-            user: user,
+            userName: user,
             email: userdata.email,
             senhaAntiga: senhaAntiga,
             novaSenha: novaSenha,
-            nivelNovo: nivelNovo,
         };
         // Recupera o token do sessionStorage
         const token = sessionStorage.getItem('accessToken');
@@ -63,7 +60,7 @@ const AtualizarUsuario = () => {
         try {
             console.log(usuarioObj)
             await axios.put(
-                `${import.meta.env.VITE_REACT_APP_LINK}Contas/atualizar?userName=${userName}`, usuarioObj,
+                `${import.meta.env.VITE_REACT_APP_LINK}Contas/atualizar`, usuarioObj,
                 {
                     headers: {
                         'Authorization': `Bearer ${token}`, // Adiciona o token ao cabeçalho
@@ -71,7 +68,7 @@ const AtualizarUsuario = () => {
                     }
                 }
             );
-            navigate(`/adm`); // Redirecionar após o sucesso
+            navigate(`/`); // Redirecionar após o sucesso
         } catch (error) {
             // Verifica se o erro é de não autorizado (status 401)
             if (error.response?.status === 401) {
