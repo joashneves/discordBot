@@ -14,6 +14,7 @@ import Franquias from './components/pages/Persona/Franquias.jsx'
 import PersonagemLista from './components/pages/PersonagemLista/PersonagemLista.jsx';
 import AuthWrapperADM from './utils/AuthWrapperADM.jsx';
 import Conta from './components/pages/Conta/Conta.jsx';
+import Adm from './components/pages/Adm/Adm.jsx';
 
 const router = createBrowserRouter([{
   path: "/", // Páginas protegidas
@@ -45,6 +46,13 @@ const router = createBrowserRouter([{
     element: (
       <AuthWrapperADM>
         <Conta />
+        </AuthWrapperADM>
+    ),
+  },{
+    path: "/Adm", // Páginas protegidas
+    element: (
+      <AuthWrapperADM>
+        <Adm />
         </AuthWrapperADM>
     ),
   }
