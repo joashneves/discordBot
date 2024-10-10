@@ -11,7 +11,6 @@ const Coluna = () => {
           const token = sessionStorage.getItem('accessToken');
           if (token) {
             setAdministrador(true);
-            console.log(token);
           }
         };
     

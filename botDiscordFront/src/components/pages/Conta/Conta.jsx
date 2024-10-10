@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Conta.module.css';
 
-import Coluna from "../../molecules/Coluna/Coluna";
 import AtualizarUsuario from "../../organisms/AtualizarUsuario/AtualizarUsuario";
+import Coluna from "../../molecules/coluna/Coluna";
 
 
 

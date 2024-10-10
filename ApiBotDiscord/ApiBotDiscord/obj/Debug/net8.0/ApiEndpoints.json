@@ -121,6 +121,53 @@
   },
   {
     "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "GetPagContaSet",
+    "RelativePath": "api/Contas/Pag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBotDiscord.Domain.Models.Conta, ApiBotDiscord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "ResetarSenha",
+    "RelativePath": "api/Contas/resetar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contaDto",
+        "Type": "ApiBotDiscord.Domain.Dto.ContaUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
     "Method": "GetUser",
     "RelativePath": "api/Contas/user/{userName}",
     "HttpMethod": "GET",

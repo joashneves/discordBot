@@ -1,0 +1,34 @@
+.corDefundo{
+    display: grid;
+    padding: 12px;
+    grid-template-columns: auto auto;
+    background-color: #1f1f1f;
+}
+.corDefundo:hover{
+    cursor: pointer;
+    background-color: var(--background-color);
+}
+
+.atualizarbotao{
+    width: 190px;
+    height: 23px;
+    background-color: #00aeff;
+}
+.atualizarbotao:hover{
+    cursor: pointer;
+    background-color: #150063;
+}
+.cancelarbotao{
+    width: 190px;
+    height: 23px;
+    background-color: #ff0000;
+}
+.cancelarbotao:hover{
+    cursor: pointer;
+    background-color: #ff8888;
+}
+
+.atualizarUsuario{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}

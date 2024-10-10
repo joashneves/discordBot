@@ -13,8 +13,9 @@ const CadastrarUsuario = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-
+        const userNameADM = sessionStorage.getItem('user')
         const usuarioDTO = {
+            userNameADM: userNameADM,
             name: name,
             username: user,
             email: email,
@@ -22,7 +23,7 @@ const CadastrarUsuario = () => {
         };
 
         const token = sessionStorage.getItem('accessToken');
-        const userName = sessionStorage.getItem('user')
+
 
         setLoading(true);
 

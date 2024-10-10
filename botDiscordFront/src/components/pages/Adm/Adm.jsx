@@ -3,6 +3,7 @@ import styles from './Conta.module.css';
 
 import Coluna from "../../molecules/coluna/Coluna";
 import CadastrarUsuario from "../../organisms/CadastrarUsuario/CadastrarUsuario";
+import UsuarioLista from "../../organisms/UsuarioLista/UsuarioLista";
 
 
 
@@ -13,6 +14,7 @@ const Adm = () =>{
             <Coluna />
             <div className={styles.mainContent}>
             <CadastrarUsuario/>
+            <UsuarioLista/>
             </div>
         </div>
         </>

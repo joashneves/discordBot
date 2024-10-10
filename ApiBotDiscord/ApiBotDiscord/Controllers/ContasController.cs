@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using Microsoft.AspNetCore.Authorization;
 using ApiBotDiscord.Services;
 using ApiBotDiscord.Domain.Dto.Conta;
+using ApiBotDiscord.Domain.Dto;
 
 namespace ApiBotDiscord.Controllers
 {
@@ -32,6 +33,12 @@ namespace ApiBotDiscord.Controllers
         public async Task<ActionResult<IEnumerable<Conta>>> GetContaSet()
         {
             return await _context.ContaSet.ToListAsync();
+        }
+
+        [HttpGet("Pag")] // Retorna todas as obras com paginação
+        public async Task<ActionResult<IEnumerable<Conta>>> GetPagContaSet(int pageNumber, int pageQuantity)
+        {
+            return await _context.ContaSet.Skip(pageNumber * pageQuantity).Take(pageQuantity).ToListAsync();
         }
 
         // GET: api/Contas/5
@@ -100,6 +107,51 @@ namespace ApiBotDiscord.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Erro inesperado: {ex.Message}");
             }
         }
+        [HttpPut("resetar")]
+        public async Task<IActionResult> ResetarSenha([FromBody] ContaUpdateDTO contaDto)
+        {
+            try
+            {
+                // Verificar se o usuário ADM tem permissões suficientes para redefinir a senha
+                var contaAdm = await _context.ContaSet
+                    .FirstOrDefaultAsync(c => c.UserName == contaDto.UserNameADM);
+
+                if (contaAdm == null)
+                {
+                    return BadRequest("Usuário administrador não encontrado.");
+                }
+                if (contaAdm.Nivel >= 0)
+                {
+                    return BadRequest("O usuário administrador não tem permissão para redefinir senhas.");
+                }
+
+                // Busca a conta no banco de dados com base no nome e email fornecidos
+                var contaExistente = await _context.ContaSet
+                    .FirstOrDefaultAsync(c => c.UserName == contaDto.Username && c.Email == contaDto.Email);
+
+                if (contaExistente == null)
+                {
+                    return NotFound("Conta não encontrada com os dados fornecidos.");
+                }
+
+                // Atualizar a senha e o nível da conta
+                contaExistente.Password = HashPassword(contaDto.NovaSenha);
+                contaExistente.Nivel = contaDto.NovoNivel;
+
+                // Salvar as alterações
+                await _context.SaveChangesAsync();
+
+                return Ok("Senha e nível da conta atualizados com sucesso.");
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao atualizar a conta.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Erro inesperado: {ex.Message}");
+            }
+        }
 
         // POST: api/Contas
         [HttpPost]
@@ -107,10 +159,21 @@ namespace ApiBotDiscord.Controllers
         {
             try
             {
+                // Verificar se o usuário ADM tem permissões suficientes para redefinir a senha
+                var contaAdm = await _context.ContaSet
+                    .FirstOrDefaultAsync(c => c.UserName == contaDto.UserNameADM);
                 // Validação da senha com no mínimo 6 caracteres
                 if (contaDto.Password.Length < 6)
                 {
                     return BadRequest("A senha deve conter no mínimo 6 caracteres.");
+                }
+                if (contaAdm == null)
+                {
+                    return BadRequest("Usuário administrador não encontrado.");
+                }
+                if (contaAdm.Nivel >= 1)
+                {
+                    return BadRequest("O usuário administrador não tem permissão para redefinir senhas.");
                 }
 
                 // Converte o nome de usuário para minúsculas
@@ -145,13 +208,11 @@ namespace ApiBotDiscord.Controllers
                     Name = contaDto.Name,
                     Email = contaDto.Email,
                     Password = HashPassword(contaDto.Password),
-                    Nivel = 0 // Definindo o nível da conta como 3
+                    Nivel = 1 // Definindo o nível da conta como 3
                 };
 
                 _context.ContaSet.Add(novaConta);
                 await _context.SaveChangesAsync();
-
-
 
                 return CreatedAtAction("GetConta", new { id = novaConta.Id }, novaConta);
             }
@@ -200,7 +261,7 @@ namespace ApiBotDiscord.Controllers
 
 
                 // Verificar se o nível da conta é 1 ou menor
-                if (conta.Nivel > 1)
+                if (conta.Nivel > 2)
                 {
                     return Ok("Conta autorizada.Mas não gerar token, O nível precisa ser 1 ou menor.");
                 }
