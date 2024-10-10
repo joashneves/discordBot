@@ -29,6 +29,7 @@ const LoginForm = () => {
         // Redireciona para a página desejada após o login
         navigate('/Home');
       } catch (err) {
+        console.log(err)
         setError('Falha ao realizar o login. Verifique suas credenciais.');
       }
     };

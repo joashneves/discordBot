@@ -125,6 +125,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiBotDiscord.Controllers.ContasController",
+    "Method": "GetUser",
+    "RelativePath": "api/Contas/user/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiBotDiscord.Domain.Models.Conta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ApiBotDiscord.Controllers.FranquiasController",
     "Method": "GetFranquiaSet",
     "RelativePath": "api/Franquias",

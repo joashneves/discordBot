@@ -72,7 +72,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("https://meusite.com") // Substitua com o IP ou domínio específico
+            builder.WithOrigins("http://localhost:5173") // Substitua com o IP ou domínio específico
                    .AllowAnyHeader()
                    .AllowAnyMethod(); // Permite qualquer método para esse site específico
         });
@@ -110,7 +110,7 @@ app.UseHttpsRedirection();
 
 app.UseCors(policy =>
 {
-    policy.WithOrigins("https://meusite.com") // Para este site específico
+    policy.WithOrigins("http://localhost:5173") // Para este site específico
           .AllowAnyHeader()
           .AllowAnyMethod() // Permitir qualquer método
           .SetIsOriginAllowedToAllowWildcardSubdomains()

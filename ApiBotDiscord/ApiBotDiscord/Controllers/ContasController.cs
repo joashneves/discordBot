@@ -47,36 +47,58 @@ namespace ApiBotDiscord.Controllers
 
             return conta;
         }
-
-        // PUT: api/Contas/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutConta(int id, Conta conta)
+        // GET: api/Contas/username
+        [HttpGet("user/{userName}")]
+        public async Task<ActionResult<Conta>> GetUser(string userName)
         {
-            if (id != conta.Id)
+            // Usa FirstOrDefaultAsync para buscar a conta com base no userName
+            var conta = await _context.ContaSet
+                .FirstOrDefaultAsync(c => c.UserName == userName); 
+
+            if (conta == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(conta).State = EntityState.Modified;
+            return conta;
+        }
 
+        [HttpPut("atualizar")]
+        public async Task<IActionResult> AtualizarConta([FromBody] ContaUpdateDTO contaDto, string userName)
+        {
             try
             {
+                // Busca a conta no banco de dados com base no nome e email fornecidos
+                var contaExistente = await _context.ContaSet
+                    .FirstOrDefaultAsync(c => c.UserName == contaDto.User && c.Email == contaDto.Email);
+
+                if (contaExistente == null)
+                {
+                    return NotFound("Conta não encontrada com os dados fornecidos.");
+                }
+
+                // Verificar se a senha antiga fornecida é válida (comparando o hash)
+                if (contaExistente.Password != HashPassword(contaDto.SenhaAntiga))
+                {
+                    return BadRequest("Senha antiga incorreta.");
+                }
+
+                // Atualizar a senha e o nível da conta
+                contaExistente.Password = HashPassword(contaDto.NovaSenha);
+
+                // Salvar as alterações
                 await _context.SaveChangesAsync();
+
+                return Ok("Conta atualizada com sucesso.");
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ContaExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao atualizar a conta.");
             }
-
-            return NoContent();
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Erro inesperado: {ex.Message}");
+            }
         }
 
         // POST: api/Contas
@@ -154,8 +176,9 @@ namespace ApiBotDiscord.Controllers
 
             return NoContent();
         }
-        [AllowAnonymous]
+
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
         {
             try
