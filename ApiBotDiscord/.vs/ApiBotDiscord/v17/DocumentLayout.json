@@ -110,8 +110,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\CadastrarFranquiaDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:41:47.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T16:41:47.892Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Controllers\\FranquiasController.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAUwJwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T17:56:42.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T17:56:42.275Z"
             },
             {
               "$type": "Document",
@@ -134,7 +132,7 @@
               "RelativeDocumentMoniker": "ApiBotDiscord\\Controllers\\PersonagemsController.cs",
               "ToolTip": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\Controllers\\PersonagemsController.cs",
               "RelativeToolTip": "ApiBotDiscord\\Controllers\\PersonagemsController.cs",
-              "ViewState": "AQIAAIgAAAAAAAAAAAAkwIkAAABVAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAkwJkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T17:57:09.801Z",
               "EditorCaption": ""
@@ -149,8 +147,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Controllers\\ContasController.cs",
               "ViewState": "AQIAAK4AAAAAAAAAAAAAAKwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:46:57.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:46:57.237Z"
             },
             {
               "$type": "Document",
@@ -174,8 +171,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\Conta\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:49:37.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:49:37.663Z"
             },
             {
               "$type": "Document",
@@ -187,8 +183,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\Conta\\ContaDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:50:18.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:50:18.353Z"
             },
             {
               "$type": "Document",
@@ -200,8 +195,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Program.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAUwE0AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T17:42:45.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T17:42:45.922Z"
             },
             {
               "$type": "Document",
@@ -213,8 +207,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\AtualizarPersonagemDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T15:49:06.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T15:49:06.838Z"
             },
             {
               "$type": "Document",
@@ -226,8 +219,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\Conta\\ContaUpdateDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T13:05:21.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T13:05:21.484Z"
             },
             {
               "$type": "Document",
@@ -239,8 +231,7 @@
               "RelativeToolTip": "ApiBotDiscord\\Domain\\Dto\\Conta\\AtualizarSenhaDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T13:16:20.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T13:16:20.257Z"
             },
             {
               "$type": "Document",
