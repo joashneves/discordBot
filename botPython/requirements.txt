@@ -1,0 +1,4 @@
+discord.py
+discord  # Biblioteca principal para Discord bots
+python-dotenv    # Para ler variáveis de ambiente do .env
+SQLAlchemy     # ORM para trabalhar com banco de dados
