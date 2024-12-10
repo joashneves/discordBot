@@ -1,0 +1,30 @@
+# Use a imagem oficial do SDK do .NET para construir a aplicação
+FROM mcr.microsoft.com/dotnet/sdk:8.0@sha256:35792ea4ad1db051981f62b313f1be3b46b1f45cadbaa3c288cd0d3056eefb83 AS build-env
+
+# Diretório de trabalho dentro do contêiner
+WORKDIR /ApiBotDiscord
+
+# Copie os arquivos do projeto para o contêiner
+COPY . ./
+
+# Restaura as dependências do projeto
+RUN dotnet restore
+
+# Publica o projeto (gera o build para produção)
+RUN dotnet publish -c Release -o out
+
+# Use a imagem oficial do runtime do .NET para executar a aplicação
+FROM mcr.microsoft.com/dotnet/aspnet:8.0@sha256:6c4df091e4e531bb93bdbfe7e7f0998e7ced344f54426b7e874116a3dc3233ff
+
+# Diretório de trabalho para a aplicação publicada
+WORKDIR /app
+
+# Copie os arquivos publicados para o diretório de trabalho do runtime
+COPY --from=build-env /App/out .
+
+# Porta exposta pelo contêiner (ajuste conforme necessário)
+EXPOSE 80
+EXPOSE 443
+
+# Comando de entrada para iniciar a aplicação
+ENTRYPOINT ["dotnet", "ApiBotDiscord.dll"]
