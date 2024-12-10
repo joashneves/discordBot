@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj": {}
+    "D:\\Pasta\\github\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj": {}
   },
   "projects": {
-    "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj": {
+    "D:\\Pasta\\github\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
+        "projectUniqueName": "D:\\Pasta\\github\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
         "projectName": "ApiBotDiscord",
-        "projectPath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
-        "packagesPath": "C:\\Users\\joas.neves\\.nuget\\packages\\",
-        "outputPath": "C:\\prog\\botdiscord\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\obj\\",
+        "projectPath": "D:\\Pasta\\github\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\ApiBotDiscord.csproj",
+        "packagesPath": "C:\\Users\\joasg\\.nuget\\packages\\",
+        "outputPath": "D:\\Pasta\\github\\discordBot\\ApiBotDiscord\\ApiBotDiscord\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joas.neves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joasg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,7 +52,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -103,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

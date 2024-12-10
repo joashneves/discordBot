@@ -7,13 +7,17 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Carregar variáveis do arquivo .env
-DotEnv.Load(); // Adicionando esta linha para carregar as variáveis de ambiente
+// Carregar variï¿½veis do arquivo .env
+DotEnv.Load(); // Adicionando esta linha para carregar as variï¿½veis de ambiente
 
 
 // Add services to the container.
 // JWT
-var secretKey = Environment.GetEnvironmentVariable("SECRET_KEY"); // Obtém a chave do .env
+var secretKey = Environment.GetEnvironmentVariable("SECRET_KEY"); // Obtï¿½m a chave do .env
+if (string.IsNullOrEmpty(secretKey))
+{
+    secretKey = "your-default-secret-key";  // Chave padrÃ£o
+}
 var key = Encoding.ASCII.GetBytes(secretKey);
 builder.Services.AddAuthentication(x =>
 {
@@ -36,11 +40,11 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "BoletimInterno API", Version = "v1" });
 
-    // Adicionando o esquema de segurança JWT
+    // Adicionando o esquema de seguranï¿½a JWT
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        Description = "Autorização JWT usando o esquema Bearer. \n\n" +
-                      "Insira 'Bearer' [espaço] e depois o token JWT.\n\n" +
+        Description = "Autorizaï¿½ï¿½o JWT usando o esquema Bearer. \n\n" +
+                      "Insira 'Bearer' [espaï¿½o] e depois o token JWT.\n\n" +
                       "Exemplo: 'Bearer 12345abcdef'",
         Name = "Authorization",
         In = ParameterLocation.Header,
@@ -72,17 +76,17 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:5173") // Substitua com o IP ou domínio específico
+            builder.WithOrigins("http://localhost:5173") // Substitua com o IP ou domï¿½nio especï¿½fico
                    .AllowAnyHeader()
-                   .AllowAnyMethod(); // Permite qualquer método para esse site específico
+                   .AllowAnyMethod(); // Permite qualquer mï¿½todo para esse site especï¿½fico
         });
 
     options.AddPolicy("AllowGetOnly",
         builder =>
         {
-            builder.AllowAnyOrigin() // Permite qualquer domínio
+            builder.AllowAnyOrigin() // Permite qualquer domï¿½nio
                    .AllowAnyHeader()
-                   .WithMethods("GET"); // Permite apenas requisições GET
+                   .WithMethods("GET"); // Permite apenas requisiï¿½ï¿½es GET
         });
 });
 
@@ -110,11 +114,11 @@ app.UseHttpsRedirection();
 
 app.UseCors(policy =>
 {
-    policy.WithOrigins("http://localhost:5173") // Para este site específico
+    policy.WithOrigins("http://localhost:5173") // Para este site especï¿½fico
           .AllowAnyHeader()
-          .AllowAnyMethod() // Permitir qualquer método
+          .AllowAnyMethod() // Permitir qualquer mï¿½todo
           .SetIsOriginAllowedToAllowWildcardSubdomains()
-          .AllowCredentials(); // Permitir envio de cookies (se necessário)
+          .AllowCredentials(); // Permitir envio de cookies (se necessï¿½rio)
 });
 
 
